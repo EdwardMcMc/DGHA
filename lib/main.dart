@@ -45,11 +45,11 @@ class _HomeState extends State<Home> {
            title: new Text('Home'),
          ),
          BottomNavigationBarItem(
-           icon: new Icon(Icons.mail),
+           icon: new Icon(Icons.rate_review),
            title: new Text('Review'),
          ),
          BottomNavigationBarItem(
-           icon: Icon(Icons.person),
+           icon: Icon(Icons.info),
            title: Text('Info')
          )
        ],
