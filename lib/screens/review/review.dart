@@ -3,8 +3,10 @@ import 'package:flutter/material.dart';
 class Review extends StatelessWidget {
  @override
  Widget build(BuildContext context) {
-   return Text(
-     "Review Page"
+   return Scaffold(
+     appBar: AppBar(title: Text('Review')),
+     body: Text(
+     "Review Page")
    );
  }
 }

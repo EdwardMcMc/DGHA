@@ -3,8 +3,10 @@ import 'package:flutter/material.dart';
 class Info extends StatelessWidget {
  @override
  Widget build(BuildContext context) {
-   return Text(
-     "Info Page"
+   return Scaffold(
+     appBar: AppBar(title: Text('Info')),
+     body: Text(
+     "Info Page")
    );
  }
 }
