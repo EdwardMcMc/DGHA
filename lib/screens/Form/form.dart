@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
+
 
 class MyCustomForm extends StatefulWidget {
   @override
@@ -16,16 +18,32 @@ class MyCustomFormState extends State<MyCustomForm> {
    String _title;
    String _fname;
    String _lname;
+   DateTime selectedDate = DateTime.now();
+   DateFormat dateFormat = DateFormat("MMMM d y");
   TextEditingController _titlecontroller=TextEditingController();
   TextEditingController _fnamecontroller=TextEditingController();
   TextEditingController _lnamecontroller=TextEditingController();
+
+   Future<Null> _selectDate(BuildContext context) async {
+    final DateTime picked = await showDatePicker(
+        context: context,
+        initialDate: selectedDate,
+        firstDate: DateTime(1900),
+        lastDate: DateTime(2101));
+    if (picked != null && picked != selectedDate)
+      setState(() {
+        selectedDate = picked;
+      });
+  }
 
 
   @override
   Widget build(BuildContext context) {
 
-    return 
-    Form(
+    return
+    Scaffold(
+     appBar: AppBar(title: Text('Membership')),
+     body: Form(
       key: _formKey,
       child: 
       PageView(controller: controller,
@@ -186,10 +204,20 @@ class MyCustomFormState extends State<MyCustomForm> {
      Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          DateTimePickerFormField(
-            
-          ),
-          Text("page5"),
+          Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: <Widget>[
+            Text("Date of Birth (optional)"),
+            Text(dateFormat.format(selectedDate)),
+            SizedBox(height: 20.0,),
+            RaisedButton(
+              onPressed: () => _selectDate(context),
+              child: Text('Select date'),
+            ),
+          ],
+        ),
+      ),
           RaisedButton(
       onPressed: (){
         controller.previousPage(duration: kTabScrollDuration,curve: Curves.ease);
@@ -210,7 +238,7 @@ class MyCustomFormState extends State<MyCustomForm> {
     Text("page9")
     ,
     Text("page10")
-    ],))
+    ],)))
 ;
   }
 }

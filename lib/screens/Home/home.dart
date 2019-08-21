@@ -3,6 +3,7 @@ import 'membership/membership.dart';
 import 'image_banner.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
+import '../form/form.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -16,7 +17,7 @@ class Home extends StatelessWidget {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute<void>(builder: (context) => Membership()),
+                MaterialPageRoute<void>(builder: (context) => MyCustomForm()),
               );
             },
             child: Text('Membership'),
