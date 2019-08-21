@@ -1,4 +1,5 @@
 import 'Donation/donation.dart';
+import 'membership/membership.dart';
 import 'image_banner.dart';
 import 'package:flutter/material.dart';
 
@@ -10,6 +11,15 @@ class Home extends StatelessWidget {
       body: Container(
         child: Column(children: [
           ImageBanner(),
+          RaisedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute<void>(builder: (context) => Membership()),
+              );
+            },
+            child: Text('Membership'),
+          ),
           RaisedButton(
             onPressed: () {
               Navigator.push(
