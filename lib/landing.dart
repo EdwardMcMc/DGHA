@@ -19,7 +19,7 @@ class _LandingState extends State<Landing> {
     Review(),
     Info(),
   ];
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
