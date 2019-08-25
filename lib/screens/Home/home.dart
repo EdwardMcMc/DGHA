@@ -29,7 +29,7 @@ class Home extends StatelessWidget {
                 MaterialPageRoute<void>(
                   builder: (context) => WebviewScaffold(
                     url:
-                        "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&hosted_button_id=V9QDH2K4GLHJQ",
+                        "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=info@gmg.cm&lc=AU&item_name=Donations+or+Membership+Fee+or+Conference+Registration&no_note=0&cn=&currency_code=AUD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted",
                     appBar: new AppBar(
                       title: new Text("Donate"),
                     ),

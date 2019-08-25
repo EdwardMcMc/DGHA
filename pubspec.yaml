@@ -18,6 +18,7 @@ environment:
 
 dependencies:
   flutter_webview_plugin: ^0.3.7
+  geolocator: ^5.1.2
   flutter:
     sdk: flutter
   intl: ^0.15.8
