@@ -51,8 +51,8 @@ class Geolocation {
           .catchError((e) =>
               throw ('Error converting position to placemark, please try again later.'));
       state = placemark.first.administrativeArea;
-    } else {
-      throw ('You have not granted access to location to this app, please edit this in your settings.');
-    }
+    } // else {
+    // throw ('You have not granted access to location to this app, please edit this in your settings.');
+    // }
   }
 }
