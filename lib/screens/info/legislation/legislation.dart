@@ -1,21 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:dgha/utils/geolocator.dart';
 
-class Legislation extends StatefulWidget {
-  Legislation({Key key}) : super(key: key);
+class Legislation extends StatelessWidget {
+  final String _state;
 
-  _LegislationState createState() => _LegislationState();
-}
-
-class _LegislationState extends State<Legislation> {
-  String _state;
-  Geolocation _geolocation = Geolocation();
-
-  @override
-  void initState() {
-    super.initState();
-    _geolocation.updateState();
-  }
+  Legislation(this._state);
 
   @override
   Widget build(BuildContext context) {
@@ -24,9 +12,7 @@ class _LegislationState extends State<Legislation> {
       body: Container(
         child: Column(
           children: <Widget>[
-            RaisedButton(
-                child: Text('$_state'),
-                onPressed: () => _state = _geolocation.state)
+            RaisedButton(child: Text('$_state'), onPressed: () => {})
           ],
         ),
       ),

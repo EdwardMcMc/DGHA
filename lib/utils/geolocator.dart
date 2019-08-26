@@ -3,11 +3,10 @@ import 'package:geolocator/geolocator.dart';
 
 class Geolocation {
   final Geolocator _geolocator = Geolocator();
-  Position _position;
   String state;
 
   Geolocation() {
-    _updateLocation();
+    _updateState();
   }
 
   // TODO: implement permission checking
@@ -15,21 +14,17 @@ class Geolocation {
     throw new UnimplementedError();
   }
 
-  void _updateLocation() async {
-    try {
-      Position newPosition = await _geolocator
-          .getCurrentPosition(desiredAccuracy: LocationAccuracy.lowest)
-          .timeout(new Duration(seconds: 5));
-      _position = newPosition;
-    } catch (e) {
-      throw ErrorHint('Error: ${e.toString()}');
-    }
+  Future<Position> _updatePosition() async {
+    Position newPosition = await _geolocator
+        .getCurrentPosition(desiredAccuracy: LocationAccuracy.lowest)
+        .timeout(new Duration(seconds: 5));
+    return newPosition;
   }
 
-  void updateState() async {
-    _updateLocation();
+  void _updateState() async {
+    Position position = await _updatePosition();
     List<Placemark> placemark =
-        await _geolocator.placemarkFromPosition(_position);
+        await _geolocator.placemarkFromPosition(position);
     state = placemark.first.administrativeArea;
   }
 }
