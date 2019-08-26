@@ -14,6 +14,7 @@ class Geolocation {
     throw new UnimplementedError();
   }
 
+  /// @returns [Future<Position>] from updated [Geolocator] fetch
   Future<Position> _updatePosition() async {
     Position newPosition = await _geolocator
         .getCurrentPosition(desiredAccuracy: LocationAccuracy.lowest)
@@ -21,6 +22,9 @@ class Geolocation {
     return newPosition;
   }
 
+  /// calls [_updatePosition] to fetch new [Position]
+  /// converts [Position] into [Placemark]
+  /// sets [state] to updated administrativeArea
   void _updateState() async {
     Position position = await _updatePosition();
     List<Placemark> placemark =
