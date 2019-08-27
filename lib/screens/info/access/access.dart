@@ -11,8 +11,9 @@ class Access extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text('Access for guide dogs')),
-        body: Container(
+      appBar: AppBar(title: Text('Access for guide dogs')),
+      body: SingleChildScrollView(
+        child: Container(
           padding: ContainerPadding,
           child: Column(
             children: <Widget>[
@@ -65,6 +66,8 @@ class Access extends StatelessWidget {
                       'These laws also apply to people training Guide Dogs and Guide Dog puppies.'))
             ],
           ),
-        ));
+        ),
+      ),
+    );
   }
 }
