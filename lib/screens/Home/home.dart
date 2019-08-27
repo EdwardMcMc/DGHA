@@ -1,8 +1,7 @@
 import 'membership/membership.dart';
-import 'image_banner.dart';
+import 'package:dgha/components/image_banner.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
-import '../form/form.dart';
 import 'package:dgha/style.dart';
 import 'package:dgha/components/text_section.dart';
 
@@ -16,8 +15,7 @@ class Home extends StatelessWidget {
             child: Column(children: [
               ImageBanner(),
               TextSection("About Dog Guide Handlers Australia",
-                  'Dog Guide Handlers Australia (DGHA) is an independent non profit association of dog guide handlers, and is not affiliated with any dog guide organisation.'
-              ),
+                  'Dog Guide Handlers Australia (DGHA) is an independent non profit association of dog guide handlers, and is not affiliated with any dog guide organisation.'),
               RaisedButton(
                 onPressed: () {
                   Navigator.push(
