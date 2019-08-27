@@ -1,5 +1,8 @@
+import 'package:dgha/screens/Home/membership/membership.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
+import '../../models/formresponse.dart';
 
 
 class MyCustomForm extends StatefulWidget {
@@ -12,29 +15,41 @@ class MyCustomForm extends StatefulWidget {
 class MyCustomFormState extends State<MyCustomForm> {
 
   final _formKey = GlobalKey<FormState>();
+  FormResponse response=new FormResponse();
   String _membertype;
   PageController controller=PageController();
   bool membertypevalid=false;
-  String _title;
-  String _fname;
-  String _lname;
-  String _address;
-  DateTime selectedDate = DateTime.now();
+  String datestring = "None selected";
   DateFormat dateFormat = DateFormat("MMMM d y");
   TextEditingController _titlecontroller=TextEditingController();
   TextEditingController _fnamecontroller=TextEditingController();
   TextEditingController _lnamecontroller=TextEditingController();
   TextEditingController _addresscontroller=TextEditingController();
+  TextEditingController _suburbcontroller=TextEditingController();
+  TextEditingController _statecontroller=TextEditingController();
+  TextEditingController _postcodecontroller=TextEditingController();
+
+  DateTime initialdate() {
+    if (response.dob != null)
+    {
+      return response.dob;
+    }
+    else
+    {
+      return DateTime.now();
+    }
+  }
 
    Future<Null> _selectDate(BuildContext context) async {
     final DateTime picked = await showDatePicker(
         context: context,
-        initialDate: selectedDate,
+        initialDate: initialdate(),
         firstDate: DateTime(1900),
         lastDate: DateTime(2101));
-    if (picked != null && picked != selectedDate)
+    if (picked != null && picked != response.dob)
       setState(() {
-        selectedDate = picked;
+        response.dob = picked;
+        datestring=dateFormat.format(response.dob);
       });
   }
 
@@ -53,35 +68,52 @@ class MyCustomFormState extends State<MyCustomForm> {
           children: <Widget>[
 //page 1 start
             Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
+                GestureDetector(
+                  onTap:(){setState(() {
+                   response.memberType="Full" ;
+                   membertypevalid=true;
+                  });} ,
+                  child: 
                 ListTile(
                   title: const Text('Full Member'),
                   leading: Radio(
                     value: "Full",
-                    groupValue: _membertype,
+                    groupValue: response.memberType,
                     onChanged: (String value) {
                       setState(() {
-                        _membertype=value; 
+                        response.memberType=value; 
                         });
                       membertypevalid=true;
                       },
                     ),
                   ),
+                  ),
+                  GestureDetector(
+                  onTap:(){setState(() {
+                   response.memberType="Associate" ;
+                   membertypevalid=true;
+                  });} ,
+                  child: 
                 ListTile(
                   title: const Text('Associate Member'),
                   leading: Radio(
                     value: "Associate",
-                    groupValue: _membertype,
+                    groupValue: response.memberType,
                     onChanged: (String value) {
                       setState(() {
-                        _membertype=value; 
+                        response.memberType=value; 
                         });
                       membertypevalid=true;
                       },
                     ),
-                  ),
-                Padding(
+                  )),  
+
+          
+                  
+                Padding(                 
                   padding:const EdgeInsets.all(10.0),
                   child:                 
                     RaisedButton(
@@ -91,21 +123,37 @@ class MyCustomFormState extends State<MyCustomForm> {
                           controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
                           }
                         else {
-                          Scaffold.of(context).showSnackBar(SnackBar(content: Text('Please Select Membership Type')));
+                          Scaffold.of(context).showSnackBar(SnackBar(content: Text('Please Select Membership Type'), duration: Duration(seconds: 3),));
                           }
                         },
-                      child: Text('Submit'),
+                      child: Text('Next'),
                       )
+                  ),
+                                    Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child:RaisedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute<void>(
+                          builder: (context) => Membership()),
+                    );
+                  },
+                  child: Text('Back'),
+                ),
                   )
                 ],
               ),
 
 //Page 2 Start
               Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
-                  Text("Title"),
                   TextFormField(
+                    decoration: const InputDecoration(
+                        labelText: 'Title',
+                        icon: Icon(Icons.title)
+                        ),
                     controller: _titlecontroller,
                     validator: (value) {
                       if (value.isEmpty) {
@@ -114,21 +162,58 @@ class MyCustomFormState extends State<MyCustomForm> {
                       else if(value.length>10) {
                         return 'Please enter no more than 10 characters';
                         }
-                      _title=value;
+                      response.title=value;
                       return null;
                       }, 
                     ),
-                  Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: RaisedButton(
+                  TextFormField(
+                    decoration: const InputDecoration(
+                        labelText: 'First Name',
+                        icon: Icon(Icons.person)
+                        ),
+                    controller: _fnamecontroller,
+                    validator: (value) {
+                      if(value==response.fname)
+                      {return null;}
+                      if (value.isEmpty) {
+                        return 'Please enter some text';
+                      }
+                      else if(value.length>40)
+                      {
+                        return 'Please enter no more than 40 characters';
+                      }
+                      response.fname=value;
+                      return null;
+                      },
+                    ),
+                  TextFormField(
+                    decoration: const InputDecoration(
+                        labelText: 'Last Name',
+                        icon: Icon(Icons.person)
+                        ),
+                    controller:_lnamecontroller,
+                    validator:(value){
+                      if(value==response.lname) {
+                        return null;
+                        }
+                      if (value.isEmpty) {
+                        return 'Please enter some text';
+                        }
+                      else if(value.length>40) {
+                        return 'Please enter no more than 40 characters';
+                        }
+                      response.lname=value;
+                      return null; 
+                      },
+                    ),
+                  RaisedButton(
                       onPressed: () {
                         if(_formKey.currentState.validate()){
                           controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
                           }
                         },
                       child: Text("Next"),
-                      ),  
-                    ),
+                      ),
                   Padding(padding:const EdgeInsets.all(10.0),
                     child: RaisedButton(
                       onPressed: (){
@@ -141,82 +226,21 @@ class MyCustomFormState extends State<MyCustomForm> {
                 ),
 
 //page 3 start
-
               Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Text("FirstName"),
-                  TextFormField(
-                    controller: _fnamecontroller,
-                    validator: (value) {
-                      if(value==_fname)
-                      {return null;}
-                      if (value.isEmpty) {
-                        return 'Please enter some text';
-                      }
-                      else if(value.length>40)
-                      {
-                        return 'Please enter no more than 40 characters';
-                      }
-                      _fname=value;
-                      return null;
-                      },
-                    ),
-                  Text("Last Name"),
-                  TextFormField(
-                    controller:_lnamecontroller,
-                    validator:(value){
-                      if(value==_lname) {
-                        return null;
-                        }
-                      if (value.isEmpty) {
-                        return 'Please enter some text';
-                        }
-                      else if(value.length>40) {
-                        return 'Please enter no more than 40 characters';
-                        }
-                      _lname=value;
-                      return null; 
-                      },
-                    ),
-                  Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: RaisedButton(
-                      onPressed: () {
-                        if(_formKey.currentState.validate()){
-                          controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
-                          }
-                        },
-                      child: Text("Next"),
-                      ),  
-                    ),
-                  Padding(padding: EdgeInsets.all(10.0),
-                    child: RaisedButton(
-                      onPressed: (){
-                        _titlecontroller.text=_title;
-                        controller.previousPage(duration: kTabScrollDuration,curve: Curves.ease);
-                        },
-                      child: Text("Back"),
-                      )
-                    )
-                  ]
-                ),
-
-//page 4 start
-
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
                   Center(
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: <Widget>[
                         Text("Date of Birth (optional)"),
-                        Text(dateFormat.format(selectedDate)),
-                        RaisedButton(
+
+                        RaisedButton.icon(
+                          icon:Icon(Icons.calendar_today),
                           onPressed: () => _selectDate(context),
-                          child: Text('Select date'),
+                          label: Text('Select date'),
                           ),
+                          Text("Selected Date: "+ datestring),
                         ],
                       ),
                     ),
@@ -244,13 +268,16 @@ class MyCustomFormState extends State<MyCustomForm> {
                   ]
                 ),
 
-    //Page 5 Start
+    //Page 4 Start
 
               Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
-                  Text("Stret or Postal Address"),
                   TextFormField(
+                    decoration: const InputDecoration(
+                      labelText: 'Street or Postal Address',
+                      icon: Icon(Icons.home)
+                    ),
                     controller: _addresscontroller,
                     validator: (value) {
                       if (value.isEmpty) {
@@ -259,9 +286,133 @@ class MyCustomFormState extends State<MyCustomForm> {
                       else if (value.length>70) {
                         return 'Please enter no more than 70 characters';
                         }
-                      _address=value;
+                      response.address=value;
                       return null;
                       },  
+                    ),
+
+                    TextFormField(
+                      decoration: const InputDecoration(
+                        labelText: 'Suburb',
+                        icon: Icon(Icons.location_on)
+                        ),
+                        controller: _suburbcontroller,
+                      validator: (value) {
+                         if (value.isEmpty) {
+                        return 'Please enter some text';
+                        }
+                      else if (value.length>70) {
+                        return 'Please enter no more than 70 characters';
+                        }
+                      response.suburb=value;
+                      return null;
+                      },
+                    ),
+                    TextFormField(
+                      decoration: const InputDecoration(
+                        labelText: 'State or Territory',
+                        icon: Icon(Icons.map)
+                        ),
+                        controller: _statecontroller,
+                      validator: (value) {
+                         if (value.isEmpty) {
+                        return 'Please enter some text';
+                        }
+                      else if (value.length>40) {
+                        return 'Please enter no more than 40 characters';
+                        }
+                      response.state=value;
+                      return null;
+                      },),
+                    TextFormField(
+                      decoration: const InputDecoration(
+                        labelText: 'Postcode',
+                        icon: Icon(Icons.local_post_office)
+                        ),
+                      controller: _postcodecontroller,
+                      keyboardType: TextInputType.number,
+                      inputFormatters: [WhitelistingTextInputFormatter.digitsOnly],
+                      validator: (value){
+                      if(value.isEmpty)
+                      {
+                        return 'Please enter some text';
+                      }
+                      else if(value.length<4||value.length>4)
+                      {
+                        return 'Please Enter a 4 digit postcode';
+                      }
+                      response.postcode=value;
+                      return null;
+                    },),
+                  Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child: RaisedButton(
+                      onPressed: () {
+                        if(_formKey.currentState.validate()) {
+                          controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
+                          }
+                        },
+                      child: Text("Next"),
+                      ),  
+                    ),
+                  Padding(padding:const EdgeInsets.all(10.0),
+                    child: RaisedButton(
+                      onPressed: (){
+                        controller.previousPage(duration: kTabScrollDuration,curve: Curves.ease);
+                        },
+                      child: Text("Back"),
+                      )
+                    ),
+                  ],
+                ),
+
+    //page 5 Start
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: <Widget>[
+                  TextFormField(
+                    decoration: const InputDecoration(
+                      labelText: 'Phone Number',
+                      icon: Icon(Icons.phone)
+                    ),
+                    keyboardType: TextInputType.phone,
+                    inputFormatters: [WhitelistingTextInputFormatter.digitsOnly],
+                    validator: (value){
+                      if (value.isEmpty)
+                      {
+                        return "Please enter a phone number";
+                      }
+                      else if(value.length<8||value.length>10)
+                      
+                      {
+                        return  "Please enter a number between 8 and 10 characters long";
+                      }
+                      response.phone=value;
+                      return null;
+                    },
+                    ),
+                    TextFormField(
+                    decoration: const InputDecoration(
+                      labelText: 'Email Address',
+                      icon: Icon(Icons.email)
+                    ),
+                    keyboardType: TextInputType.emailAddress,
+                    validator: (value){
+                      if (value.isEmpty)
+                      {
+                        return "Please enter an email";
+                      }
+                      else if(!value.contains("@")) {
+                        return "please enter a valid Email";
+                        }
+                        //following doesn't work?
+                      // else if(!value.contains('.')) {
+                      //   return "please enter a valid Email";
+                      //   }
+
+                      response.email=value;
+                      return null;
+                    },
                     ),
                   Padding(
                     padding: const EdgeInsets.all(10.0),
@@ -282,22 +433,25 @@ class MyCustomFormState extends State<MyCustomForm> {
                       child: Text("Back"),
                       )
                     ),
-                  // Padding(padding:const EdgeInsets.all(10.0),
-                  //   child: RaisedButton(
-                  //     onPressed: (){
-                  //       controller.previousPage(duration: kTabScrollDuration,curve: Curves.ease);
-                  //       },     
-                  //     child: Text("Back"),
-                  //     )
-                  //   )
-                  ],
-                ),
-
-    //page 6 Start
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Text("page7"),
+                  ]
+                )
+    ,
+//page 6 start
+    Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: <Widget>[
+      Text("page6"),
+      Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child: RaisedButton(
+                      onPressed: () {
+                        if(_formKey.currentState.validate()) {
+                          controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
+                          }
+                        },
+                      child: Text("Next"),
+                      ),  
+                    ),
                   Padding(padding:const EdgeInsets.all(10.0),
                     child: RaisedButton(
                       onPressed: (){
@@ -305,15 +459,63 @@ class MyCustomFormState extends State<MyCustomForm> {
                         },
                       child: Text("Back"),
                       )
+                    )
+      ],
+    )
+    ,
+//page 7 start
+    Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: <Widget>[
+      Text("page7"),
+      Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child: RaisedButton(
+                      onPressed: () {
+                        if(_formKey.currentState.validate()) {
+                          controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
+                          }
+                        },
+                      child: Text("Next"),
+                      ),  
                     ),
-                  ]
-                )
+                  Padding(padding:const EdgeInsets.all(10.0),
+                    child: RaisedButton(
+                      onPressed: (){
+                        controller.previousPage(duration: kTabScrollDuration,curve: Curves.ease);
+                        },
+                      child: Text("Back"),
+                      )
+                    )
+      ],
+    )
     ,
-    Text("page8")
-    ,
-    Text("page9")
-    ,
-    Text("page10")
+//page 8 start
+    Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: <Widget>[
+      Text("page8"),
+      Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child: RaisedButton(
+                      onPressed: () {
+                        if(_formKey.currentState.validate()) {
+                          controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
+                          }
+                        },
+                      child: Text("Next"),
+                      ),  
+                    ),
+                  Padding(padding:const EdgeInsets.all(10.0),
+                    child: RaisedButton(
+                      onPressed: (){
+                        controller.previousPage(duration: kTabScrollDuration,curve: Curves.ease);
+                        },
+                      child: Text("Back"),
+                      )
+                    )
+      ],
+    )
     ],)))
 ;
   }
