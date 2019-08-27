@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:dgha/style.dart';
+import '../../form/form.dart';
 
 class Membership extends StatelessWidget {
   @override
@@ -6,18 +8,28 @@ class Membership extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(title: Text('Membership')),
         body: Container(
+          padding: ContainerPadding,
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Text("Join DGHA \n", style: Theme.of(context).textTheme.title ),
-              Text("To join DGHA, please complete the on-line membership form below. \n"),
-              Text("The cost of membership to join DGHA is a once only payment, for lifetime membership. \n"),
-              Text("Full Membership: \$20.00."),
-              Text("Associate Membership: \$10.00. \n"),
-              Text("We encourage employees of dog guide organisations to join, trainers, instructors and puppy raisers are welcome.")
-            ]
-          ),
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Text("Join DGHA \n", style: Theme.of(context).textTheme.title),
+                Text("To join DGHA, please complete the on-line membership form below. \n"),
+                Text("The cost of membership to join DGHA is a once only payment, for lifetime membership. \n"),
+                Text("Full Membership: \$20.00."),
+                Text("Associate Membership: \$10.00. \n"),
+                Text("We encourage employees of dog guide organisations to join, trainers, instructors and puppy raisers are welcome. \n"),
+                RaisedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute<void>(
+                          builder: (context) => MyCustomForm()),
+                    );
+                  },
+                  child: Text('Form'),
+                ),
+              ]),
         ));
   }
 }
