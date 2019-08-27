@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 import '../form/form.dart';
 import 'package:dgha/style.dart';
+import 'package:dgha/components/text_section.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -14,21 +15,8 @@ class Home extends StatelessWidget {
           child: Container(
             child: Column(children: [
               ImageBanner(),
-              Container(
-                padding: TitlePadding,
-                child: Text(
-                  "About Dog Guide Handlers Australia",
-                  style: Theme.of(context).textTheme.title,
-                  textAlign: TextAlign.center,
-                ),
-              ),
-              Container(
-                padding: Body1Padding,
-                child: Text(
-                  'Dog Guide Handlers Australia (DGHA) is an independent non profit association of dog guide handlers, and is not affiliated with any dog guide organisation.',
-                  style: Theme.of(context).textTheme.body1,
-                  textAlign: TextAlign.center,
-                ),
+              TextSection("About Dog Guide Handlers Australia",
+                  'Dog Guide Handlers Australia (DGHA) is an independent non profit association of dog guide handlers, and is not affiliated with any dog guide organisation.'
               ),
               RaisedButton(
                 onPressed: () {
