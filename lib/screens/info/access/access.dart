@@ -3,8 +3,6 @@ import 'package:dgha/style.dart';
 
 class Access extends StatelessWidget {
   final String _state;
-  static const double _hPad = 20.0;
-  static const double _vPad = 15.0;
 
   Access(this._state);
 
