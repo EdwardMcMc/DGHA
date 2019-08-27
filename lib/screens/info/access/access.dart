@@ -16,8 +16,11 @@ class Access extends StatelessWidget {
           padding: ContainerPadding,
           child: Column(
             children: <Widget>[
-              Text('Legal obligations',
-                  style: Theme.of(context).textTheme.title),
+              Container(
+                padding: ContainerPadding,
+                child: Text('Legal obligations',
+                    style: Theme.of(context).textTheme.title),
+              ),
               Container(
                   child: Text(
                       'In line with Victorian State Laws, a person with low vision accompanied by a Guide Dog is permitted to:')),
