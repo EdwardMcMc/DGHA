@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:dgha/style.dart';
 
 class Access extends StatelessWidget {
   final String _state;
@@ -12,6 +13,7 @@ class Access extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(title: Text('Access for guide dogs')),
         body: Container(
+          padding: ContainerPadding,
           child: Column(
             children: <Widget>[
               Text('Legal obligations',
@@ -20,8 +22,7 @@ class Access extends StatelessWidget {
                   child: Text(
                       'In line with Victorian State Laws, a person with low vision accompanied by a Guide Dog is permitted to:')),
               Container(
-                padding:
-                    EdgeInsets.symmetric(horizontal: _hPad, vertical: _vPad),
+                padding: ContainerPadding,
                 child: Column(
                   children: <Widget>[
                     ListTile(
@@ -48,18 +49,15 @@ class Access extends StatelessWidget {
                 ),
               ),
               Container(
-                  padding:
-                      EdgeInsets.symmetric(horizontal: _hPad, vertical: _vPad),
+                  padding: ContainerPadding,
                   child: Text(
                       'The only exceptions where a Guide Dog is not permitted are operating theatres, commercial kitchens and some parts of the zoo.')),
               Container(
-                  padding:
-                      EdgeInsets.symmetric(horizontal: _hPad, vertical: _vPad),
+                  padding: ContainerPadding,
                   child: Text(
                       'It is generally discriminatory and unlawful for anyone to attempt to deny these rights to a person with low vision, or treat that person less favourably, solely because he or she is accompanied by a Guide Dog.')),
               Container(
-                  padding:
-                      EdgeInsets.symmetric(horizontal: _hPad, vertical: _vPad),
+                  padding: ContainerPadding,
                   child: Text(
                       'These laws also apply to people training Guide Dogs and Guide Dog puppies.'))
             ],
