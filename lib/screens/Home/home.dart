@@ -3,6 +3,7 @@ import 'image_banner.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 import '../form/form.dart';
+import 'package:dgha/style.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -13,15 +14,21 @@ class Home extends StatelessWidget {
           child: Container(
             child: Column(children: [
               ImageBanner(),
-              Text(
-                "About Dog Guide Handlers Australia",
-                style: Theme.of(context).textTheme.title,
-                textAlign: TextAlign.center,
+              Container(
+                padding: TitlePadding,
+                child: Text(
+                  "About Dog Guide Handlers Australia",
+                  style: Theme.of(context).textTheme.title,
+                  textAlign: TextAlign.center,
+                ),
               ),
-              Text(
-                'Dog Guide Handlers Australia (DGHA) is an independent non profit association of dog guide handlers, and is not affiliated with any dog guide organisation.',
-                style: Theme.of(context).textTheme.body1,
-                textAlign: TextAlign.center,
+              Container(
+                padding: Body1Padding,
+                child: Text(
+                  'Dog Guide Handlers Australia (DGHA) is an independent non profit association of dog guide handlers, and is not affiliated with any dog guide organisation.',
+                  style: Theme.of(context).textTheme.body1,
+                  textAlign: TextAlign.center,
+                ),
               ),
               RaisedButton(
                 onPressed: () {
@@ -49,28 +56,40 @@ class Home extends StatelessWidget {
                 },
                 child: Text('Donate'),
               ),
-              Text(
-                "Key Objectives",
-                style: Theme.of(context).textTheme.title,
-                textAlign: TextAlign.center,
+              Container(
+                padding: TitlePadding,
+                child: Text(
+                  "Key Objectives",
+                  style: Theme.of(context).textTheme.title,
+                  textAlign: TextAlign.center,
+                ),
               ),
-              Text(
-                'DGHA draws on the experiences and varied knowledge of its members, to provide peer support, advocacy and information for dog guide handlers throughout Australia.',
-                style: Theme.of(context).textTheme.body1,
-                textAlign: TextAlign.center,
+              Container(
+                padding: Body1Padding,
+                child: Text(
+                  'DGHA draws on the experiences and varied knowledge of its members, to provide peer support, advocacy and information for dog guide handlers throughout Australia.',
+                  style: Theme.of(context).textTheme.body1,
+                  textAlign: TextAlign.center,
+                ),
               ),
-              Text(
-                "Background Information",
-                style: Theme.of(context).textTheme.title,
-                textAlign: TextAlign.center,
+              Container(
+                padding: TitlePadding,
+                child: Text(
+                  "Background Information",
+                  style: Theme.of(context).textTheme.title,
+                  textAlign: TextAlign.center,
+                ),
               ),
-              Text(
-                'Dog Guide Handlers Australia was formed in August 2009 by four passionate people who were inspired by similar groups which exist in other countries.\n\n'
-                'DGHA was registered as an incorporated association in January 2011.\n'
-                'DGHA does not have a physical office, and we have no paid staff.\n'
-                'The DGHA Committee is a group of dedicated volunteers who meet regularly via teleconference.',
-                style: Theme.of(context).textTheme.body1,
-                textAlign: TextAlign.center,
+              Container(
+                padding: Body1Padding,
+                child: Text(
+                  'Dog Guide Handlers Australia was formed in August 2009 by four passionate people who were inspired by similar groups which exist in other countries.\n\n'
+                  'DGHA was registered as an incorporated association in January 2011.\n'
+                  'DGHA does not have a physical office, and we have no paid staff.\n'
+                  'The DGHA Committee is a group of dedicated volunteers who meet regularly via teleconference.',
+                  style: Theme.of(context).textTheme.body1,
+                  textAlign: TextAlign.center,
+                ),
               ),
             ]),
           ),
