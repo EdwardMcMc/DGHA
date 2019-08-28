@@ -36,6 +36,7 @@ class Info extends StatelessWidget {
                     style: Theme.of(context).textTheme.title),
               ),
               Container(
+                  padding: ContainerPadding,
                   child: Text(
                       'In line with Victorian State Laws, a person with low vision accompanied by a Guide Dog is permitted to:')),
               Container(
