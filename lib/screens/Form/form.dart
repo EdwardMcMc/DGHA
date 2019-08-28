@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import '../../models/formresponse.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 
 class MyCustomForm extends StatefulWidget {
@@ -14,13 +15,28 @@ class MyCustomForm extends StatefulWidget {
 
 class MyCustomFormState extends State<MyCustomForm> {
 
-  final _formKey = GlobalKey<FormState>();
+ //Form Keys: used to define a form and perform validation
+final _form1Key = GlobalKey<FormState>(); //page 2
+final _form2Key = GlobalKey<FormState>(); //page 3
+final _form3Key = GlobalKey<FormState>(); //page 4
+final _form4Key = GlobalKey<FormState>(); //page 7
+final _form5Key = GlobalKey<FormState>(); //page 8
+final _form6Key = GlobalKey<FormState>(); //page 9
+//final _form4Key = GlobalKey<FormState>(); 
+//final _form5Key = GlobalKey<FormState>();
   FormResponse response=new FormResponse();
   String _membertype;
   PageController controller=PageController();
   bool membertypevalid=false;
+  bool dogtrainedforvalid=false;
+  bool dogtrainedforother=true;
+  bool workfororg=true;
+  int maxlines=2; 
   String datestring = "None selected";
   DateFormat dateFormat = DateFormat("MMMM d y");
+
+  //Text Editing Controllers:
+  //Used To Control text in forms
   TextEditingController _titlecontroller=TextEditingController();
   TextEditingController _fnamecontroller=TextEditingController();
   TextEditingController _lnamecontroller=TextEditingController();
@@ -28,6 +44,38 @@ class MyCustomFormState extends State<MyCustomForm> {
   TextEditingController _suburbcontroller=TextEditingController();
   TextEditingController _statecontroller=TextEditingController();
   TextEditingController _postcodecontroller=TextEditingController();
+  TextEditingController _phonecontroller=TextEditingController();
+  TextEditingController _emailcontroller=TextEditingController();
+  TextEditingController _dognamecontroller=TextEditingController();
+  TextEditingController _dogbreedcontroller=TextEditingController();
+  TextEditingController _dogtrainercontroller=TextEditingController();
+  TextEditingController _dogtrainedforothercontroller=TextEditingController();
+  TextEditingController _organisationnamecontroller=TextEditingController();
+  TextEditingController _positioncontroller=TextEditingController();
+
+  //Focus Nodes:      define what text field to go to next
+final FocusNode _titleFocus = FocusNode();  
+final FocusNode _fnameFocus = FocusNode();  
+final FocusNode _lnameFocus = FocusNode();
+final FocusNode _addressFocus = FocusNode();  
+final FocusNode _suburbFocus = FocusNode();  
+final FocusNode _stateFocus = FocusNode();
+final FocusNode _postcodeFocus = FocusNode();  
+final FocusNode _phoneFocus = FocusNode();  
+final FocusNode _emailFocus = FocusNode();
+final FocusNode _dogNameFocus = FocusNode();  
+final FocusNode _dogBreedFocus = FocusNode();  
+final FocusNode _dogTrainerFocus = FocusNode();
+final FocusNode _dogTrainedForOtherFocus = FocusNode();
+final FocusNode _organisationNameFocus = FocusNode();
+final FocusNode _positionFocus = FocusNode();
+
+
+//Focus change function, used to change focus between text fields
+_fieldFocusChange(BuildContext context, FocusNode currentFocus,FocusNode nextFocus) {
+    currentFocus.unfocus();
+    FocusScope.of(context).requestFocus(nextFocus);  
+}
 
   DateTime initialdate() {
     if (response.dob != null)
@@ -45,7 +93,7 @@ class MyCustomFormState extends State<MyCustomForm> {
         context: context,
         initialDate: initialdate(),
         firstDate: DateTime(1900),
-        lastDate: DateTime(2101));
+        lastDate: DateTime.now());
     if (picked != null && picked != response.dob)
       setState(() {
         response.dob = picked;
@@ -60,14 +108,12 @@ class MyCustomFormState extends State<MyCustomForm> {
   return
     Scaffold(
      appBar: AppBar(title: Text('Membership')),
-     body: Form(
-      key: _formKey,
-      child: 
-        PageView(controller: controller,
+     body: PageView(controller: controller,
           physics:new NeverScrollableScrollPhysics(),
           children: <Widget>[
 //page 1 start
-            Column(
+SingleChildScrollView(
+  child:Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
@@ -143,10 +189,14 @@ class MyCustomFormState extends State<MyCustomForm> {
                 ),
                   )
                 ],
-              ),
+              )
+            ),
 
 //Page 2 Start
-              Column(
+SingleChildScrollView(
+  child:Form(
+              key:_form1Key,
+              child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
                   TextFormField(
@@ -155,6 +205,7 @@ class MyCustomFormState extends State<MyCustomForm> {
                         icon: Icon(Icons.title)
                         ),
                     controller: _titlecontroller,
+                    focusNode: _titleFocus,
                     validator: (value) {
                       if (value.isEmpty) {
                         return 'Please enter some text';
@@ -164,6 +215,10 @@ class MyCustomFormState extends State<MyCustomForm> {
                         }
                       response.title=value;
                       return null;
+                      },
+                    onFieldSubmitted: (value) {
+                      _fieldFocusChange(context, _titleFocus, _fnameFocus);
+                      response.title=value;
                       }, 
                     ),
                   TextFormField(
@@ -172,6 +227,7 @@ class MyCustomFormState extends State<MyCustomForm> {
                         icon: Icon(Icons.person)
                         ),
                     controller: _fnamecontroller,
+                    focusNode: _fnameFocus,
                     validator: (value) {
                       if(value==response.fname)
                       {return null;}
@@ -185,6 +241,10 @@ class MyCustomFormState extends State<MyCustomForm> {
                       response.fname=value;
                       return null;
                       },
+                    onFieldSubmitted: (value) {
+                      _fieldFocusChange(context, _fnameFocus, _lnameFocus);
+                      response.fname=value;
+                      }, 
                     ),
                   TextFormField(
                     decoration: const InputDecoration(
@@ -192,6 +252,7 @@ class MyCustomFormState extends State<MyCustomForm> {
                         icon: Icon(Icons.person)
                         ),
                     controller:_lnamecontroller,
+                    focusNode: _lnameFocus,
                     validator:(value){
                       if(value==response.lname) {
                         return null;
@@ -205,15 +266,21 @@ class MyCustomFormState extends State<MyCustomForm> {
                       response.lname=value;
                       return null; 
                       },
+                      onFieldSubmitted: (value){
+                        response.lname=value;
+                        },
                     ),
-                  RaisedButton(
+                  Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child: RaisedButton(
                       onPressed: () {
-                        if(_formKey.currentState.validate()){
+                        if(_form1Key.currentState.validate()){
                           controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
                           }
                         },
                       child: Text("Next"),
-                      ),
+                      ) ,
+                    ),
                   Padding(padding:const EdgeInsets.all(10.0),
                     child: RaisedButton(
                       onPressed: (){
@@ -223,10 +290,12 @@ class MyCustomFormState extends State<MyCustomForm> {
                       )
                     )
                   ],
-                ),
+                )
+              )),
 
 //page 3 start
-              Column(
+SingleChildScrollView(
+  child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
                   Center(
@@ -249,9 +318,7 @@ class MyCustomFormState extends State<MyCustomForm> {
                     padding: const EdgeInsets.all(10.0),
                     child: RaisedButton(
                       onPressed: (){
-                        if (_formKey.currentState.validate()) {
-                          controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
-                          }
+                          controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);                          
                       },
                       child: Text("Next"),
                     ),
@@ -266,11 +333,13 @@ class MyCustomFormState extends State<MyCustomForm> {
                       )
                     ),
                   ]
-                ),
+)),
 
     //Page 4 Start
-
-              Column(
+    SingleChildScrollView(
+  child: Form(
+              key:_form2Key,
+              child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
                   TextFormField(
@@ -279,6 +348,7 @@ class MyCustomFormState extends State<MyCustomForm> {
                       icon: Icon(Icons.home)
                     ),
                     controller: _addresscontroller,
+                    focusNode: _addressFocus,
                     validator: (value) {
                       if (value.isEmpty) {
                         return 'Please enter some text';
@@ -288,15 +358,18 @@ class MyCustomFormState extends State<MyCustomForm> {
                         }
                       response.address=value;
                       return null;
-                      },  
+                      },
+                    onFieldSubmitted: (value) {
+                      _fieldFocusChange(context, _addressFocus, _suburbFocus);
+                    },    
                     ),
-
                     TextFormField(
                       decoration: const InputDecoration(
                         labelText: 'Suburb',
                         icon: Icon(Icons.location_on)
                         ),
                         controller: _suburbcontroller,
+                        focusNode: _suburbFocus,
                       validator: (value) {
                          if (value.isEmpty) {
                         return 'Please enter some text';
@@ -307,6 +380,9 @@ class MyCustomFormState extends State<MyCustomForm> {
                       response.suburb=value;
                       return null;
                       },
+                      onFieldSubmitted: (value) {
+                      _fieldFocusChange(context, _suburbFocus, _stateFocus);
+                    },
                     ),
                     TextFormField(
                       decoration: const InputDecoration(
@@ -314,41 +390,46 @@ class MyCustomFormState extends State<MyCustomForm> {
                         icon: Icon(Icons.map)
                         ),
                         controller: _statecontroller,
+                        focusNode: _stateFocus,
                       validator: (value) {
-                         if (value.isEmpty) {
-                        return 'Please enter some text';
-                        }
-                      else if (value.length>40) {
-                        return 'Please enter no more than 40 characters';
-                        }
-                      response.state=value;
-                      return null;
-                      },),
+                        if (value.isEmpty) {
+                          return 'Please enter some text';
+                          }
+                          else if (value.length>40) {
+                            return 'Please enter no more than 40 characters';
+                            }
+                        response.state=value;
+                        return null;
+                        },
+                      onFieldSubmitted: (value) {
+                        _fieldFocusChange(context, _stateFocus, _postcodeFocus);
+                        },
+                      ),
                     TextFormField(
                       decoration: const InputDecoration(
                         labelText: 'Postcode',
                         icon: Icon(Icons.local_post_office)
                         ),
                       controller: _postcodecontroller,
+                      focusNode: _postcodeFocus,
                       keyboardType: TextInputType.number,
                       inputFormatters: [WhitelistingTextInputFormatter.digitsOnly],
                       validator: (value){
-                      if(value.isEmpty)
-                      {
-                        return 'Please enter some text';
-                      }
-                      else if(value.length<4||value.length>4)
-                      {
-                        return 'Please Enter a 4 digit postcode';
-                      }
-                      response.postcode=value;
-                      return null;
-                    },),
+                        if(value.isEmpty) {
+                          return 'Please enter some text';
+                          }
+                        else if(value.length<4||value.length>4) {
+                          return 'Please Enter a 4 digit postcode';
+                          }
+                        response.postcode=value;
+                        return null;
+                        },
+                      ),
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: RaisedButton(
                       onPressed: () {
-                        if(_formKey.currentState.validate()) {
+                        if(_form2Key.currentState.validate()) {
                           controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
                           }
                         },
@@ -364,10 +445,14 @@ class MyCustomFormState extends State<MyCustomForm> {
                       )
                     ),
                   ],
-                ),
+                )
+              )),
 
     //page 5 Start
-              Column(
+          SingleChildScrollView(
+            child:Form(
+              key:_form3Key,
+              child:Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
                   TextFormField(
@@ -376,6 +461,8 @@ class MyCustomFormState extends State<MyCustomForm> {
                       icon: Icon(Icons.phone)
                     ),
                     keyboardType: TextInputType.phone,
+                    controller: _phonecontroller,
+                    focusNode: _phoneFocus,
                     inputFormatters: [WhitelistingTextInputFormatter.digitsOnly],
                     validator: (value){
                       if (value.isEmpty)
@@ -390,6 +477,9 @@ class MyCustomFormState extends State<MyCustomForm> {
                       response.phone=value;
                       return null;
                     },
+                    onFieldSubmitted: (term) {
+                      _fieldFocusChange(context, _phoneFocus, _emailFocus);
+                    },
                     ),
                     TextFormField(
                     decoration: const InputDecoration(
@@ -397,6 +487,8 @@ class MyCustomFormState extends State<MyCustomForm> {
                       icon: Icon(Icons.email)
                     ),
                     keyboardType: TextInputType.emailAddress,
+                    controller: _emailcontroller,
+                    focusNode: _emailFocus,
                     validator: (value){
                       if (value.isEmpty)
                       {
@@ -418,7 +510,7 @@ class MyCustomFormState extends State<MyCustomForm> {
                     padding: const EdgeInsets.all(10.0),
                     child: RaisedButton(
                       onPressed: () {
-                        if(_formKey.currentState.validate()) {
+                        if(_form3Key.currentState.validate()) {
                           controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
                           }
                         },
@@ -435,48 +527,374 @@ class MyCustomFormState extends State<MyCustomForm> {
                     ),
                   ]
                 )
+            )
+        )
     ,
 //page 6 start
-    Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: <Widget>[
-      Text("page6"),
-      Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: RaisedButton(
-                      onPressed: () {
-                        if(_formKey.currentState.validate()) {
+SingleChildScrollView(
+  child:Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: <Widget>[
+                Text("Your dog is trained for:"),
+                GestureDetector(
+                  onTap:(){setState(() {
+                   response.dogTrainedFor="Dog Guide used for mobility" ;
+                   dogtrainedforvalid=true;
+                  });} ,
+                  child: 
+                ListTile(
+                  title: const Text('Dog Guide used for mobility by people who are blind or vision impaired'),
+                  leading: Radio(
+                    value: "Dog Guide used for mobility",
+                    groupValue: response.dogTrainedFor,
+                    onChanged: (String value) {
+                      setState(() {
+                        response.dogTrainedFor=value; 
+                        });
+                      dogtrainedforvalid=true;
+                      },
+                    ),
+                  ),
+                  ),
+                  GestureDetector(
+                  onTap:(){setState(() {
+                   response.dogTrainedFor="Puppy Raiser" ;
+                   dogtrainedforvalid=true;
+                  });} ,
+                  child: 
+                ListTile(
+                  title: const Text('Puppy Raiser involved in a training program'),
+                  leading: Radio(
+                    value: "Puppy Raiser",
+                    groupValue: response.dogTrainedFor,
+                    onChanged: (String value) {
+                      setState(() {
+                        response.dogTrainedFor=value; 
+                        });
+                      dogtrainedforvalid=true;
+                      },
+                    ),
+                  )),
+                  GestureDetector(
+                  onTap:(){setState(() {
+                   response.dogTrainedFor="N/A" ;
+                   dogtrainedforvalid=true;
+                  });} ,
+                  child: 
+                ListTile(
+                  title: const Text('Not applicable'),
+                  leading: Radio(
+                    value: "N/A",
+                    groupValue: response.dogTrainedFor,
+                    onChanged: (String value) {
+                      setState(() {
+                        response.dogTrainedFor=value; 
+                        });
+                      dogtrainedforvalid=true;
+                      },
+                    ),
+                  )
+                ),     
+                Padding(                 
+                  padding:const EdgeInsets.all(10.0),
+                  child:                 
+                    RaisedButton(
+                      onPressed: () {                            
+                      // Validate returns true if the form is valid, otherwise false.
+                        if (dogtrainedforvalid) {
                           controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
                           }
+                        else {
+                          Scaffold.of(context).showSnackBar(SnackBar(content: Text('Please Select Membership Type'), duration: Duration(seconds: 3),));
+                          }
                         },
-                      child: Text("Next"),
-                      ),  
-                    ),
-                  Padding(padding:const EdgeInsets.all(10.0),
-                    child: RaisedButton(
-                      onPressed: (){
-                        controller.previousPage(duration: kTabScrollDuration,curve: Curves.ease);
-                        },
-                      child: Text("Back"),
+                      child: Text('Next'),
                       )
-                    )
-      ],
-    )
+                  ),
+                                    Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child:RaisedButton(
+                  onPressed: () {
+                    controller.previousPage(duration: kTabScrollDuration,curve: Curves.ease);
+                  },
+                  child: Text('Back'),
+                ),
+                  )
+                ],
+              )
+            )
     ,
 //page 7 start
-    Column(
+SingleChildScrollView(
+  child:
+    Form(
+      key: _form4Key,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          TextFormField(
+            decoration: const InputDecoration(
+              labelText: 'Name of dog guide or puppy',
+              icon: Icon(FontAwesomeIcons.dog)
+              ),
+            controller: _dognamecontroller,
+            focusNode: _dogNameFocus,
+            validator: (value){
+              if (value!=null){
+                if(value.length>40)
+                {return "Please Enter a name Shorter than 40 Characters";}
+              }
+              response.dogName=value;
+              return null;
+            },
+            onFieldSubmitted: (term) {
+          _fieldFocusChange(context, _dogNameFocus, _dogBreedFocus);
+        },
+          ),
+          TextFormField(
+            decoration: const InputDecoration(
+              labelText: 'Breed of dog',
+              icon: Icon(FontAwesomeIcons.paw)
+              ),
+            controller: _dogbreedcontroller,
+            focusNode: _dogBreedFocus,
+            validator: (value){
+              if (value!=null){
+                if(value.length>40)
+                {return "Please Enter a breed Shorter than 40 Characters";}
+              }
+              response.dogBreed=value;
+              return null;
+            },
+            onFieldSubmitted: (term) {
+              _fieldFocusChange(context, _dogBreedFocus, _dogTrainerFocus);
+              },
+          ),
+          TextFormField(
+            decoration: const InputDecoration(
+              labelText: 'Training provider or organisation',
+              icon: Icon(FontAwesomeIcons.bone)
+              ),
+            controller: _dogtrainercontroller,
+            focusNode: _dogTrainerFocus,
+            validator: (value){
+              if (value!=null){
+                if(value.length>100)
+                {return "Please Enter a Trainer Shorter than 100 Characters";}
+              }
+              response.trainer=value;
+              return null;
+            },
+          ),
+          Padding(
+            padding: const EdgeInsets.all(10.0),
+            child: RaisedButton(
+             onPressed: () {
+                if(_form4Key.currentState.validate()) {
+                  controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
+                 }
+               },
+              child: Text("Next"),
+             ),  
+           ),
+         Padding(padding:const EdgeInsets.all(10.0),
+           child: RaisedButton(
+              onPressed: (){
+                controller.previousPage(duration: kTabScrollDuration,curve: Curves.ease);
+               },
+             child: Text("Back"),
+             )
+           )
+          ],
+        ),
+      )
+    ),
+//page 8 start
+SingleChildScrollView(
+  child:Form(
+    key: _form5Key,
+    child:Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
-      Text("page7"),
-      Padding(
+        Text("Is your dog is also trained to assist you with a disability other than blindness or vision impairment?"),
+        GestureDetector(
+                  onTap:(){setState(() {
+                   response.dogTrainedForOther="N/A" ;
+                   dogtrainedforother=false;
+                  });} ,
+                  child: 
+                ListTile(
+                  title: const Text('No'),
+                  leading: Radio(
+                    value: false,
+                    groupValue: dogtrainedforother,
+                    ),
+                  ),
+                  ),
+        GestureDetector(
+                  onTap:(){
+                    setState(() {
+                      dogtrainedforother=true;
+                      });
+                    FocusScope.of(context).requestFocus(_dogTrainedForOtherFocus);
+                    } ,
+                  child: 
+                ListTile(
+                  title: const Text('Yes'),
+                  leading: Radio(
+                    value: true,
+                    groupValue: dogtrainedforother,
+                    ),
+                  ),
+                  ),
+        TextFormField(
+          //keyboardType: TextInputType.multiline,
+          maxLines: null,
+          decoration: const InputDecoration(
+           labelText: 'Please indicate what the dog is trained for?',
+            icon: Icon(Icons.help)
+            ),
+            enabled: dogtrainedforother,
+         controller: _dogtrainedforothercontroller,
+          focusNode: _dogTrainedForOtherFocus,
+          validator: (value){
+            if(dogtrainedforother) {
+              if (value.isEmpty) {
+                return "Please enter an answer, or select no";
+                }
+              if(value.length>100) { 
+                return "Please Enter a response Shorter than 100 Characters";
+                }
+              }
+              response.dogTrainedForOther=value;
+              return null;
+            },
+          ),
+        Padding(
+          padding: const EdgeInsets.all(10.0),
+            child: RaisedButton(
+              onPressed: () {
+                if(_form5Key.currentState.validate()) {
+                   controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
+                }
+                },
+              child: Text("Next"),
+              ),  
+            ),
+        Padding(padding:const EdgeInsets.all(10.0),
+          child: RaisedButton(
+            onPressed: (){
+              controller.previousPage(duration: kTabScrollDuration,curve: Curves.ease);
+              },
+            child: Text("Back"),
+            )
+          )
+        ],
+     ) 
+    )
+  ),
+//page 9 start
+SingleChildScrollView(
+  child:Form(
+    key: _form6Key,
+    child:Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: <Widget>[
+        Text("Do you work for a Dog Guide or other blindness organisation?"),
+        GestureDetector(
+          onTap:(){setState(() {
+            response.workForOrg=false ;
+            });},
+          child: 
+            ListTile(
+              title: const Text('No'),
+              leading: Radio(
+                value: false,
+                groupValue: response.workForOrg,
+                ),
+              ),
+          ),
+        GestureDetector(
+          onTap:(){
+            setState(() {
+              response.workForOrg=true;
+              });
+            FocusScope.of(context).requestFocus(_organisationNameFocus);
+            } ,
+          child: 
+            ListTile(
+              title: const Text('Yes'),
+              leading: Radio(
+                value: true,
+                groupValue: response.workForOrg,
+                ),
+              ),
+          ),
+        TextFormField(
+          onSaved: (value){
+            maxlines=null;
+          },
+          //keyboardType: TextInputType.multiline,
+          maxLines: maxlines,
+          decoration: const InputDecoration(
+           labelText: 'Name of organisation',
+           hintText: 'Name of Dog Guide or Assistance dog provider, or other blindness organisation',
+            icon: Icon(Icons.business)
+            ),
+            enabled: response.workForOrg,
+         controller: _organisationnamecontroller,
+          focusNode: _organisationNameFocus,
+          validator: (value){
+            if(dogtrainedforother) {
+              if (value.isEmpty) {
+                return "Please enter the name of the organisation, or select no";
+                }
+              if(value.length>100) { 
+                return "Please Enter a response Shorter than 100 Characters";
+                }
+              }
+              response.workForOrgName=value;
+              return null;
+            },
+            onFieldSubmitted: (term) {
+              _fieldFocusChange(context, _organisationNameFocus, _positionFocus);
+            } ,
+          ),
+          TextFormField(
+          //keyboardType: TextInputType.multiline,
+          maxLines: null,
+          decoration: const InputDecoration(
+           labelText: 'Position or Title',
+            icon: Icon(FontAwesomeIcons.userTie)
+            ),
+            enabled: response.workForOrg,
+         controller: _positioncontroller,
+          focusNode: _positionFocus,
+          validator: (value){
+            if(dogtrainedforother) {
+              if (value.isEmpty) {
+                return "Please enter the name of the Position, or select no";
+                }
+              if(value.length>100) { 
+                return "Please Enter a response Shorter than 100 Characters";
+                }
+              }
+              return null;
+            },
+          ),  
+        Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: RaisedButton(
                       onPressed: () {
-                        if(_formKey.currentState.validate()) {
-                          controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
-                          }
+                         if(_form6Key.currentState.validate()) {
+                           controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
+                            // Firestore.instance.runTransaction((Transaction) async {
+                            //   await Transaction.update(Firestore.instance.collection('responses').snapshots(), response)
+                            // })
+                           }
                         },
-                      child: Text("Next"),
+                      child: Text("Submit"),
                       ),  
                     ),
                   Padding(padding:const EdgeInsets.all(10.0),
@@ -488,10 +906,9 @@ class MyCustomFormState extends State<MyCustomForm> {
                       )
                     )
       ],
-    )
-    ,
-//page 8 start
-    Column(
+),),),
+//page 10 start
+Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
       Text("page8"),
@@ -499,9 +916,9 @@ class MyCustomFormState extends State<MyCustomForm> {
                     padding: const EdgeInsets.all(10.0),
                     child: RaisedButton(
                       onPressed: () {
-                        if(_formKey.currentState.validate()) {
-                          controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
-                          }
+                        // if(_formKey.currentState.validate()) {
+                        //   controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
+                        //   }
                         },
                       child: Text("Next"),
                       ),  
@@ -516,7 +933,7 @@ class MyCustomFormState extends State<MyCustomForm> {
                     )
       ],
     )
-    ],)))
+    ],))
 ;
   }
 }

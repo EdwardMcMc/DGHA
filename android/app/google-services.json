@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "508085494044",
+    "firebase_url": "https://dgha-app.firebaseio.com",
+    "project_id": "dgha-app",
+    "storage_bucket": "dgha-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508085494044:android:a11d2c831371214d",
+        "android_client_info": {
+          "package_name": "dgha.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508085494044-pre9k8sehllonrgq4t9k8tn7drrr4oik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJRhB3N--SUVdwh_-yb9pCTfKbr7xBf4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508085494044-pre9k8sehllonrgq4t9k8tn7drrr4oik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
