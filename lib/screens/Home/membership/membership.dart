@@ -6,6 +6,21 @@ class Membership extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: Padding(
+          padding: EdgeInsets.all(10.0),
+          child: MaterialButton(
+            height: 40.0,
+            minWidth: 200.0,
+            color: Theme.of(context).primaryColor,
+            textColor: Colors.white,
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute<void>(builder: (context) => MyCustomForm()),
+              );
+            },
+            child: Text('Sign Up Now'),
+          )),
       appBar: AppBar(title: Text('Membership')),
       body: Column(children: <Widget>[
         Container(
@@ -32,15 +47,6 @@ class Membership extends StatelessWidget {
           padding: ContainerPadding,
           child: Text(
               "We encourage employees of dog guide organisations to join, trainers, instructors and puppy raisers are welcome."),
-        ),
-        RaisedButton(
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute<void>(builder: (context) => MyCustomForm()),
-            );
-          },
-          child: Text('Form'),
         ),
       ]),
     );
