@@ -4,6 +4,8 @@ import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import '../../models/formresponse.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:firebase_database/firebase_database.dart';
+import 'package:uuid/uuid.dart';
 
 
 class MyCustomForm extends StatefulWidget {
@@ -14,6 +16,9 @@ class MyCustomForm extends StatefulWidget {
 }
 
 class MyCustomFormState extends State<MyCustomForm> {
+
+final databaseReference = FirebaseDatabase.instance.reference();
+var uuid = new Uuid();
 
  //Form Keys: used to define a form and perform validation
 final _form1Key = GlobalKey<FormState>(); //page 2
@@ -85,6 +90,15 @@ _fieldFocusChange(BuildContext context, FocusNode currentFocus,FocusNode nextFoc
     else
     {
       return DateTime.now();
+    }
+  }
+  String dateToString(DateTime d){
+    try {
+      String s=d.toIso8601String();
+      return s;
+    }
+    catch (e){
+      return "null";
     }
   }
 
@@ -179,12 +193,7 @@ SingleChildScrollView(
                     padding: const EdgeInsets.all(10.0),
                     child:RaisedButton(
                   onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute<void>(
-                          builder: (context) => Membership()),
-                    );
-                  },
+                    Navigator.pop(context); },
                   child: Text('Back'),
                 ),
                   )
@@ -763,12 +772,19 @@ SingleChildScrollView(
               if (value.isEmpty) {
                 return "Please enter an answer, or select no";
                 }
-              if(value.length>100) { 
+              else if(value.length>100) { 
                 return "Please Enter a response Shorter than 100 Characters";
                 }
+              else {
+                response.dogTrainedForOther=value;
+                return null; 
+                }
               }
-              response.dogTrainedForOther=value;
+            else{
+              response.dogTrainedForOther='';
               return null;
+            }
+
             },
           ),
         Padding(
@@ -805,13 +821,14 @@ SingleChildScrollView(
         GestureDetector(
           onTap:(){setState(() {
             response.workForOrg=false ;
+            workfororg=false;
             });},
           child: 
             ListTile(
               title: const Text('No'),
               leading: Radio(
                 value: false,
-                groupValue: response.workForOrg,
+                groupValue: workfororg,
                 ),
               ),
           ),
@@ -819,6 +836,7 @@ SingleChildScrollView(
           onTap:(){
             setState(() {
               response.workForOrg=true;
+              workfororg=true;
               });
             FocusScope.of(context).requestFocus(_organisationNameFocus);
             } ,
@@ -827,7 +845,7 @@ SingleChildScrollView(
               title: const Text('Yes'),
               leading: Radio(
                 value: true,
-                groupValue: response.workForOrg,
+                groupValue: workfororg,
                 ),
               ),
           ),
@@ -842,20 +860,26 @@ SingleChildScrollView(
            hintText: 'Name of Dog Guide or Assistance dog provider, or other blindness organisation',
             icon: Icon(Icons.business)
             ),
-            enabled: response.workForOrg,
+            enabled: workfororg,
          controller: _organisationnamecontroller,
           focusNode: _organisationNameFocus,
           validator: (value){
-            if(dogtrainedforother) {
+            if(workfororg) {
               if (value.isEmpty) {
                 return "Please enter the name of the organisation, or select no";
                 }
-              if(value.length>100) { 
+              else if(value.length>100) { 
                 return "Please Enter a response Shorter than 100 Characters";
                 }
+              else {
+                response.workForOrgName=value;
+                return null;
+                }
               }
-              response.workForOrgName=value;
+            else{
+              response.workForOrgName='';
               return null;
+              }
             },
             onFieldSubmitted: (term) {
               _fieldFocusChange(context, _organisationNameFocus, _positionFocus);
@@ -868,19 +892,26 @@ SingleChildScrollView(
            labelText: 'Position or Title',
             icon: Icon(FontAwesomeIcons.userTie)
             ),
-            enabled: response.workForOrg,
+            enabled: workfororg,
          controller: _positioncontroller,
           focusNode: _positionFocus,
           validator: (value){
-            if(dogtrainedforother) {
+            if(workfororg) {
               if (value.isEmpty) {
                 return "Please enter the name of the Position, or select no";
                 }
-              if(value.length>100) { 
+              else if(value.length>100) { 
                 return "Please Enter a response Shorter than 100 Characters";
                 }
+              else {
+                response.workForOrgPosition=value;
+                return null;
+                }
               }
-              return null;
+              else{
+                response.workForOrgPosition='';
+                return null;
+                }
             },
           ),  
         Padding(
@@ -888,11 +919,32 @@ SingleChildScrollView(
                     child: RaisedButton(
                       onPressed: () {
                          if(_form6Key.currentState.validate()) {
-                           controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
-                            // Firestore.instance.runTransaction((Transaction) async {
-                            //   await Transaction.update(Firestore.instance.collection('responses').snapshots(), response)
-                            // })
-                           }
+                           try{
+                             databaseReference.child(uuid.v4()).set({
+                              'memberType':response.memberType,
+                              'title':response.title,
+                              'fname':response.fname,
+                              'lname':response.lname,
+                              'dob':dateToString(response.dob),
+                              'address':response.address,
+                              'suburb':response.suburb,
+                              'state':response.state,
+                              'postcode':response.postcode,
+                              'phone':response.phone,
+                              'email':response.email,
+                              'dogTrainedFor':response.dogTrainedFor,
+                              'dogName':response.dogName,
+                              'dogBreed':response.dogBreed,
+                              'trainer':response.trainer,
+                              'dogTrainedForOther':response.dogTrainedForOther,
+                              'workForOrg':response.workForOrg.toString(),
+                              'workForOrgName':response.workForOrgName,
+                              'workForOrgPosition':response.workForOrgPosition,
+                              });
+                              controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
+                              }
+                            catch(e){Scaffold.of(context).showSnackBar(SnackBar(content: Text('Yay! A SnackBar!')));} 
+                            }
                         },
                       child: Text("Submit"),
                       ),  
@@ -911,26 +963,23 @@ SingleChildScrollView(
 Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
-      Text("page8"),
+      Text("Success, Your application has been sent"),
       Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: RaisedButton(
-                      onPressed: () {
-                        // if(_formKey.currentState.validate()) {
-                        //   controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
-                        //   }
+                      onPressed: () {   
+                        Navigator.pop(context);
                         },
-                      child: Text("Next"),
+                      child: Text("Done"),
                       ),  
                     ),
-                  Padding(padding:const EdgeInsets.all(10.0),
-                    child: RaisedButton(
+                    RaisedButton(
                       onPressed: (){
                         controller.previousPage(duration: kTabScrollDuration,curve: Curves.ease);
                         },
-                      child: Text("Back"),
+                      child: Text("Back (remove button after development)"),
                       )
-                    )
+
       ],
     )
     ],))

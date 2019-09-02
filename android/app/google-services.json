@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:508085494044:android:ccf3915cb44d7caa",
+        "android_client_info": {
+          "package_name": "com.example.dgha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508085494044-pre9k8sehllonrgq4t9k8tn7drrr4oik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJRhB3N--SUVdwh_-yb9pCTfKbr7xBf4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508085494044-pre9k8sehllonrgq4t9k8tn7drrr4oik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:508085494044:android:a11d2c831371214d",
         "android_client_info": {
           "package_name": "dgha.app"
