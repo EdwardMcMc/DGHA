@@ -16,7 +16,7 @@ class SA extends State {
         title: 'Dog and Cat Management Act 1995',
         link:
             'http://www.legislation.sa.gov.au/LZ/C/A/Dog%20and%20Cat%20Management%20Act%201995.aspx/',
-        section: '\r\rSection/s Applicable:\r\r Section 21, Accreditation of Disability Dogs, Guide Dogs etc\r\rSection 81, Disability Dogs, Guide Dogs etc\r\r',
+        section: '\n\nSection/s Applicable:\n\n Section 21, Accreditation of Disability Dogs, Guide Dogs etc\n\nSection 81, Disability Dogs, Guide Dogs etc\n\n',
         body: [
           'Excerpt from Section 81:',
           '(1) Despite this Act or any other Act?',
