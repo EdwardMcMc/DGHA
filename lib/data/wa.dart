@@ -16,7 +16,7 @@ class WA extends State {
         title: 'Dog Act 1976',
         link:
             'http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/',
-        section: '\n\nSection/s Applicable:\n\n Section 8, Special Provisions for Guide Dogs\n\n',
+        section: '\r\rSection/s Applicable:\r\r Section 8, Special Provisions for Guide Dogs\r\r',
         body: [
           'Excerpt from Section 8:',
           '(1) Notwithstanding anything contained elsewhere in this Act or in any other Act, regulation, local law',

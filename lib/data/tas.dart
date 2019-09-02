@@ -16,7 +16,7 @@ class TAS extends State {
         title: 'Guide Dogs and Hearing Dogs Act 1967',
         link:
             'http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967',
-        section: '\n\nSection/s Applicable:\n\nSection 3, Rights of Guide Dog Users and Trainers in Respect of Public Places and Transport\n\n',
+        section: '\r\rSection/s Applicable:\r\rSection 3, Rights of Guide Dog Users and Trainers in Respect of Public Places and Transport\r\r',
         body: [
           'Excerpt from Section 3:',
           '(1) A person who is blind or vision impaired, deaf or hearing impaired or a trainer?',

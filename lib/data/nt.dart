@@ -16,7 +16,7 @@ class NT extends State {
         title: 'Anti Discrimination Act 1992',
         link:
             'http://www.adc.nt.gov.au/',
-        section: '\n\nSection/s Applicable:\n\n Section 21, Discrimination by Refusal to Allow Guide Dog.\n\n',
+        section: '\r\rSection/s Applicable:\r\r Section 21, Discrimination by Refusal to Allow Guide Dog.\r\r',
         body: [
           'Excerpt from Section 21:',
           '(1) For the purposes of this Act, a person discriminates on the ground of impairment against a person',

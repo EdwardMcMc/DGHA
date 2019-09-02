@@ -16,7 +16,7 @@ class ACT extends State {
         title: 'Domestic Animals Act 2000',
         link:
             'http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf',
-        section: '\n\nSection/s Applicable:\n\n Section 104, Rights of Persons Accompanied by Assistance Animals\n\nSection 105, Exclusion of Assistance Animal from Public Place\n\nSection 106, Imposition of Excess Charges for Assistance Animal\n\n',
+        section: '\r\rSection/s Applicable:\r\r Section 104, Rights of Persons Accompanied by Assistance Animals\r\rSection 105, Exclusion of Assistance Animal from Public Place\r\rSection 106, Imposition of Excess Charges for Assistance Animal\r\r',
         body: [
           'Excerpt from Section 104:',
           '(1) Despite any other territory law (other than the Discrimination Act 1991 ), a person with a disability',

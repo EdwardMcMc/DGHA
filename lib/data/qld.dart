@@ -16,7 +16,7 @@ class QLD extends State {
         title: 'Guide, Hearing and Assistance Dogs Act 2009',
         link:
             'http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs',
-        section: '\n\nSection/s Applicable:\n\nSection 8, People with a Disability May be Accompanied by Their Guide, Hearing and Assistance Dogs\n\n',
+        section: '\r\rSection/s Applicable:\r\rSection 8, People with a Disability May be Accompanied by Their Guide, Hearing and Assistance Dogs\r\r',
         body: [
           'Excerpt from Section 8:',
           '(1) Despite any other Act, a person with a disability who relies on a guide, hearing or assistance dog to',
