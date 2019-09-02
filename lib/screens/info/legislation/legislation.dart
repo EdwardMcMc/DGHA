@@ -39,12 +39,13 @@ class Legislation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Legislation')),
-      body: Container(
-        child: Column(
-          children: List.of(_renderLegislation(context)),
-        ),
-      ),
-    );
+        appBar: AppBar(title: Text('Legislation')),
+        body: SingleChildScrollView(
+          child: Container(
+            child: Column(
+              children: List.of(_renderLegislation(context)),
+            ),
+          ),
+        ));
   }
 }
