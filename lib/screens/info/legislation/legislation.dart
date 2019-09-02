@@ -35,8 +35,10 @@ class Legislation extends StatelessWidget {
                   style: Theme.of(context).textTheme.subhead),
               Text(state.legislation.first.link),
               Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: state.legislation.first.body
-                      .map<Widget>((legislation) => Text(legislation))
+                      .map<Widget>((legislation) =>
+                          Text(legislation, textAlign: TextAlign.left))
                       .toList())
             ],
           )),
