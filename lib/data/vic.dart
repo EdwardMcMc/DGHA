@@ -13,16 +13,21 @@ class VIC extends State {
     temp.add(
       Legislation(
         language: language,
-        title: 'The Companion Animals Act 1998',
+        title: 'Domestic Animals ACT 1994',
         link:
-            'http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html',
-        section: 'SECT 59',
+            'http://www.austlii.edu.au/au/legis/vic/consol_act/daa1994163/',
+        section: '\n\nSection/s Applicable:\n\n Section 7, Exemptions for Guide Dogs\n',
         body: [
-          'Person with a disability entitled to be accompanied by assistance animal',
-          '59 Person with a disability entitled to be accompanied by assistance animal',
-          '(1) A person with a disability is entitled to be accompanied by an assistance animal being used bona fide by the person to assist the person, into or onto any building or place open to or used by the public or on any public transport.',
-          '(2) The person is not guilty of an offence merely because the person takes the animal into or onto or permits the animal to enter or be in or on any such building or place or any public transport while the person is using the animal bona fide to assist the person.',
-          '(3) This section applies despite the provisions of any other Act or instrument made under an Act.'
+          '(1) A visually impaired person or hearing impaired person who keeps and uses a dog as a guide dog is not\n',
+          'liable for an offence under this Act in respect of that dog, where, in acting in the manner which would\n',
+          'constitute the offence, the dog was performing its functions as a guide dog.\n',
+          '(4) Despite anything in any other Act or subordinate instrument a visually impaired person, hearing\n',
+          'impaired person or person fftraining a guide dog may, at all times and in all places, be accompanied by a\n',
+          'dog kept and used, or trained by him or her as a guide dog.',
+          '',
+          'Maximum Fine for Breach of Act:',
+          'Value of One Penalty Unit as of 2012:',
+          '\$125.19',
         ],
       ),
     );

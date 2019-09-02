@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:dgha/data/nsw.dart';
 import 'package:dgha/data/vic.dart';
+import 'package:dgha/data/qld.dart';
+import 'package:dgha/data/nt.dart';
+import 'package:dgha/data/sa.dart';
+import 'package:dgha/data/tas.dart';
+import 'package:dgha/data/wa.dart';
 import 'package:dgha/style.dart';
 
 class Legislation extends StatelessWidget {
@@ -11,7 +17,7 @@ class Legislation extends StatelessWidget {
     dynamic state;
     switch (this._state) {
       case 'VIC':
-        state = VIC();
+        state = QLD();
         break;
       default:
         break;
@@ -39,12 +45,13 @@ class Legislation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Legislation')),
-      body: Container(
-        child: Column(
-          children: List.of(_renderLegislation(context)),
-        ),
-      ),
-    );
+        appBar: AppBar(title: Text('Legislation')),
+        body: SingleChildScrollView(
+          child: Container(
+            child: Column(
+              children: List.of(_renderLegislation(context)),
+            ),
+          ),
+        ));
   }
 }
