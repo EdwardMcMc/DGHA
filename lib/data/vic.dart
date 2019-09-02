@@ -16,7 +16,7 @@ class VIC extends State {
         title: 'Domestic Animals ACT 1994',
         link:
             'http://www.austlii.edu.au/au/legis/vic/consol_act/daa1994163/',
-        section: '\n\nSection/s Applicable:\n\n Section 7, Exemptions for Guide Dogs\n',
+        section: '\n\nSection/s Applicable:\n\n Section 7, Exemptions for Guide Dogs\n\n',
         body: [
           '(1) A visually impaired person or hearing impaired person who keeps and uses a dog as a guide dog is not\n',
           'liable for an offence under this Act in respect of that dog, where, in acting in the manner which would\n',
