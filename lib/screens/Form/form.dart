@@ -4,6 +4,8 @@ import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import '../../models/formresponse.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:firebase_database/firebase_database.dart';
+import 'package:uuid/uuid.dart';
 
 
 class MyCustomForm extends StatefulWidget {
@@ -14,6 +16,9 @@ class MyCustomForm extends StatefulWidget {
 }
 
 class MyCustomFormState extends State<MyCustomForm> {
+
+final databaseReference = FirebaseDatabase.instance.reference();
+var uuid = new Uuid();
 
  //Form Keys: used to define a form and perform validation
 final _form1Key = GlobalKey<FormState>(); //page 2
@@ -165,6 +170,9 @@ SingleChildScrollView(
                     RaisedButton(
                       onPressed: () {                            
                       // Validate returns true if the form is valid, otherwise false.
+                        
+
+                        
                         if (membertypevalid) {
                           controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
                           }
@@ -916,6 +924,27 @@ Column(
                     padding: const EdgeInsets.all(10.0),
                     child: RaisedButton(
                       onPressed: () {
+                        databaseReference.child(uuid.v4()).set({
+                          'memberType':response.memberType,
+                          'title':response.title,
+                          'fname':response.fname,
+                          'lname':response.lname,
+                          'dob':response.dob,
+                          'address':response.address,
+                          'suburb':response.suburb,
+                          'state':response.state,
+                          'postcode':response.postcode,
+                          'phone':response.phone,
+                          'email':response.email,
+                          'dogTrainedFor':response.dogTrainedFor,
+                          'dogName':response.dogName,
+                          'dogBreed':response.dogBreed,
+                          'trainer':response.trainer,
+                          'dogTrainedForOther':response.dogTrainedForOther,
+                          'workForOrg':response.workForOrg,
+                          'workForOrgName':response.workForOrgName,
+                          'workForOrgPosition':response.workForOrgPosition
+                          });
                         // if(_formKey.currentState.validate()) {
                         //   controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
                         //   }
