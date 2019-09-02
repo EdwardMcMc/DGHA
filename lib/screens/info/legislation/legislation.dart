@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:dgha/data/nsw.dart';
 import 'package:dgha/data/vic.dart';
 import 'package:dgha/data/qld.dart';
+import 'package:dgha/data/nt.dart';
+import 'package:dgha/data/sa.dart';
+import 'package:dgha/data/tas.dart';
+import 'package:dgha/data/wa.dart';
 import 'package:dgha/style.dart';
 
 class Legislation extends StatelessWidget {
