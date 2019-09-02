@@ -16,7 +16,7 @@ class NSW extends State {
         title: 'The Companion Animals Act 1998',
         link:
             'http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html',
-        section: '\nSection/s Applicable:\n\n 14, Dogs Prohibited in Some Public Places\n\n 59, Person with a Disability entitled to be Accompanied by Assistance Animal\n\n 60, Assistance Animal Not to be Denied Entry\n 61, Unlawful to Impose Charge for Entry of Assistance Animal\n',
+        section: '\n\nSection/s Applicable:\n\n 14, Dogs Prohibited in Some Public Places\n\n 59, Person with a Disability entitled to be Accompanied by Assistance Animal\n\n 60, Assistance Animal Not to be Denied Entry\n 61, Unlawful to Impose Charge for Entry of Assistance Animal\n',
         body: [
           'Person with a disability entitled to be accompanied by assistance animal\n',
           '59 Person with a disability entitled to be accompanied by assistance animal\n',

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:dgha/data/nsw.dart';
 import 'package:dgha/data/vic.dart';
+import 'package:dgha/data/qld.dart';
 import 'package:dgha/style.dart';
 
 class Legislation extends StatelessWidget {
@@ -12,7 +13,7 @@ class Legislation extends StatelessWidget {
     dynamic state;
     switch (this._state) {
       case 'VIC':
-        state = VIC();
+        state = QLD();
         break;
       default:
         break;
