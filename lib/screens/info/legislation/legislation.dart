@@ -20,7 +20,7 @@ class Legislation extends StatelessWidget {
         state = QLD();
         break;
       default:
-        state = VIC();
+        state = QLD();
         break;
     }
     return [
