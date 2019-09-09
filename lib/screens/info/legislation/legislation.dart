@@ -8,6 +8,8 @@ import 'package:dgha/data/sa.dart';
 import 'package:dgha/data/tas.dart';
 import 'package:dgha/data/wa.dart';
 import 'package:dgha/style.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:dgha/screens/info/legislation/translate_popup.dart';
 
 class Legislation extends StatelessWidget {
   final String _state;
@@ -93,7 +95,8 @@ class Legislation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return MaterialApp(
+      home: Scaffold(
         appBar: AppBar(title: Text('Legislation')),
         body: SingleChildScrollView(
           child: Container(
@@ -101,6 +104,20 @@ class Legislation extends StatelessWidget {
               children: List.of(_renderLegislation(context)),
             ),
           ),
-        ));
+      ),
+        floatingActionButton: FloatingActionButton(
+        child: Icon(FontAwesomeIcons.language),
+        onPressed: () {
+          showDialog(
+            context: context,
+            builder: (BuildContext context) {
+              return TranslatePopup();
+            });
+              },
+              backgroundColor: Colors.blue,
+              foregroundColor: Colors.white,
+     )
+    )
+    );
   }
 }
