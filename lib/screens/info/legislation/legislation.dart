@@ -116,6 +116,7 @@ class Legislation extends StatelessWidget {
               },
               backgroundColor: Colors.blue,
               foregroundColor: Colors.white,
+              
      )
     )
     );
