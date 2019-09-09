@@ -9,30 +9,33 @@ class TranslatePopup extends StatefulWidget {
 
 class _TranslatePopup extends State<TranslatePopup> {
     String dropdownValue = 'One';
+    List<String> _languages = ['Mandarin', 'Arabic', 'Arabic', 'Vietnamese','Italian', 'Greek', 'Filipino', 'Hindi', 'Spanish', 'Punjabi', 'Persian', 'Korean', 'German', 'Nepali' ];
+    String _selectedLanguage;
+
     @override
     Widget build(BuildContext context) {
       return SimpleDialog(
         title: const Text('Select Language'),
         children: <Widget>[
           DropdownButton<String>(
-            value: dropdownValue,
+            hint: Text('Please choose a language'), 
+            value: _selectedLanguage,
             onChanged: (String newValue) {
               setState(() {
-                dropdownValue = newValue;
+                _selectedLanguage = newValue;
               });
             },
-            items: <String>['One', 'Two', 'Free', 'Four']
-                .map<DropdownMenuItem<String>>((String value) {
-              return DropdownMenuItem<String>(
-                value: value,
+            items: _languages.map((value) {
+              return DropdownMenuItem(
                 child: Text(value),
+                value: value,
               );
             }).toList(),
           ),
           RaisedButton(
             child: Text("Translate"),
             onPressed: () {
-              
+
             }
           )     
         ]
