@@ -9,7 +9,7 @@ class TranslatePopup extends StatefulWidget {
 
 class _TranslatePopup extends State<TranslatePopup> {
     String dropdownValue = 'One';
-    List<String> _languages = ['Mandarin', 'Arabic', 'Arabic', 'Vietnamese','Italian', 'Greek', 'Filipino', 'Hindi', 'Spanish', 'Punjabi', 'Persian', 'Korean', 'German', 'Nepali' ];
+    List<String> _languages = ['Mandarin', 'Arabic', 'Vietnamese','Italian', 'Greek', 'Filipino', 'Hindi', 'Spanish', 'Punjabi', 'Persian', 'Korean', 'German', 'Nepali' ];
     String _selectedLanguage;
 
     @override
