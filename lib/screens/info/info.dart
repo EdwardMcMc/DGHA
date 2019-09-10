@@ -2,9 +2,12 @@ import 'package:flutter/material.dart';
 import 'legislation/legislation.dart';
 import 'package:dgha/utils/geolocator.dart';
 import 'package:dgha/style.dart';
+import 'package:dgha/data/markdown/access.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 
 class Info extends StatelessWidget {
   final Geolocation _geolocation = Geolocation();
+  final Access access  = Access();
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +33,10 @@ class Info extends StatelessWidget {
           padding: ContainerPadding,
           child: Column(
             children: <Widget>[
+             Container(
+               padding: ContainerPadding,
+               child: MarkdownBody(data: access.english,),
+             ),
               Container(
                 padding: ContainerPadding,
                 child: Text('Legal obligations',

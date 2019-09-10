@@ -95,8 +95,7 @@ class Legislation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Scaffold(
         appBar: AppBar(title: Text('Legislation')),
         body: SingleChildScrollView(
           child: Container(
@@ -116,8 +115,8 @@ class Legislation extends StatelessWidget {
               },
               backgroundColor: Colors.blue,
               foregroundColor: Colors.white,
+              
      )
-    )
     );
   }
 }
