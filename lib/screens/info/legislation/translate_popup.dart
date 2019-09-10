@@ -8,15 +8,16 @@ class TranslatePopup extends StatefulWidget {
 }
 
 class _TranslatePopup extends State<TranslatePopup> {
-    String dropdownValue = 'One';
-    List<String> _languages = ['Mandarin', 'Arabic', 'Vietnamese','Italian', 'Greek', 'Filipino', 'Hindi', 'Spanish', 'Punjabi', 'Persian', 'Korean', 'German', 'Nepali' ];
+    List<String> _languages = ['English', 'Arabic', 'Chinese (Simplified)', 'Chinese (Traditional)', 'German','Greek', 'Hindi', 'Italian', 'Korean',  'Nepali', 'Persian', 'Punjabi', 'Spanish','Filipino' ,'Vietnamese' ];
     String _selectedLanguage;
 
     @override
     Widget build(BuildContext context) {
       return SimpleDialog(
+        
         title: const Text('Select Language'),
         children: <Widget>[
+          
           DropdownButton<String>(
             hint: Text('Please choose a language'), 
             value: _selectedLanguage,
@@ -38,8 +39,11 @@ class _TranslatePopup extends State<TranslatePopup> {
 
             }
           )     
-        ]
-        
+        ],
+        contentPadding: EdgeInsets.symmetric(
+          horizontal: 20,
+          vertical: 20,
+        )
       );
   }
 }
