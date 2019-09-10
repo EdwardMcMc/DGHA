@@ -39,6 +39,7 @@ final _form6Key = GlobalKey<FormState>(); //page 9
   int maxlines=2; 
   String datestring = "None selected";
   DateFormat dateFormat = DateFormat("MMMM d y");
+  Color iconcolor=Colors.black45;
 
   //Text Editing Controllers:
   //Used To Control text in forms
@@ -311,14 +312,14 @@ SingleChildScrollView(
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: <Widget>[
-                        Text("Date of Birth (optional)"),
+                        Text("Date of Birth (optional)",style: Theme.of(context).textTheme.title),
 
                         RaisedButton.icon(
                           icon:Icon(Icons.calendar_today),
                           onPressed: () => _selectDate(context),
                           label: Text('Select date'),
                           ),
-                          Text("Selected Date: "+ datestring),
+                          Text("Selected Date: "+ datestring,style: Theme.of(context).textTheme.title,),
                         ],
                       ),
                     ),
@@ -393,27 +394,77 @@ SingleChildScrollView(
                       _fieldFocusChange(context, _suburbFocus, _stateFocus);
                     },
                     ),
-                    TextFormField(
-                      decoration: const InputDecoration(
-                        labelText: 'State or Territory',
-                        icon: Icon(Icons.map)
-                        ),
-                        controller: _statecontroller,
-                        focusNode: _stateFocus,
-                      validator: (value) {
-                        if (value.isEmpty) {
-                          return 'Please enter some text';
-                          }
-                          else if (value.length>40) {
-                            return 'Please enter no more than 40 characters';
-                            }
-                        response.state=value;
-                        return null;
-                        },
-                      onFieldSubmitted: (value) {
-                        _fieldFocusChange(context, _stateFocus, _postcodeFocus);
-                        },
-                      ),
+                    Row(children: <Widget>[
+                      Padding(padding: const EdgeInsets.fromLTRB(2.0,2,10,2),
+                      child:Icon(Icons.map,color: iconcolor,)),
+                      DropdownButton<String>(
+                        hint: Text('State or Territory'),
+                        //isExpanded: true, 
+                        //icon: Icon(Icons.map),
+                        value: response.state,
+                        onChanged: (String newValue) {
+                          setState(() {
+                            response.state = newValue;
+                            });
+                          },
+                        items: [
+                          DropdownMenuItem(
+                            child: Text("Australian Capital Territory"),
+                            value: "ACT",
+                            ),
+                            DropdownMenuItem(
+                            child: Text("New South Wales"),
+                            value: "NSW",
+                            ),
+                            DropdownMenuItem(
+                            child: Text("Northern Territory"),
+                            value: "NT",
+                            ),
+                            DropdownMenuItem(
+                            child: Text("Queensland"),
+                            value: "QLD",
+                            ),
+                            DropdownMenuItem(
+                            child: Text("South Australia"),
+                            value: "SA",
+                            ),
+                            DropdownMenuItem(
+                            child: Text("Tasmania"),
+                            value: "Tas",
+                            ),
+                            DropdownMenuItem(
+                            child: Text("Victoria"),
+                            value: "Vic",
+                            ),
+                            DropdownMenuItem(
+                            child: Text("Western Australia"),
+                            value: "WA",
+                            ),
+                          ]
+          )],),
+
+                    
+                    // TextFormField(
+                    //   decoration: const InputDecoration(
+                    //     labelText: 'State or Territory',
+                    //     icon: Icon(Icons.map)
+                    //     ),
+                    //     controller: _statecontroller,
+                    //     focusNode: _stateFocus,
+                    //   validator: (value) {
+                    //     if (value.isEmpty) {
+                    //       return 'Please enter some text';
+                    //       }
+                    //       else if (value.length>40) {
+                    //         return 'Please enter no more than 40 characters';
+                    //         }
+                    //     response.state=value;
+                    //     return null;
+                    //     },
+                    //   onFieldSubmitted: (value) {
+                    //     _fieldFocusChange(context, _stateFocus, _postcodeFocus);
+                    //     },
+                    //   ),
                     TextFormField(
                       decoration: const InputDecoration(
                         labelText: 'Postcode',
@@ -506,6 +557,10 @@ SingleChildScrollView(
                       else if(!value.contains("@")) {
                         return "please enter a valid Email";
                         }
+                      else if(!value.contains('.'))
+                      {
+                        return "please enter a valid Email";
+                      }
                         //following doesn't work?
                       // else if(!value.contains('.')) {
                       //   return "please enter a valid Email";
@@ -960,10 +1015,21 @@ SingleChildScrollView(
       ],
 ),),),
 //page 10 start
+SingleChildScrollView(child: 
 Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
-      Text("Success, Your application has been sent"),
+      Text("Success!",style: Theme.of(context).textTheme.display1),
+      Text("Your application has been sent.\nOnce your membership application has been approved, there are two options for making your membership payment:\n"),
+      ListTile(
+        leading: Text("1."),
+        title: Text('Pay by direct deposit, with an electronic funds transfer, bank account details.')),
+      ListTile(
+        leading: Text("2."),
+        title: Text('Pay online using your PayPal account, or using your credit card, with secure PayPal, click on the Donate button below.')),
+      RaisedButton(child: Text('Paypal button coming soon'),),
+
+      
       Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: RaisedButton(
@@ -981,7 +1047,7 @@ Column(
                       )
 
       ],
-    )
+    ),)
     ],))
 ;
   }
