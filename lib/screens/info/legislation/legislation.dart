@@ -53,30 +53,6 @@ class _Legislation extends State<Legislation> {
       case 'ACT':
         state = ACT();
         break;
-      case 'Victoria':
-        state = VIC();
-        break;
-      case 'New South Wales':
-        state = NSW();
-        break;
-      case 'Queensland':
-        state = QLD();
-        break;
-      case 'Northern Territory':
-        state = NT();
-        break;
-      case 'South Australia':
-        state = SA();
-        break;
-      case 'Tasmania':
-        state = TAS();
-        break;
-      case 'Western Australia':
-        state = WA();
-        break;
-      case 'Australian Capital Territory':
-        state = ACT();
-        break;
       default:
         state = VIC();
         break;
@@ -107,7 +83,35 @@ class _Legislation extends State<Legislation> {
 
   @override
   Widget build(BuildContext context) {
-    print(_state);
+
+    // Fix state variable for android support
+    switch(this._state) {
+      case 'Victoria':
+        _state = "VIC";
+        break;
+      case 'New South Wales':
+        _state = "NSW";
+        break;
+      case 'Queensland':
+        _state = "QLD";
+        break;
+      case 'Northern Territory':
+        _state = "NT";
+        break;
+      case 'South Australia':
+        _state = "SA";
+        break;
+      case 'Tasmania':
+        _state = "TAS";
+        break;
+      case 'Western Australia':
+        _state = "WA";
+        break;
+      case 'Australian Capital Territory':
+        _state = "ACT";
+        break;
+    }
+
     return Scaffold(
         appBar: AppBar(
           title: DropdownButton<String>(
