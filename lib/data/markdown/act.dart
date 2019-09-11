@@ -1,4 +1,6 @@
-const String lACT = """# Domestic Animals Act 2000
+class ACT {
+  List<String> translations = [
+    """# Domestic Animals Act 2000
 ## Section/s Applicable:
 ### Section 104, Rights of Persons Accompanied by Assistance Animals
 ### Section 105, Exclusion of Assistance Animal from Public Place
@@ -18,31 +20,8 @@ It is not unlawful to impose a charge to a person with a dog guide if expense is
 
 Other Relevant Legislation:
 Discrimination Act (NT)
-""";
-class ACT{
-  List<String> translations=["act english example","ACT Arabic example"];
-  String english = """# Domestic Animals Act 2000
-## Section/s Applicable:
-### Section 104, Rights of Persons Accompanied by Assistance Animals
-### Section 105, Exclusion of Assistance Animal from Public Place
-### Section 106, Imposition of Excess Charges for Assistance Animal
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
-
-Excerpt from Section 104:
-(1) Despite any other territory law (other than the Discrimination Act 1991 ), a person with a disability accompanied by an assistance animal has the same right of access to, and the same right to the use of, a public place as a person who is not accompanied by an assistance animal.
-(2) Without limiting subsection (1), a person with a disability does not commit an offence merely by taking an assistance animal onto or into, or allowing the animal to enter, a public place.
-
-Maximum Fine for Breach of Act:
-10 penalty units
-Value of One Penalty Unit as of 2012: \$110.00
-
-Exceptions to Access under Act:
-It is not unlawful to impose a charge to a person with a dog guide if expense is reasonably occurred by the third person because of the presence of the dog guide.
-
-Other Relevant Legislation:
-Discrimination Act (NT)
-""";
-  String arabic = """قانون الحيوانات الأليفة لعام 2000
+""",
+    """قانون الحيوانات الأليفة لعام 2000
 ## القسم / ثانية قابلة للتطبيق:
 ### القسم 104 ، حقوق الأشخاص برفقة حيوانات المساعدة
 ### القسم 105 ، استبعاد مساعدة الحيوان من الأماكن العامة
@@ -62,9 +41,8 @@ Discrimination Act (NT)
 
 التشريعات ذات الصلة الأخرى:
 قانون التمييز (NT)
-""";
-
-  String chineses = """＃2000年家畜法案
+""",
+    """＃2000年家畜法案
 ##部分适用：
 ###第104节，援助动物陪同人员的权利
 ###第105节，将援助动物排除在公共场所之外
@@ -84,9 +62,8 @@ Discrimination Act (NT)
 
 其他相关立法：
 歧视法案（新界）
-""";
-
-String chineset = """＃2000年家畜法案
+""",
+    """＃2000年家畜法案
 ##部分適用：
 ###第104節，援助動物陪同人員的權利
 ###第105節，將援助動物排除在公共場所之外
@@ -106,7 +83,17 @@ String chineset = """＃2000年家畜法案
 
 其他相關立法：
 歧視法案（新界）
-""";
-
-
+""",
+    "act 5th language",
+    "act 6th language",
+    "act 7th language",
+    "act 8th language",
+    "act 9th language",
+    "act 10th language",
+    "act 11th language",
+    "act 12th language",
+    "act 13th language",
+    "act 14th language",
+    "act 15th language",
+  ];
 }

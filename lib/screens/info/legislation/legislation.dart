@@ -82,7 +82,10 @@ class _Legislation extends State<Legislation> {
           child: Column(
             children: <Widget>[
               Text(selectedLanguage.toString()),
-              MarkdownBody(data: state.translations[selectedIndex])
+              MarkdownBody(data: state.translations[selectedIndex], onTapLink: (href){
+                //TODO: Make link open in browser
+                print(href);
+              },)
             ],
           )),
     ];
@@ -220,9 +223,7 @@ class _Legislation extends State<Legislation> {
                               selectedIndex = 0;
                               break;
                           }
-
                           Navigator.pop(context);
-
                           setState(() {
                             selectedLanguage = newValue;
 
@@ -251,70 +252,9 @@ class _Legislation extends State<Legislation> {
                           );
                         }).toList(),
                       ),
-//                      RaisedButton(
-//                        child: Text("Translate"),
-//                        onPressed: () {
-//                          switch (selectedLanguage) {
-//                            case 'English':
-//                              selectedIndex = 0;
-//                              break;
-//                            case 'Arabic':
-//                              selectedIndex = 1;
-//                              break;
-//                            case 'Chinese (Simplified)':
-//                              selectedIndex = 2;
-//                              break;
-//                            case 'Chinese (Traditional)':
-//                              selectedIndex = 3;
-//                              break;
-//                            case 'Filipino':
-//                              selectedIndex = 4;
-//                              break;
-//                            case 'German':
-//                              selectedIndex = 5;
-//                              break;
-//                            case 'Greek':
-//                              selectedIndex = 6;
-//                              break;
-//                            case 'Hindi':
-//                              selectedIndex = 7;
-//                              break;
-//                            case 'Italian':
-//                              selectedIndex = 8;
-//                              break;
-//                            case 'Korean':
-//                              selectedIndex = 9;
-//                              break;
-//                            case 'Nepali':
-//                              selectedIndex = 10;
-//                              break;
-//                            case 'Persian':
-//                              selectedIndex = 11;
-//                              break;
-//                            case 'Punjabi':
-//                              selectedIndex = 12;
-//                              break;
-//                            case 'Spanish':
-//                              selectedIndex = 13;
-//                              break;
-//                            case 'Vietnamese':
-//                              selectedIndex = 14;
-//                              break;
-//                            default:
-//                              selectedIndex = 0;
-//                              break;
-//                          }
-//                          Navigator.pop(context);
-//                        },
-//                      )
                     ],
                   );
                 });
-            // showDialog(
-            //     context: context,
-            //     builder: (BuildContext context) {
-            //       return TranslatePopup();
-            //     });
           },
           backgroundColor: Colors.blue,
           foregroundColor: Colors.white,

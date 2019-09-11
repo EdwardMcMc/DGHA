@@ -28,5 +28,4 @@ class VIC {
     "vic 15th language",
   ];
 
-  final String English = "";
 }
