@@ -120,7 +120,10 @@ class _Legislation extends State<Legislation> {
     return Scaffold(
         appBar: AppBar(
           title: DropdownButton<String>(
-            value: _state,
+            hint: Text(_state, style: TextStyle(color: Colors.white),),
+            iconEnabledColor: Colors.white,
+            iconDisabledColor: Colors.white,
+            //value: _state,
             onChanged: (String newValue) {
               setState(() { _state = newValue; });
             },
