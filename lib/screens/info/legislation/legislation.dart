@@ -112,6 +112,11 @@ class _Legislation extends State<Legislation> {
         break;
     }
 
+    // Give state a  Placeholder for dropdown default
+    if (_state == null) {
+     _state = "VIC";
+    }
+
     return Scaffold(
         appBar: AppBar(
           title: DropdownButton<String>(
