@@ -111,9 +111,9 @@ class _Legislation extends State<Legislation> {
     return Scaffold(
         appBar: AppBar(
           title: DropdownButton<String>(
-            value: "VIC",
+            value: _state,
             onChanged: (String newValue) {
-              print(newValue);
+              setState(() { _state = newValue; });
             },
             items: _states.map((value) {
               return DropdownMenuItem(
