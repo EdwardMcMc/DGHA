@@ -23,7 +23,7 @@ class Info extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute<void>(
-                      builder: (context) => Legislation(_geolocation.state),
+                      builder: (context) => Legislation(state: _geolocation.state),
                     ));
               },
               child: Text('Legislation'))),

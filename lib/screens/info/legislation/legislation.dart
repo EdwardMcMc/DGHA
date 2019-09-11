@@ -11,16 +11,26 @@ import 'package:dgha/style.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:dgha/screens/info/legislation/translate_popup.dart';
 
-class Legislation extends StatelessWidget {
-  final String _state;
+class Legislation extends StatefulWidget {
+  const Legislation({ Key key, this.state}) : super(key: key);
 
-  Legislation(this._state);
+  final String state;
+
+
+  @override
+  _Legislation createState() => _Legislation(state);
+}
+class _Legislation extends State<Legislation> {
+  String _state;
+
+  _Legislation(this._state);
 
   List<Widget> _renderLegislation(context) {
     dynamic state;
     switch (this._state) {
       case ('VIC'):
         state = VIC();
+
         break;
       case 'NSW':
         state = NSW();
@@ -93,30 +103,44 @@ class Legislation extends StatelessWidget {
     ];
   }
 
+  List<String> _states = ["VIC", "NSW"];
+
   @override
   Widget build(BuildContext context) {
+    print(_state);
     return Scaffold(
-        appBar: AppBar(title: Text('Legislation')),
+        appBar: AppBar(
+          title: DropdownButton<String>(
+            value: "VIC",
+            onChanged: (String newValue) {
+              print(newValue);
+            },
+            items: _states.map((value) {
+              return DropdownMenuItem(
+                child: Text(value),
+                value: value,
+              );
+            }).toList(),
+          ),
+        ),
         body: SingleChildScrollView(
           child: Container(
             child: Column(
               children: List.of(_renderLegislation(context)),
             ),
           ),
-      ),
+        ),
         floatingActionButton: FloatingActionButton(
-        child: Icon(FontAwesomeIcons.language),
-        onPressed: () {
-          showDialog(
-            context: context,
-            builder: (BuildContext context) {
-              return TranslatePopup();
-            });
-              },
-              backgroundColor: Colors.blue,
-              foregroundColor: Colors.white,
-              
-     )
-    );
+          child: Icon(FontAwesomeIcons.language),
+          onPressed: () {
+            showDialog(
+                context: context,
+                builder: (BuildContext context) {
+                  return TranslatePopup();
+                });
+          },
+          backgroundColor: Colors.blue,
+          foregroundColor: Colors.white,
+        ));
   }
 }
