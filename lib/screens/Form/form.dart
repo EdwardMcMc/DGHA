@@ -1,4 +1,4 @@
-import 'package:dgha/screens/Home/membership/membership.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
@@ -27,10 +27,8 @@ final _form3Key = GlobalKey<FormState>(); //page 4
 final _form4Key = GlobalKey<FormState>(); //page 7
 final _form5Key = GlobalKey<FormState>(); //page 8
 final _form6Key = GlobalKey<FormState>(); //page 9
-//final _form4Key = GlobalKey<FormState>(); 
-//final _form5Key = GlobalKey<FormState>();
+
   FormResponse response=new FormResponse();
-  String _membertype;
   PageController controller=PageController();
   bool membertypevalid=false;
   bool dogtrainedforvalid=false;
@@ -48,7 +46,6 @@ final _form6Key = GlobalKey<FormState>(); //page 9
   TextEditingController _lnamecontroller=TextEditingController();
   TextEditingController _addresscontroller=TextEditingController();
   TextEditingController _suburbcontroller=TextEditingController();
-  TextEditingController _statecontroller=TextEditingController();
   TextEditingController _postcodecontroller=TextEditingController();
   TextEditingController _phonecontroller=TextEditingController();
   TextEditingController _emailcontroller=TextEditingController();

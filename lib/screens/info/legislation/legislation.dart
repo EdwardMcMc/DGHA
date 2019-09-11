@@ -1,7 +1,7 @@
-import 'package:dgha/data/act.dart';
+import 'package:dgha/data/markdown/act.dart';
 import 'package:flutter/material.dart';
 import 'package:dgha/data/nsw.dart';
-import 'package:dgha/data/vic.dart';
+import 'package:dgha/data/markdown/vic.dart';
 import 'package:dgha/data/qld.dart';
 import 'package:dgha/data/nt.dart';
 import 'package:dgha/data/sa.dart';
@@ -22,6 +22,8 @@ class Legislation extends StatefulWidget {
 }
 class _Legislation extends State<Legislation> {
   String _state;
+  
+  List<String> languages = ['English', 'Arabic', 'Chinese (Simplified)', 'Chinese (Traditional)','Filipino' , 'German','Greek', 'Hindi', 'Italian', 'Korean',  'Nepali', 'Persian', 'Punjabi', 'Spanish','Vietnamese' ];
 
   _Legislation(this._state);
 
@@ -62,26 +64,30 @@ class _Legislation extends State<Legislation> {
           padding: ContainerPadding,
           child: Column(
             children: <Widget>[
-              Text(state.title, style: Theme.of(context).textTheme.headline),
-              Text(state.legislation.first.title,
-                  style: Theme.of(context).textTheme.title),
-              Text(state.legislation.first.section,
-                  style: Theme.of(context).textTheme.subhead),
-              Text(state.legislation.first.link),
-              Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: state.legislation.first.body
-                      .map<Widget>((legislation) =>
-                          Text(legislation, textAlign: TextAlign.left))
-                      .toList())
+              Text(selectedLanguage.toString())
+              // Text(state.title, style: Theme.of(context).textTheme.headline),
+              // Text(state.legislation.first.title,
+              //     style: Theme.of(context).textTheme.title),
+              // Text(state.legislation.first.section,
+              //     style: Theme.of(context).textTheme.subhead),
+              // Text(state.legislation.first.link),
+              // Column(
+              //     crossAxisAlignment: CrossAxisAlignment.start,
+              //     children: state.legislation.first.body
+              //         .map<Widget>((legislation) =>
+              //             Text(legislation, textAlign: TextAlign.left))
+              //         .toList())
             ],
           )),
     ];
   }
-
+  
   List<String> _states = ["VIC", "NSW", "QLD", "ACT", "SA", "NT", "WA", "TAS"];
-
+String selectedLanguage="English";
+int selectedIndex=0;
   @override
+
+  
   Widget build(BuildContext context) {
 
     // Fix state variable for android support
@@ -143,10 +149,91 @@ class _Legislation extends State<Legislation> {
           child: Icon(FontAwesomeIcons.language),
           onPressed: () {
             showDialog(
-                context: context,
-                builder: (BuildContext context) {
-                  return TranslatePopup();
-                });
+              context: context,
+              builder: (BuildContext build) {
+                return SimpleDialog(
+                  title: Text("Title"),
+                  children: <Widget>[
+                    DropdownButton<String>(
+                      hint:Text('Please choose a language'),
+                      value: selectedLanguage,
+                      onChanged: (String newValue){
+                        setState(() {
+                         selectedLanguage=newValue; 
+                        });
+                        },
+                      items: 
+                      <String>['English', 'Arabic', 'Chinese (Simplified)', 'Chinese (Traditional)','Filipino' , 'German','Greek', 'Hindi', 'Italian', 'Korean',  'Nepali', 'Persian', 'Punjabi', 'Spanish','Vietnamese' ]
+                      .map((String value) {
+                        return new DropdownMenuItem<String>(
+                          value: value,
+                          child: new Text(value),
+                          );
+                        }).toList(),)
+                      ,
+                    RaisedButton(
+                      child: Text("Translate"),
+                      onPressed: (){
+                        switch(selectedLanguage) {
+                case 'English':
+                  selectedIndex = 0;
+                  break;
+                case 'Arabic':
+                  selectedIndex = 1;
+                  break;
+                case 'Chinese (Simplified)':
+                  selectedIndex = 2;
+                  break;
+                case 'Chinese (Traditional)':
+                  selectedIndex = 3;
+                  break;
+                case 'Filipino':
+                  selectedIndex = 4;
+                  break;
+                case 'German':
+                  selectedIndex = 5;
+                  break;
+                case 'Greek':
+                  selectedIndex = 6;
+                  break;
+                case 'Hindi':
+                  selectedIndex = 7;
+                  break;
+                case 'Italian':
+                  selectedIndex = 8;
+                  break;
+                case 'Korean':
+                  selectedIndex = 9;
+                  break;
+                case 'Nepali':
+                  selectedIndex = 10;
+                  break;
+                case 'Persian':
+                  selectedIndex = 11;
+                  break;
+                case 'Punjabi':
+                  selectedIndex = 12;
+                  break;
+                case 'Spanish':
+                  selectedIndex = 13;
+                  break;
+                case 'Vietnamese':
+                  selectedIndex = 14;
+                  break;
+                default:
+                  selectedIndex=0;
+                  break;
+                }
+                        Navigator.pop(context);},)
+                  ],
+                );
+              }
+            );
+            // showDialog(
+            //     context: context,
+            //     builder: (BuildContext context) {
+            //       return TranslatePopup();
+            //     });
           },
           backgroundColor: Colors.blue,
           foregroundColor: Colors.white,
