@@ -103,7 +103,7 @@ class _Legislation extends State<Legislation> {
     ];
   }
 
-  List<String> _states = ["VIC", "NSW"];
+  List<String> _states = ["VIC", "NSW", "QLD", "ACT", "SA", "NT", "WA", "TAS"];
 
   @override
   Widget build(BuildContext context) {
