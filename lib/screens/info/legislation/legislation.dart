@@ -31,7 +31,7 @@ class _Legislation extends State<Legislation> {
     dynamic state;
     switch (this._state) {
       case ('VIC'):
-        state = VIC();
+        state = new VIC();
 
         break;
       case 'NSW':
@@ -64,7 +64,8 @@ class _Legislation extends State<Legislation> {
           padding: ContainerPadding,
           child: Column(
             children: <Widget>[
-              Text(selectedLanguage.toString())
+              Text(selectedLanguage.toString()),
+              Text(state.translations[selectedIndex])
               // Text(state.title, style: Theme.of(context).textTheme.headline),
               // Text(state.legislation.first.title,
               //     style: Theme.of(context).textTheme.title),

@@ -20,6 +20,7 @@ Other Relevant Legislation:
 Discrimination Act (NT)
 """;
 class ACT{
+  List<String> translations=["act english example","ACT Arabic example"];
   String english = """# Domestic Animals Act 2000
 ## Section/s Applicable:
 ### Section 104, Rights of Persons Accompanied by Assistance Animals
