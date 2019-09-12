@@ -1,5 +1,5 @@
 class WA {
-  List<String> translation = [
+  List<String> translations = [
 """# Dog Act 1976
 ## Section/s Applicable:
 ### Section 8, Special Provisions for Guide Dogs

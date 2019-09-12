@@ -3,7 +3,7 @@ class VIC {
 """# Domestic Animals ACT 1994
 ## Section/s Applicable:
 ### Section 7, Exemptions for Guide Dogs
-[http://www.austlii.edu.au/au/legis/vic/consol_act/daa1994163/](http://www.austlii.edu.au/au/legis/vic/consol_act/daa1994163/)
+[https://www.austlii.edu.au/au/legis/vic/consol_act/daa1994163/](http://www.austlii.edu.au/au/legis/vic/consol_act/daa1994163/)
 
 A visually impaired person or hearing impaired person who keeps and uses a dog as a guide dog is not liable for an offence under this Act in respect of that dog, where, in acting in the manner  which would constitute the offence, the dog was performing its functions as a guide dog.
 

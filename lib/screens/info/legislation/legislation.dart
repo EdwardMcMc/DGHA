@@ -10,7 +10,7 @@ import 'package:dgha/data/markdown/wa.dart';
 import 'package:dgha/style.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:dgha/screens/info/legislation/translate_popup.dart';
+import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 
 class Legislation extends StatefulWidget {
   const Legislation({Key key, this.state}) : super(key: key);
@@ -84,7 +84,18 @@ class _Legislation extends State<Legislation> {
               Text(selectedLanguage.toString()),
               MarkdownBody(data: state.translations[selectedIndex], onTapLink: (href){
                 //TODO: Make link open in browser
-                print(href);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute<void>(
+                    builder: (context) => WebviewScaffold(
+                      url:
+                      href,
+                      appBar: new AppBar(
+                        title: new Text(href),
+                      ),
+                    ),
+                  ),
+                );
               },)
             ],
           )),
