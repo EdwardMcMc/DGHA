@@ -84,16 +84,236 @@ Discrimination Act (NT)
 其他相關立法：
 歧視法案（新界）
 """,
-    "act 5th language",
-    "act 6th language",
-    "act 7th language",
-    "act 8th language",
-    "act 9th language",
-    "act 10th language",
-    "act 11th language",
-    "act 12th language",
-    "act 13th language",
-    "act 14th language",
-    "act 15th language",
+    """# Domestic Animals Act 2000
+# # Seksyon / s Naaangkop:
+### Seksyon 104, Karapatan ng Mga Tao na Sinamahan ng Mga Hayop ng Pagtulong
+### Seksyon 105, Pagsasama ng Mga Hayop ng Tulong mula sa Pampublikong Lugar
+### Seksyon 106, Imposisyon ng Sobrang singil para sa Mga Hayop ng Tulong
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdfetau(http://www.legislation.act.gov.au/a/2000- 86 / kasalukuyang / pdf / 2000-86.pdf)
+
+Sipi mula sa Seksyon 104:
+(1) Sa kabila ng anumang iba pang batas sa teritoryo (maliban sa Discrimination Act 1991), ang isang taong may kapansanan na sinamahan ng isang hayop ng tulong ay may parehong karapatang ma-access, at ang parehong karapatan sa paggamit ng, isang pampublikong lugar bilang isang tao na hindi sinamahan ng isang hayop ng tulong.
+(2) Nang hindi nililimitahan ang subseksyon (1), ang isang taong may kapansanan ay hindi nakagawa ng isang pagkakasala sa pamamagitan lamang ng pagkuha ng isang hayop ng tulong o papasok, o pinapayagan ang hayop na pumasok, isang pampublikong lugar.
+
+Pinakamataas na Fine para sa paglabag sa Batas:
+10 penalty unit
+Halaga ng Isang Unit ng Parusa noong 2012: \$ 110.00
+
+Pagbubukod sa Pag-access sa ilalim ng Batas:
+Hindi ipinagbabawal na magpataw ng singil sa isang tao na may gabay sa aso kung ang gastos ay makatuwirang naganap ng ikatlong tao dahil sa pagkakaroon ng gabay sa aso.
+
+Iba pang Kaugnay na Batas:
+Diskriminasyon Act (NT)
+""",
+    """# Domestic Animals Act 2000
+## Section / s Anwendbar:
+### § 104, Rechte von Personen, die von Hilfstieren begleitet werden
+### § 105 Ausschluss von Hilfstieren vom öffentlichen Platz
+### § 106 Auferlegung von Übergebühren für Hilfstiere
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf[http://www.legislation.act.gov.au/a/2000- 86 / current / pdf / 2000-86.pdf)
+
+Auszug aus § 104:
+(1) Trotz aller anderen Hoheitsgebietsgesetze (mit Ausnahme des Diskriminierungsgesetzes von 1991) hat eine Person mit einer Behinderung, die von einem Hilfstier begleitet wird, das gleiche Recht auf Zugang zu einem öffentlichen Ort und das gleiche Recht auf dessen Nutzung als Person wer wird nicht von einem Hilfstier begleitet.
+(2) Ohne Einschränkung des Absatzes 1 begeht eine Person mit einer Behinderung keine Straftat, indem sie lediglich ein Hilfstier auf einen öffentlichen Ort mitnimmt oder diesen betritt oder ihm gestattet.
+
+Höchststrafe für Verstöße:
+10 Strafeinheiten
+Wert einer Strafeinheit ab 2012: 110,00 USD
+
+Ausnahmen für den Zugang nach dem Gesetz:
+Es ist nicht rechtswidrig, einer Person mit einem Hundeführer eine Gebühr aufzuerlegen, wenn die dritte Person aufgrund der Anwesenheit des Hundeführers zumutbare Kosten trägt.
+
+Sonstige einschlägige Rechtsvorschriften:
+Diskriminierungsgesetz (NT)
+""",
+    """ # # Act of Domestic Animals Act 2000
+## Τμήμα / s Εφαρμοστέο:
+### Τμήμα 104, Δικαιώματα προσώπων συνοδευόμενα από ζώα βοήθειας
+### Άρθρο 105, Αποκλεισμός βοήθειας ζώων από δημόσιους χώρους
+### Τμήμα 106, Επιβολή υπερβολικών χρεώσεων για τη βοήθεια των ζώων
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000- 86 / τρέχουσα / pdf / 2000-86.pdf)
+
+Απόσπασμα από την Ενότητα 104:
+(1) Παρά ένα άλλο νόμο περί εδάφους (εκτός του Νόμου περί Διακρίσεων του 1991), ένα άτομο με αναπηρία που συνοδεύεται από ζώο βοήθειας έχει το ίδιο δικαίωμα πρόσβασης και το ίδιο δικαίωμα στη χρήση ενός δημόσιου χώρου ως ατόμου που δεν συνοδεύεται από ζώο βοήθειας.
+(2) Χωρίς περιορισμό του εδαφίου (1), ένα άτομο με αναπηρία δεν διαπράττει αδίκημα απλώς λαμβάνοντας ένα ζώο βοήθειας πάνω ή μέσα ή επιτρέποντας στο ζώο να εισέλθει σε δημόσιο χώρο.
+
+Μέγιστο πρόστιμο για παραβίαση νόμου:
+10 μονάδες ποινής
+Αξία μιας ποινικής μονάδας από το 2012: 110,00 δολάρια
+
+Εξαιρέσεις στην πρόσβαση δυνάμει του νόμου:
+Δεν είναι παράνομο να επιβάλλεται χρέωση σε ένα άτομο με οδηγό σκύλου, εάν υπάρχει λογική δαπάνη από το τρίτο πρόσωπο λόγω της παρουσίας του οδηγού σκύλου.
+
+Άλλη σχετική νομοθεσία:
+Νόμος περί διακρίσεων (NT)
+""",
+"""# घरेलू पशु अधिनियम 2000
+## धारा / एस लागू:
+### धारा 104, सहायता जानवरों द्वारा आरोपित व्यक्तियों के अधिकार
+### धारा 105, सार्वजनिक स्थान से सहायता पशु का बहिष्कार
+### धारा 106, सहायता पशु के लिए अतिरिक्त शुल्क का प्रभाव
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000- 86 / वर्तमान / पीडीएफ / 2000-86.pdf)
+
+धारा 104 से अंश:
+(१) किसी भी अन्य क्षेत्र के कानून (भेदभाव अधिनियम १ ९९ १ के अलावा) के बावजूद, एक विकलांग व्यक्ति जिसकी सहायता पशु के पास है, उस तक पहुँचने का समान अधिकार है, और एक व्यक्ति के रूप में उपयोग करने का समान अधिकार, सार्वजनिक स्थान जो एक सहायता जानवर के साथ नहीं है।
+(2) उपधारा (1) को सीमित किए बिना, एक विकलांग व्यक्ति केवल एक सहायता जानवर को या उसके द्वारा, या एक सार्वजनिक स्थान में प्रवेश करने की अनुमति देकर अपराध नहीं करता है।
+
+अधिनियम के उल्लंघन के लिए अधिकतम जुर्माना:
+10 दंड इकाइयाँ
+2012 के रूप में एक दंड इकाई का मूल्य: \$ 110.00
+
+अधिनियम के तहत प्रवेश के अपवाद:
+कुत्ते के मार्गदर्शक के साथ किसी व्यक्ति को शुल्क देना गैरकानूनी नहीं है यदि कुत्ता गाइड की उपस्थिति के कारण खर्च तीसरे व्यक्ति द्वारा उचित रूप से हुआ है।
+
+अन्य प्रासंगिक विधान:
+भेदभाव अधिनियम (NT)
+""",
+    """# Domestic Animals Act 2000
+## Sezione / i applicabile:
+Sezione 104, Diritti delle persone accompagnate da animali di assistenza
+Sezione 105, Esclusione di animali di assistenza da luoghi pubblici
+Sezione 106, Imposizione di oneri in eccesso per l'animale di assistenza
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000- 86 / corrente / pdf / 2000-86.pdf)
+
+Estratto dalla sezione 104:
+(1) Nonostante qualsiasi altra legge sul territorio (diversa dalla Discrimination Act 1991), una persona con disabilità accompagnata da un animale di assistenza ha lo stesso diritto di accesso e lo stesso diritto all'uso di un luogo pubblico come persona che non è accompagnato da un animale di assistenza.
+(2) Senza limitare la sottosezione (1), una persona con disabilità non commette un reato semplicemente prendendo un animale di assistenza in o all'interno o consentendo all'animale di entrare in un luogo pubblico.
+
+Multa massima per violazione dell'atto:
+10 unità di penalità
+Valore di un'unità di penalità dal 2012: \$ 110,00
+
+Eccezioni all'accesso ai sensi della legge:
+Non è illegale imporre un addebito a una persona con una guida per cani se la terza persona ha ragionevolmente sostenuto spese a causa della presenza della guida per cani.
+
+Altra legislazione pertinente:
+Discrimination Act (NT)
+""",
+    """# 국내 동물 법 2000
+적용 가능한 섹션 :
+### 보조 동물이 동행하는 사람의 권리 104 조
+### 섹션 105, 공공 장소에서 보조 동물 제외
+### 106 조 동물 지원에 대한 초과 요금 부과
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000- 86 / 현재 /pdf/2000-86.pdf)
+
+섹션 104에서 발췌 :
+(1) 다른 영토 법 (1991 년 차별 법 제외)에도 불구하고 보조 동물과 함께 장애가있는 사람은 개인으로서 공공 장소에 대한 동일한 접근 권한과 동일한 사용 권한을 갖습니다. 보조 동물을 동반하지 않는 사람.
+(2) (1) 항을 제한하지 않고 장애를 가진 사람은 보조 동물을 공공 장소에 출입하거나 동물이 공공 장소에 들어가도록 허용한다고해서 범죄를 저 지르지 않습니다.
+
+법 위반에 대한 최대 벌금 :
+페널티 유닛 10 개
+2012 년 기준 1 페널티 유닛의 가치 : \$ 110.00
+
+법에 따라 액세스 할 수있는 예외 :
+개 가이드의 존재로 인해 제 3자가 비용을 합리적으로 발생시키는 경우 개 가이드를 가진 사람에게 요금을 부과하는 것은 불법이 아닙니다.
+
+기타 관련 법규 :
+차별 법 (NT)
+""",
+    """# घरेलु पशु ऐन २०००
+## सेक्सन / हरू लागू:
+### धारा १०4, सहयोगी जनावरहरूको साथ व्यक्तिको अधिकार
+### धारा १० 105, सार्वजनिक स्थानबाट सहायता पशुको अपवाद
+### धारा १०6, सहायता जनावरहरूको लागि अतिरिक्त शुल्कको लागू
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf छ(http://www.legislation.act.gov.au/a/2000- / 86 / वर्तमान / pdf / 2000-86.pdf)
+
+सेक्सन १०4 बाट उद्धरण:
+(१) कुनै पनि अन्य क्षेत्र कानूनको बावजूद (भेदभाव ऐन १ 199 199 १ बाहेक) अपाability्गता भएका व्यक्तिसँग सहायता पशुको साथ पहुँचको समान अधिकार छ, र व्यक्तिको रूपमा सार्वजनिक स्थानको प्रयोग गर्ने अधिकार पनि। जो एक सहायता जनावर संग छैन।
+(२) उपधारा (१) लाई सीमित नगरी अपा with्गता भएको व्यक्तिले एउटा सहयोगी जनावरलाई भित्र पसेर वा भित्र राखेर, वा जनावरलाई सार्वजनिक ठाउँमा प्रवेश गर्ने अनुमति दिएर मात्र अपराध गर्दैन।
+
+कानूनको उल्लंघनको लागि अधिकतम फाइनः
+१० पेनाल्टी एकाइहरू
+२०१२ सम्म एक पेनाल्टी एकाईको मान: \$ ११०.००
+
+ऐन अन्तर्गत पहुँच गर्न अपवाद:
+कुकुर गाईड भएको व्यक्तिलाई शुल्क लगाउनु गैरकानुनी होईन यदि कुकुर गाईडको उपस्थितिको कारण तेस्रो व्यक्तिको कारणले उचित खर्च भयो भने।
+
+अन्य सान्दर्भिक कानून:
+भेदभाव ऐन (NT)
+""",
+    """قانون حیوانات خانگی سال 2000
+## بخش / ها قابل اجرا:
+### بخش 104 ، حقوق افرادی که با حیوانات کمکی همراه هستند
+### بخش 105 ، محرومیت از حیوانات کمکی از مکانهای عمومی
+### بخش 106 ، تحمیل هزینه های اضافی برای حیوانات کمکی
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf((http://www.legislation.act.gov.au/a/2000- 86 / فعلی / pdf / 2000-86.pdf)
+
+گزیده ای از بخش 104:
+(1) با وجود هر قانون قلمرو دیگری (به غیر از قانون تبعیض 1991) ، شخص دارای معلولیت همراه با حیوان کمک کننده ، حق دسترسی یکسان و همان حق استفاده از مکان عمومی به عنوان شخص را دارد. که با حیوان کمکی همراه نیست
+(2) بدون محدود کردن زیرمجموعه (1) ، فرد دارای معلولیت فقط با گرفتن یک حیوان کمکی به داخل یا وارد شدن ، یا اجازه ورود حیوان به مکانهای عمومی مرتکب جرم نمی شود.
+
+حداکثر جریمه برای نقض قانون:
+10 واحد پنالتی
+ارزش واحد پنالتی از سال 2012: 110.00 دلار
+
+استثنائات دسترسی تحت قانون:
+تحمیل در صورتی که هزینه به دلیل منطقی توسط شخص ثالث به دلیل وجود راهنمای سگ اتفاق بیفتد ، تحمیل هزینه برای شخص دارای راهنمای سگ غیرقانونی نیست.
+
+سایر مقررات مربوطه:
+قانون تبعیض (NT)
+""",
+    """# ਘਰੇਲੂ ਜਾਨਵਰ ਐਕਟ 2000
+## ਭਾਗ / ਸ ਲਾਗੂ
+### ਧਾਰਾ 104, ਸਹਾਇਤਾ ਪਸ਼ੂਆਂ ਦੇ ਨਾਲ ਵਿਅਕਤੀਆਂ ਦੇ ਅਧਿਕਾਰ
+### ਧਾਰਾ 105, ਸਹਾਇਤਾ ਪਸ਼ੂਆਂ ਨੂੰ ਜਨਤਕ ਸਥਾਨ ਤੋਂ ਬਾਹਰ ਕੱlusionਣਾ
+### ਧਾਰਾ 106, ਸਹਾਇਤਾ ਪਸ਼ੂਆਂ ਲਈ ਵਾਧੂ ਖਰਚਾ ਲਗਾਉਣਾ
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf ਕਾਠhhhp://www.legislation.act.gov.au/a/2000- 86 / ਮੌਜੂਦਾ / ਪੀਡੀਐਫ / 2000-86.pdf)
+
+ਸੈਕਸ਼ਨ 104 ਤੋਂ ਅੰਸ਼:
+(1) ਕਿਸੇ ਹੋਰ ਪ੍ਰਦੇਸ਼ ਕਾਨੂੰਨ (ਵਿਤਕਰਾ ਐਕਟ 1991 ਤੋਂ ਇਲਾਵਾ) ਦੇ ਬਾਵਜੂਦ, ਕਿਸੇ ਸਹਾਇਤਾ ਪਸ਼ੂ ਦੇ ਨਾਲ ਅਪਾਹਜਤਾ ਵਾਲੇ ਵਿਅਕਤੀ ਦਾ ਪਹੁੰਚਣ ਦਾ ਉਹੀ ਅਧਿਕਾਰ ਹੈ, ਅਤੇ ਇਕ ਵਿਅਕਤੀ ਵਜੋਂ ਇਕ ਜਨਤਕ ਸਥਾਨ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦਾ ਉਹੀ ਅਧਿਕਾਰ ਹੈ ਜਿਸ ਦੇ ਨਾਲ ਕੋਈ ਸਹਾਇਤਾ ਜਾਨਵਰ ਨਹੀਂ ਹੈ.
+(2) ਉਪਭਾਸ਼ਾ (1) ਨੂੰ ਸੀਮਤ ਕੀਤੇ ਬਗੈਰ, ਅਪੰਗਤਾ ਵਾਲਾ ਵਿਅਕਤੀ ਸਿਰਫ ਸਹਾਇਤਾ ਪਸ਼ੂ ਨੂੰ ਜਾਂ ਉਸ ਦੇ ਅੰਦਰ ਦਾਖਲ ਹੋਣ ਜਾਂ ਜਾਨਵਰ ਨੂੰ ਕਿਸੇ ਜਨਤਕ ਥਾਂ ਤੇ ਦਾਖਲ ਹੋਣ ਦੁਆਰਾ ਕੋਈ ਗੁਨਾਹ ਨਹੀਂ ਕਰਦਾ.
+
+ਕਾਨੂੰਨ ਦੀ ਉਲੰਘਣਾ ਲਈ ਵੱਧ ਤੋਂ ਵੱਧ ਜੁਰਮਾਨਾ:
+10 ਪੈਨਲਟੀ ਯੂਨਿਟ
+2012 ਤਕ ਇਕ ਪੈਨਲਟੀ ਯੂਨਿਟ ਦੀ ਕੀਮਤ: .00 110.00
+
+ਐਕਟ ਅਧੀਨ ਪਹੁੰਚ ਕਰਨ ਦੇ ਅਪਵਾਦ:
+ਜੇ ਕੁੱਤੇ ਦੇ ਮਾਰਗ-ਦਰਸ਼ਕ ਦੀ ਮੌਜੂਦਗੀ ਕਰਕੇ ਤੀਜੇ ਵਿਅਕਤੀ ਦੁਆਰਾ ਵਾਜਬ .ੰਗ ਨਾਲ ਖਰਚ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਤਾਂ ਕੁੱਤੇ ਦੇ ਮਾਰਗ-ਦਰਸ਼ਨ ਵਾਲੇ ਵਿਅਕਤੀ 'ਤੇ ਦੋਸ਼ ਲਗਾਉਣਾ ਗੈਰਕਾਨੂੰਨੀ ਨਹੀਂ ਹੈ.
+
+ਹੋਰ ਸੰਬੰਧਤ ਕਾਨੂੰਨ:
+ਵਿਤਕਰਾ ਐਕਟ (ਐਨਟੀ)
+""",
+    """# Ley de animales domésticos de 2000
+## Sección / s aplicable:
+### Sección 104, Derechos de las personas acompañadas por animales de asistencia
+### Sección 105, Exclusión del animal de asistencia del lugar público
+### Sección 106, Imposición de cargos excesivos por animales de asistencia
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdffont>(http://www.legislation.act.gov.au/a/2000- 86 / actual / pdf / 2000-86.pdf)
+
+Extracto de la Sección 104:
+(1) A pesar de cualquier otra ley de territorio (que no sea la Ley de Discriminación de 1991), una persona con discapacidad acompañada de un animal de asistencia tiene el mismo derecho de acceso y el mismo uso de un lugar público que una persona quien no está acompañado por un animal de asistencia.
+(2) Sin limitar la subsección (1), una persona con una discapacidad no comete un delito simplemente al llevar un animal de asistencia a un lugar público, o al permitir que ingrese en un lugar público.
+
+Multa máxima por incumplimiento de la ley:
+10 unidades de penalización
+Valor de una unidad de penalización a partir de 2012: \$ 110.00
+
+Excepciones al acceso en virtud de la Ley:
+No es ilegal imponer un cargo a una persona con un guía para perros si la tercera persona tiene un gasto razonable debido a la presencia del guía para perros.
+
+Otra legislación relevante:
+Ley de discriminación (NT)
+""",
+    """# Đạo luật Động vật nuôi 2000
+## Phần / s Áp dụng:
+### Mục 104, Quyền của người đi kèm với động vật hỗ trợ
+### Mục 105, Loại trừ động vật hỗ trợ khỏi nơi công cộng
+### Mục 106, Áp dụng phí vượt mức cho động vật hỗ trợ
+[http://www.legislation.act.gov.au/a/2000-86/c Hiện / pdf / 2000-86.pdf [(http: //www.legislation.act.gov.au/a/2000- 86 / hiện tại / pdf / 2000-86.pdf)
+
+Trích từ Mục 104:
+(1) Bất chấp luật pháp lãnh thổ nào khác (ngoài Đạo luật phân biệt đối xử năm 1991), một người khuyết tật đi kèm với động vật hỗ trợ có quyền truy cập tương tự và quyền sử dụng nơi công cộng như một người người không đi cùng với một động vật hỗ trợ.
+(2) Không giới hạn tiểu mục (1), người khuyết tật không phạm tội chỉ bằng cách đưa động vật hỗ trợ lên hoặc vào, hoặc cho phép động vật vào nơi công cộng.
+
+Mức phạt tối đa cho Vi phạm Đạo luật:
+10 đơn vị phạt
+Giá trị của một đơn vị phạt vào năm 2012: \$ 110,00
+
+Các ngoại lệ đối với quyền truy cập theo Đạo luật:
+Không phải là bất hợp pháp khi áp đặt một khoản phí cho một người có hướng dẫn chó nếu chi phí xảy ra hợp lý bởi người thứ ba vì sự hiện diện của hướng dẫn chó.
+
+Pháp luật liên quan khác:
+Đạo luật phân biệt đối xử (NT)
+""",
   ];
 }

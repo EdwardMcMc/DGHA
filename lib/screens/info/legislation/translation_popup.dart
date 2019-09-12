@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 Future<int> asyncInputDialog(BuildContext context) async {
   int index=0;
-  List<String> _languages = ['English', 'Arabic', 'Chinese (Simplified)', 'Chinese (Traditional)', 'German','Greek', 'Hindi', 'Italian', 'Korean',  'Nepali', 'Persian', 'Punjabi', 'Spanish','Filipino' ,'Vietnamese' ];
+  List<String> _languages = ['English', 'Arabic', 'Chinese (Simplified)', 'Chinese (Traditional)','Filipino' , 'German','Greek', 'Hindi', 'Italian', 'Korean',  'Nepali', 'Persian', 'Punjabi', 'Spanish','Vietnamese' ];
   String _selectedLanguage='English';
   return showDialog<int>(
     context: context,
