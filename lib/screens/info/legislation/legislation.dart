@@ -264,6 +264,10 @@ class _Legislation extends State<Legislation> {
                         }).toList(),
                       ),
                     ],
+                  contentPadding: EdgeInsets.symmetric(
+                    horizontal: 20,
+                    vertical: 20,
+                  )
                   );
                 });
           },
