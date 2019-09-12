@@ -36,6 +36,7 @@ These laws also apply to people training Guide Dogs and Guide Dog puppies.
  String arabic = """""";
  String chineses = """""";
  String chineset = """""";
+ String filipino = """""";
  String german = """""";
  String greek = """""";
  String hindi = """""";
@@ -45,6 +46,5 @@ These laws also apply to people training Guide Dogs and Guide Dog puppies.
  String persian = """""";
  String punjabi = """""";
  String spanish = """""";
- String filipino = """""";
  String vietnamese = """""";
 }
