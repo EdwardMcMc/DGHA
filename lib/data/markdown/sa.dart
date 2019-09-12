@@ -1,4 +1,4 @@
-class QLD {
+class SA {
   List<String> translations = ["""# Dog and Cat Management Act 1995
 ## Section/s Applicable:
 ### Section 21, Accreditation of Disability Dogs, Guide Dogs etc
