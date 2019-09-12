@@ -3,7 +3,7 @@ class WA {
 """# Dog Act 1976
 ## Section/s Applicable:
 ### Section 8, Special Provisions for Guide Dogs
-[http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
+[View full legislation](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 Excerpt from Section 8:
 (1) Notwithstanding anything contained elsewhere in this Act or in any other Act, regulation, local law or by-law a person who is blind or partially blind?
@@ -13,7 +13,7 @@ Excerpt from Section 8:
 """# قانون الكلب 1976
 ## القسم / ثانية قابلة للتطبيق:
 ### القسم 8 ، أحكام خاصة للكلاب المرشدة
-[http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
+[رض التشريعات الكاملة](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 مقتطف من القسم 8:
 (1) بصرف النظر عن أي شيء يرد في مكان آخر من هذا القانون أو في أي قانون آخر أو لائحة أو قانون محلي أو نظام داخلي ، أي شخص أعمى أو أعمى جزئيًا؟
@@ -23,7 +23,7 @@ Excerpt from Section 8:
 """#Sog Act 1976
 ##部分适用：
 ###第8节，导盲犬特别规定
-[http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/）
+[查看完整的法规](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 摘自第8节：
 （1）尽管本法案或其他任何法案，法规，当地法律或法律中的任何内容都包含盲人或部分失明者？
@@ -33,7 +33,7 @@ Excerpt from Section 8:
 """#Sog Act 1976
 ##部分適用：
 ###第8節，導盲犬特別規定
-[http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/）
+[查看完整的法規](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 摘自第8節：
 （1）儘管本法案或其他任何法案，法規，當地法律或法律中的任何內容都包含盲人或部分失明者？
@@ -43,7 +43,7 @@ Excerpt from Section 8:
 """# Batas ng Aso 1976
 # # Seksyon / s Naaangkop:
 ### Seksyon 8, Mga Espesyal na Mga Provisyon para sa Mga Aso sa Gabay
-[http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/etau(http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
+[Tingnan ang buong batas](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 Sipi mula sa Seksyon 8:
 (1) Sa kabila ng anumang bagay na nakapaloob sa Batas na ito o sa anumang iba pang Batas, regulasyon, lokal na batas o by-law ng isang tao na bulag o bahagyang bulag?
@@ -53,7 +53,7 @@ Sipi mula sa Seksyon 8:
 """# Dog Act 1976
 ## Section / s Anwendbar:
 ### Abschnitt 8, Besondere Bestimmungen für Blindenhunde
-[http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/[http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
+[Vollständige Gesetzgebung anzeigen](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 Auszug aus Abschnitt 8:
 (1) Ungeachtet aller in diesem Gesetz oder in anderen Gesetzen, Verordnungen, örtlichen Gesetzen oder Gesetzen enthaltenen Bestimmungen ist eine Person blind oder teilweise blind?
@@ -63,7 +63,7 @@ a) berechtigt ist, von einem Hund begleitet zu werden, der von ihm als Blindenhu
 """# Dog Act 1976
 ## Τμήμα / s Εφαρμοστέο:
 ### Τμήμα 8, Ειδικές διατάξεις για τα σκυλιά-οδηγούς
-[http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
+[Δείτε την πλήρη νομοθεσία](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 Απόσπασμα από την Ενότητα 8:
 (1) Ανεξάρτητα από οτιδήποτε περιέχεται σε άλλο σημείο της παρούσας Πράξης ή σε οποιονδήποτε άλλο νόμο, κανονισμό, τοπικό νόμο ή νόμο, πρόσωπο που είναι τυφλός ή μερικώς τυφλός;
@@ -73,7 +73,7 @@ a) berechtigt ist, von einem Hund begleitet zu werden, der von ihm als Blindenhu
 """# डॉग एक्ट 1976
 ## धारा / एस लागू:
 ### धारा 8, गाइड कुत्तों के लिए विशेष प्रावधान
-[Http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
+[पूरा विधान देखें](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 धारा 8 से अंश:
 (१) इस अधिनियम में या किसी अन्य अधिनियम, विनियमन, स्थानीय कानून या उप-कानून में एक व्यक्ति जो कहीं अंधा या आंशिक रूप से अंधा है, के बावजूद कुछ भी शामिल नहीं है?
@@ -83,7 +83,7 @@ a) berechtigt ist, von einem Hund begleitet zu werden, der von ihm als Blindenhu
 """# Dog Act 1976
 ## Sezione / i applicabile:
 ### Sezione 8, Disposizioni speciali per i cani guida
-[Http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
+[Visualizza la legislazione completa](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 Estratto dalla sezione 8:
 (1) Nonostante quanto contenuto altrove nella presente legge o in qualsiasi altra legge, regolamento, legge locale o statuto di una persona che è cieca o parzialmente cieca?
@@ -93,7 +93,7 @@ a) ha il diritto di essere accompagnato da un cane in buona fede da lui utilizza
 """# 개법 1976
 적용 가능한 섹션 :
 ### 섹션 8, 안내견 특별 조항
-[http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
+[전체 법률보기](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 섹션 8에서 발췌 :
 (1)이 법의 다른 곳이나 다른 법, 규정, 현지 법 또는 조례에 포함 된 내용에도 불구하고 맹인 또는 부분 맹인 인 사람?
@@ -103,7 +103,7 @@ a) ha il diritto di essere accompagnato da un cane in buona fede da lui utilizza
 """# कुकुर ऐन १ 6 66
 ## सेक्सन / हरू लागू:
 ### सेक्सन 8, गाइड कुकुरहरूका लागि विशेष प्रावधान
-[http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/ छुट(http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
+[पूर्ण कानून हेर्नुहोस्](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 सेक्शन from बाट उद्धरण:
 (१) यस ऐन वा अन्य कुनै ऐन, नियम, स्थानीय कानून वा उप-कानूनमा अन्ततः अन्ततः अन्धा वा अन्धो भएको व्यक्तिलाई समावेश गरे पनि?
@@ -113,7 +113,7 @@ a) ha il diritto di essere accompagnato da un cane in buona fede da lui utilizza
 """# قانون سگ 1976
 ## بخش / ها قابل اجرا:
 ### بخش 8 ، مقررات ویژه سگهای راهنما
-[http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/((http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
+[مشاهده قانون کامل](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 گزیده ای از بخش 8:
 (1) با وجود هر چیز دیگری در این قانون یا هر قانون ، آیین نامه ، قوانین محلی یا آیین نامه شخصی که کور یا جزئی کور است ، وجود دارد؟
@@ -123,7 +123,7 @@ a) ha il diritto di essere accompagnato da un cane in buona fede da lui utilizza
 """# ਕੁੱਤਾ ਐਕਟ 1976
 ## ਭਾਗ / ਸ ਲਾਗੂ
 ### ਸੈਕਸ਼ਨ 8, ਗਾਈਡ ਕੁੱਤਿਆਂ ਲਈ ਵਿਸ਼ੇਸ਼ ਪ੍ਰਬੰਧ
-]
+[ਪੂਰਾ ਕਾਨੂੰਨ ਵੇਖੋ](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 ਸੈਕਸ਼ਨ 8 ਤੋਂ ਅੰਸ਼:
 (1) ਇਸ ਐਕਟ ਵਿਚ ਜਾਂ ਕਿਸੇ ਹੋਰ ਐਕਟ, ਨਿਯਮ, ਸਥਾਨਕ ਕਾਨੂੰਨ ਜਾਂ ਬਾਈ-ਲਾਅ ਵਿਚ ਕਿਤੇ ਵੀ ਪਾਈ ਗਈ ਕਿਸੇ ਵੀ ਚੀਜ਼ ਦੇ ਬਾਵਜੂਦ, ਅੰਨ੍ਹਾ ਜਾਂ ਅੰਸ਼ਕ ਤੌਰ ਤੇ ਅੰਨ੍ਹਾ ਹੈ?
@@ -133,7 +133,7 @@ a) ha il diritto di essere accompagnato da un cane in buona fede da lui utilizza
 """# Dog Act 1976
 ## Sección / s aplicable:
 ### Sección 8, Disposiciones especiales para perros guía
-[http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/font>(http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
+[Ver legislación completa](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 Extracto de la Sección 8:
 (1) A pesar de cualquier cosa contenida en otra parte de esta Ley o en cualquier otra Ley, reglamento, ley local o estatuto, ¿una persona ciega o parcialmente ciega?
@@ -143,7 +143,7 @@ Extracto de la Sección 8:
 """Đạo luật # Dog 1976
 ## Phần / s Áp dụng:
 ### Phần 8, Quy định đặc biệt dành cho chó dẫn đường
-[http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/[(http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
+[Xem pháp luật đầy đủ](http://www.austlii.edu.au/au/legis/wa/consol_act/da197644/)
 
 Trích từ Phần 8:
 (1) Mặc dù có bất cứ điều gì có trong bất kỳ nơi nào khác trong Đạo luật này hoặc trong bất kỳ Đạo luật, quy định, luật địa phương hoặc luật pháp khác, một người bị mù hoặc mù một phần?

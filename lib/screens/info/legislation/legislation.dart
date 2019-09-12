@@ -177,7 +177,7 @@ class _Legislation extends State<Legislation> {
                 context: context,
                 builder: (BuildContext build) {
                   return SimpleDialog(
-                    title: Text("Title"),
+                    title: Text("Translate legislation"),
                     children: <Widget>[
                       DropdownButton<String>(
                         hint: Text('Please choose a language'),

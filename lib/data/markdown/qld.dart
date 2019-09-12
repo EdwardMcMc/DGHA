@@ -2,7 +2,7 @@ class QLD {
   List<String> translations = ["""# Guide, Hearing and Assistance Dogs Act 2009
 ## Section/s Applicable:
 ### Section 8, People with a Disability May be Accompanied by Their Guide, Hearing and Assistance Dogs
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[View full legislation](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 Excerpt from Section 8:
 (1) Despite any other Act, a person with a disability who relies on a guide, hearing or assistance dog to reduce the person’s need for support may be accompanied by the guide, hearing or assistance dog in a public place or public passenger vehicle.
@@ -30,7 +30,7 @@ Other Legislation:
 """# دليل الكلاب والسمع والمساعدة لعام 2009
 ## القسم / ثانية قابلة للتطبيق:
 ### القسم 8 ، الأشخاص ذوو الإعاقة قد يكونون مصحوبين بدليلهم ، كلاب الإرشاد والمساعدة
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[رض التشريعات الكاملة](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 مقتطف من القسم 8:
 (1) على الرغم من أي قانون آخر ، فإن الشخص الذي يعاني من إعاقة ويعتمد على كلب مرشد أو سمع أو مساعدة لتقليل حاجة الشخص إلى الدعم قد يكون برفقة مرشد أو كلب سماع أو مساعدة في مكان عام أو سيارة ركاب عامة.
@@ -58,7 +58,7 @@ Other Legislation:
 """＃2009年指南，听力和援助犬法
 ##部分适用：
 ###第8节，残疾人可以陪伴他们的指导，听力和协助犬
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[查看完整的法规](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 摘自第8节：
 （1）尽管有任何其他法令，但残疾人依赖导游，听觉或协助犬来减少该人的支援需要，可由公众地方或公共乘客车辆中的导游，听觉或协助犬陪同。
@@ -86,7 +86,7 @@ Other Legislation:
 """＃2009年指南，聽力和援助犬法
 ##部分適用：
 ###第8節，殘疾人可以陪伴他們的指導，聽力和協助犬
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[查看完整的法規](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 摘自第8節：
 （1）儘管有任何其他法令，但殘疾人依賴導遊，聽覺或協助犬來減少該人的支援需要，可由公眾地方或公共乘客車輛中的導遊，聽覺或協助犬陪同。
@@ -114,7 +114,7 @@ Other Legislation:
 """# Gabay, Pagdinig at Pagtulong sa Aso Dog 2009
 # # Seksyon / s Naaangkop:
 ### Seksyon 8, Ang mga taong may Kapansanan Maaaring Maging Sinamahan ng kanilang Mga Gabay, Pandinig at Tulong sa Aso
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[Tingnan ang buong batas](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 Sipi mula sa Seksyon 8:
 (1) Sa kabila ng anumang iba pang Batas, ang isang taong may kapansanan na umaasa sa isang gabay, pandinig o tulong na aso upang mabawasan ang pangangailangan ng tao para sa suporta ay maaaring kasama ng gabay, pandinig o tulong na aso sa isang pampublikong lugar o pampublikong sasakyan ng pampasahero.
@@ -142,7 +142,7 @@ Iba pang Batas:
 """# Gesetz über Führungs-, Hör- und Assistenzhunde 2009
 ## Section / s Anwendbar:
 ### Abschnitt 8, Menschen mit einer Behinderung können von ihren Führungs-, Hör- und Assistenzhunden begleitet werden
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[Vollständige Gesetzgebung anzeigen](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 Auszug aus Abschnitt 8:
 (1) Trotz aller anderen Gesetze kann eine Person mit einer Behinderung, die auf einen Führungs-, Hör- oder Assistenzhund angewiesen ist, um den Unterstützungsbedarf der Person zu verringern, von dem Führungs-, Hör- oder Assistenzhund in einem öffentlichen Ort oder einem öffentlichen Personenfahrzeug begleitet werden.
@@ -170,7 +170,7 @@ Andere Gesetzgebung:
 """# Οδηγός, Ακρόαση και Βοήθεια Dogs Act 2009
 ## Τμήμα / s Εφαρμοστέο:
 ### Τμήμα 8, Τα άτομα με αναπηρία μπορεί να συνοδεύονται από τους οδηγούς τους, τους σκύλους ακοής και βοήθειας
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[Δείτε την πλήρη νομοθεσία](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 Απόσπασμα από την Ενότητα 8:
 (1) Παρά ένα άλλο νόμο, ένα άτομο με αναπηρία που βασίζεται σε οδηγό, ακρόαση ή σκύλο βοήθειας για τη μείωση της ανάγκης του ατόμου για στήριξη μπορεί να συνοδεύεται από οδηγό, ακρόαση ή σκύλο βοήθειας σε δημόσιο χώρο ή δημόσιο επιβατικό όχημα.
@@ -198,7 +198,7 @@ Andere Gesetzgebung:
 """# गाइड, हियरिंग एंड असिस्टेंस डॉग्स एक्ट 2009
 ## धारा / एस लागू:
 ### धारा 8, विकलांग लोगों को उनके मार्गदर्शक, सुनवाई और सहायता कुत्तों द्वारा आरोपित किया जा सकता है
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[पूरा विधान देखें](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 धारा 8 से अंश:
 (1) किसी भी अन्य अधिनियम के बावजूद, एक विकलांगता वाला व्यक्ति जो किसी व्यक्ति की सहायता के लिए गाइड, हियरिंग या सहायता कुत्ते पर निर्भर करता है, वह किसी सार्वजनिक स्थान या सार्वजनिक यात्री वाहन में गाइड, सुनवाई या सहायता कुत्ते के साथ हो सकता है।
@@ -226,7 +226,7 @@ Andere Gesetzgebung:
 """# Guide, Hearing and Assistance Dogs Act 2009
 ## Sezione / i applicabile:
 Sezione 8, Le persone con disabilità possono essere accompagnate dai loro cani guida, udenti e di assistenza
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[Visualizza la legislazione completa](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 Estratto dalla sezione 8:
 (1) Nonostante qualsiasi altra legge, una persona con disabilità che si affida a una guida, all'udito o al cane di assistenza per ridurre la necessità di sostegno della persona può essere accompagnata dal cane guida, dell'udito o di assistenza in un luogo pubblico o in un veicolo passeggeri pubblico.
@@ -254,7 +254,7 @@ Altra legislazione:
 """# 안내, 청각 및 보조견 법 2009
 적용 가능한 섹션 :
 ### 섹션 8, 장애가있는 사람들은 안내견, 청각 및 보조견을 동반 할 수 있습니다
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[전체 법률보기](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 섹션 8에서 발췌 :
 (1) 다른 법에도 불구하고, 장애인의 도움 필요를 줄이기 위해 안내, 청각 또는 보조견에 의존하는 장애인은 공공 장소 또는 공공 승용차에서 안내, 청각 또는 보조견을 동반 할 수 있습니다.
@@ -282,7 +282,7 @@ Altra legislazione:
 """# गाइड, सुनुवाई र सहयोग कुकुर ऐन २००।
 ## सेक्सन / हरू लागू:
 ### धारा 8, एक अशक्तता भएका व्यक्तिहरू उनीहरूको गाईड, सुनुवाई र सहयोग कुकुरहरूसँग हुन सक्छन्
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[पूर्ण कानून हेर्नुहोस्](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 सेक्शन from बाट उद्धरण:
 (१) कुनै पनि अन्य ऐनको बावजुद, अशक्तता भएको व्यक्ति जो सहायताको खाँचो कम गर्न गाईड, श्रवणशक्ति वा सहायता कुकुरमा निर्भर गर्दछ एक सार्वजनिक स्थान वा सार्वजनिक यात्री गाडीमा गाईड, सुनुवाई वा सहायता कुकुरसँग आउन सक्छ।
@@ -310,7 +310,7 @@ Altra legislazione:
 """قانون # راهنمای ، شنوایی و کمک سگ 2009
 ## بخش / ها قابل اجرا:
 ### بخش 8 ، افراد دارای معلولیت ممکن است با سگهای راهنمای ، شنوایی و کمک آنها همراه شوند
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[شاهده قانون کامل](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 گزیده ای از بخش 8:
 (1) با وجود هر قانون دیگری ، شخص دارای معلولیت که برای کاهش نیاز فرد به پشتیبانی ، به یک سگ راهنما ، شنوایی یا سکونت کمک کند ، ممکن است توسط یک سگ راهنما ، شنوایی یا مساعدت در یک مکان عمومی یا وسیله نقلیه عمومی مسافر همراه باشد.
@@ -338,7 +338,7 @@ Altra legislazione:
 """# ਗਾਈਡ, ਸੁਣਵਾਈ ਅਤੇ ਸਹਾਇਤਾ ਕੁੱਤੇ ਐਕਟ 2009
 ## ਭਾਗ / ਸ ਲਾਗੂ
 ### ਸੈਕਸ਼ਨ 8, ਅਪੰਗਤਾ ਵਾਲੇ ਲੋਕਾਂ ਨੂੰ ਉਨ੍ਹਾਂ ਦੇ ਗਾਈਡ, ਸੁਣਵਾਈ ਅਤੇ ਸਹਾਇਤਾ ਕੁੱਤਿਆਂ ਨਾਲ ਜੋੜਿਆ ਜਾ ਸਕਦਾ ਹੈ
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[ਪੂਰਾ ਕਾਨੂੰਨ ਵੇਖੋ](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 ਸੈਕਸ਼ਨ 8 ਤੋਂ ਅੰਸ਼:
 (1) ਕਿਸੇ ਹੋਰ ਐਕਟ ਦੇ ਬਾਵਜੂਦ, ਅਪਾਹਜ ਵਿਅਕਤੀ ਜਿਹੜਾ ਸਹਾਇਤਾ ਦੀ ਜ਼ਰੂਰਤ ਨੂੰ ਘਟਾਉਣ ਲਈ ਕਿਸੇ ਗਾਈਡ, ਸੁਣਵਾਈ ਜਾਂ ਸਹਾਇਤਾ ਕੁੱਤੇ 'ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ, ਕਿਸੇ ਜਨਤਕ ਜਗ੍ਹਾ ਜਾਂ ਜਨਤਕ ਯਾਤਰੀ ਵਾਹਨ ਵਿਚ ਗਾਈਡ, ਸੁਣਵਾਈ ਜਾਂ ਸਹਾਇਤਾ ਕੁੱਤੇ ਦੇ ਨਾਲ ਹੋ ਸਕਦਾ ਹੈ.
@@ -366,7 +366,7 @@ Altra legislazione:
 """# Ley de perros guía, audición y asistencia de 2009
 ## Sección / s aplicable:
 ### Sección 8, Las personas con discapacidad pueden estar acompañadas por sus perros guía, auditivo y de asistencia
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[Ver legislación completa](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 
 Extracto de la Sección 8:
 (1) A pesar de cualquier otra ley, una persona con discapacidad que depende de un perro guía, oyente o de asistencia para reducir la necesidad de apoyo de la persona puede estar acompañada por el perro guía, oyente o de asistencia en un lugar público o en un vehículo público de pasajeros.
@@ -394,7 +394,7 @@ Otra legislación:
 """# Đạo luật Hướng dẫn, Thính giác và Trợ giúp Chó 2009
 ## Phần / s Áp dụng:
 ### Phần 8, Người khuyết tật có thể đi cùng với Chó Hướng dẫn, Thính giác và Trợ giúp của họ
-[http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
+[Xem pháp luật đầy đủ](http://www.communities.qld.gov.au/disability/key-projects/guide-hearing-and-assistance-dogs)
 Trích từ Phần 8:
 (1) Mặc dù có bất kỳ Đạo luật nào khác, một người khuyết tật dựa vào hướng dẫn, nghe hoặc hỗ trợ chó để giảm bớt người cần hỗ trợ có thể được hướng dẫn, nghe hoặc hỗ trợ chó ở nơi công cộng hoặc xe chở khách công cộng.
 (2) Ngoài ra, một người khuyết tật dựa vào hướng dẫn, nghe hoặc giúp đỡ chó để giảm bớt nhu cầu hỗ trợ của người đó không phạm tội chỉ bằng cách đưa chó dẫn đường, nghe hoặc hỗ trợ vào nơi công cộng hoặc hành khách công cộng xe cộ.

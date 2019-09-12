@@ -3,7 +3,7 @@ class SA {
 ## Section/s Applicable:
 ### Section 21, Accreditation of Disability Dogs, Guide Dogs etc
 ### Section 81, Disability Dogs, Guide Dogs etc
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[View full legislation](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 Excerpt from Section 81:
 (1) Despite this Act or any other Act?
@@ -20,7 +20,7 @@ It is not unlawful for a person with an assistance animal to be asked to produce
 ## القسم / ثانية قابلة للتطبيق:
 ### القسم 21 ، اعتماد كلاب الإعاقة ، دليل الكلاب ، إلخ
 ### القسم 81 ، كلاب الإعاقة ، دليل الكلاب ، إلخ
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[رض التشريعات الكاملة](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 مقتطف من القسم 81:
 (1) على الرغم من هذا القانون أو أي قانون آخر؟
@@ -37,7 +37,7 @@ It is not unlawful for a person with an assistance animal to be asked to produce
 ##部分适用：
 ###第21节，残疾犬，导盲犬等的认证
 ###第81节，残疾犬，导盲犬等
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[查看完整的法规](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 摘自第81节：
 （1）尽管该法案或任何其他法案？
@@ -54,7 +54,7 @@ It is not unlawful for a person with an assistance animal to be asked to produce
 ##部分適用：
 ###第21節，殘疾犬，導盲犬等的認證
 ###第81節，殘疾犬，導盲犬等
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[查看完整的法規](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 摘自第81節：
 （1）儘管該法案或任何其他法案？
@@ -71,7 +71,7 @@ It is not unlawful for a person with an assistance animal to be asked to produce
 # # Seksyon / s Naaangkop:
 ### Seksyon 21, Accreditation of Disability Dogs, Gabay sa Aso atbp
 ### Seksyon 81, Mga Kapansanan sa Aso, Gabay sa Aso atbp
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[Tingnan ang buong batas](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 Sipi mula sa Seksyon 81:
 (1) Sa kabila ng Batas na ito o anumang iba pang Batas?
@@ -88,7 +88,7 @@ Hindi bawal sa tao ang isang hayop na may tulong na tatanungin upang makagawa ng
 ## Section / s Anwendbar:
 § 21, Akkreditierung von Behindertenhunden, Blindenhunden usw
 ### Abschnitt 81, Behindertenhunde, Blindenhunde usw
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[Vollständige Gesetzgebung anzeigen](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 Auszug aus § 81:
 (1) Trotz dieses Gesetzes oder eines anderen Gesetzes?
@@ -105,7 +105,7 @@ Es ist nicht rechtswidrig, wenn eine Person mit einem Hilfstier aufgefordert wir
 ## Τμήμα / s Εφαρμοστέο:
 ### Άρθρο 21, Διαπίστευση των Σκύλων Αναπηρίας, Σκύλοι Οδηγών κλπ
 ### Τμήμα 81, Σκύλοι αναπηρίας, Σκύλοι οδηγοί κλπ
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[Δείτε την πλήρη νομοθεσία](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 Απόσπασμα από το τμήμα 81:
 (1) Παρά την παρούσα Πράξη ή οποιαδήποτε άλλη Πράξη;
@@ -122,7 +122,7 @@ Es ist nicht rechtswidrig, wenn eine Person mit einem Hilfstier aufgefordert wir
 ## धारा / एस लागू:
 ### धारा 21, अक्षमता कुत्तों, गाइड कुत्तों आदि का प्रत्यायन
 ### धारा 81, विकलांगता कुत्ते, गाइड कुत्ते आदि
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[पूरा विधान देखें](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 धारा 81 से अंश:
 (१) इस अधिनियम या किसी अन्य अधिनियम के बावजूद?
@@ -139,7 +139,7 @@ Es ist nicht rechtswidrig, wenn eine Person mit einem Hilfstier aufgefordert wir
 ## Sezione / i applicabile:
 Sezione 21, Accreditamento di cani disabili, cani guida ecc
 Sezione 81, Cani per disabili, Cani guida ecc
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[Visualizza la legislazione completa](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 Estratto dalla sezione 81:
 (1) Nonostante questa legge o qualsiasi altra legge?
@@ -156,7 +156,7 @@ Non è illegale che una persona con un animale di assistenza sia invitata a forn
 적용 가능한 섹션 :
 ### 섹션 21, 장 애견, 안내견 등의 인증
 ### 섹션 81, 장 애견, 안내견 등
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[전체 법률보기](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 섹션 81에서 발췌 :
 (1)이 법이나 다른 법에도 불구하고?
@@ -165,13 +165,14 @@ Non è illegale che una persona con un animale di assistenza sia invitata a forn
 
 법 위반에 대한 최대 벌금 :
 \$ 250의 고정 된 페널티
+""",
 
-법에 따라 액세스 할 수있는 예외 :
+"""#법에 따라 액세스 할 수있는 예외 :
 보조 동물을 가진 # कुकुर र बिराला व्यवस्थापन ऐन १ 1995 1995
 ## सेक्सन / हरू लागू:
 ### धारा २१, अशक्तता कुकुर, गाईड कुकुर आदिका मान्यता
 ### सेक्सन 81१, अक्षमता कुकुर, गाईड कुकुरहरू आदि
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[पूर्ण कानून हेर्नुहोस्](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 सेक्सन from१ बाट उद्धरण:
 (१) यो ऐन वा अरू कुनै ऐनको बाबजुद?
@@ -188,7 +189,7 @@ Penalty २ of० को निश्चित पेनाल्टी
 ## بخش / ها قابل اجرا:
 ### بخش 21 ، اعتبار سنجی سگهای معلول ، سگهای راهنمای و غیره
 ### بخش 81 ، سگهای معلولیت ، سگهای راهنمای و غیره
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[شاهده قانون کامل](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 گزیده ای از بخش 81:
 (1) با وجود این قانون یا هر قانون دیگری؟
@@ -205,7 +206,7 @@ Penalty २ of० को निश्चित पेनाल्टी
 ## ਭਾਗ / ਸ ਲਾਗੂ
 ### ਧਾਰਾ 21, ਅਪੰਗਤਾ ਕੁੱਤਿਆਂ ਦੀ ਪ੍ਰਾਪਤੀ, ਗਾਈਡ ਕੁੱਤੇ ਆਦਿ
 ### ਧਾਰਾ 81, ਅਪੰਗਤਾ ਕੁੱਤੇ, ਗਾਈਡ ਕੁੱਤੇ ਆਦਿ
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[مਪੂਰਾ ਕਾਨੂੰਨ ਵੇਖੋ](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 ਸੈਕਸ਼ਨ 81 81 ਤੋਂ ਅੰਸ਼:
 (1) ਇਸ ਐਕਟ ਜਾਂ ਕਿਸੇ ਹੋਰ ਐਕਟ ਦੇ ਬਾਵਜੂਦ?
@@ -222,7 +223,7 @@ Penalty 250 ਦਾ ਪੱਕਾ ਜ਼ੁਰਮਾਨਾ
 ## Sección / s aplicable:
 ### Sección 21, Acreditación de perros con discapacidad, perros guía, etc.
 ### Sección 81, Perros con discapacidad, perros guía, etc.
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[Ver legislación completa](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 Extracto de la Sección 81:
 (1) ¿A pesar de esta Ley o de cualquier otra ley?
@@ -239,7 +240,7 @@ No es ilegal pedirle a una persona con un animal de asistencia que presente prue
 ## Phần / s Áp dụng:
 ### Phần 21, Kiểm định chó khuyết tật, Chó dẫn đường, v.v.
 ### Phần 81, Chó khuyết tật, Chó dẫn đường, v.v.
-[https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
+[Xem pháp luật đầy đủ](https://www.legislation.sa.gov.au/LZ/C/A/DOG%20AND%20CAT%20MANAGEMENT%20ACT%201995.aspx)
 
 Trích từ Mục 81:
 (1) Bất chấp Đạo luật này hay Đạo luật nào khác?
