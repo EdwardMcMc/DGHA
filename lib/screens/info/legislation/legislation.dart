@@ -81,9 +81,8 @@ class _Legislation extends State<Legislation> {
           padding: ContainerPadding,
           child: Column(
             children: <Widget>[
-              Text(selectedLanguage.toString()),
               MarkdownBody(data: state.translations[selectedIndex], onTapLink: (href){
-                //TODO: Make link open in browser
+                // Open in app browser
                 Navigator.push(
                   context,
                   MaterialPageRoute<void>(
