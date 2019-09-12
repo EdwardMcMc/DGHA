@@ -34,8 +34,8 @@ class NSW {
    ### 59 ، شخص ذو إعاقة يحق له أن يرافقه حيوان مساعد
    ### 60 ، مساعدة الحيوان لا يجب رفض دخوله
    ### 61 ، غير قانوني لفرض رسوم لدخول الحيوان المساعدة
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/ index.html و)
-   
+  [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
+
    (1) يحق للشخص ذي الإعاقة أن يكون مصحوبًا بحيوان مساعد يستخدمه الشخص بحسن نية لمساعدة الشخص ، في أو في أي مبنى أو مكان مفتوح للجمهور أو يستخدمه أي من وسائل النقل العام أو يستخدمه.
    (2) الشخص غير مذنب بارتكاب جرم لمجرد أن الشخص يأخذ الحيوان إلى أو يسمح له بالدخول إلى أو أن يكون في أو في أي من هذه المباني أو الأماكن أو أي وسيلة نقل عام أثناء استخدام الشخص لحسن نية الحيوان لمساعدة الشخص.
    (3) ينطبق هذا القسم على الرغم من أحكام أي قانون أو صك آخر صدر بموجب قانون.
@@ -62,7 +62,7 @@ class NSW {
    ### 59，残疾人士有权获得援助动物陪同
    ### 60，援助动物不被拒绝入境
    ### 61，非法加入援助动物入境费
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/的index.html）
+   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
    
    （1）残疾人士有权在该人士的帮助下，协助该人进入或进入任何对公众或任何公共交通工具开放或使用的建筑物或地方。
    （2）该人并非犯罪，只是因为该人将该动物带入或进入或准许该动物进入或在该等建筑物或地方或任何公共交通工具内或其上，而该人正在使用该动物的真实情况协助这个人。
@@ -90,7 +90,7 @@ class NSW {
    ### 59，残疾人士有权获得援助动物陪同
    ### 60，援助动物不被拒绝入境
    ### 61，非法加入援助动物入境费
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/的index.html）
+   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
    
    （1）残疾人士有权在该人士的帮助下，协助该人进入或进入任何对公众或任何公共交通工具开放或使用的建筑物或地方。
    （2）该人并非犯罪，只是因为该人将该动物带入或进入或准许该动物进入或在该等建筑物或地方或任何公共交通工具内或其上，而该人正在使用该动物的真实情况协助这个人。
@@ -118,7 +118,7 @@ class NSW {
    ### 59, Ang Tao na may Kapansanan na may karapatan na Makakasama ng Tulong sa Hayop
    ### 60, Mga Tulong sa Hayop na Hindi Maikakain ang Pagpasok
    ### 61, Labag sa batas na Magpataw ng singil para sa Pag-entry ng Tulong sa Hayop
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.htmletau(http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/ index.html)
+   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
    
    (1) Ang isang taong may kapansanan ay may karapatang sumama sa isang hayop ng tulong na ginagamit ng bona fide ng tao upang tulungan ang tao, papasok o sa anumang gusali o lugar na bukas o ginagamit ng publiko o sa anumang pampublikong transportasyon.
    (2) Ang tao ay hindi nagkasala ng isang pagkakasala dahil lamang na kinukuha ng tao o pinapasok o pinapayagan ang hayop na pumasok o makapasok o sa anumang nasabing gusali o lugar o anumang pampublikong transportasyon habang ang tao ay gumagamit ng hayop bona fide upang tulungan ang tao.
@@ -146,7 +146,7 @@ class NSW {
    ### 59, Person mit einer Behinderung, die berechtigt ist, von einem Hilfstier begleitet zu werden
    ### 60, Assistenztier, dessen Einreise nicht verweigert werden darf
    ### 61, Es ist rechtswidrig, eine Gebühr für die Einreise von Hilfstieren zu erheben
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html weibl. index.html)
+   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
    
    (1) Eine Person mit einer Behinderung hat das Recht, von einem Hilfstier begleitet zu werden, das von der Person zur Unterstützung der Person in oder auf ein Gebäude oder einen Ort, der für die Öffentlichkeit oder in öffentlichen Verkehrsmitteln geöffnet oder benutzt wird, nach Treu und Glauben benutzt wird.
    (2) Die Person hat sich nicht einer Straftat schuldig gemacht, nur weil die Person das Tier in ein solches Gebäude, einen solchen Ort oder einen öffentlichen Transport hineingibt oder sich in einem solchen Gebäude oder an einem solchen Ort aufhält oder ihm gestattet, während die Person das Tier nach bestem Wissen und Gewissen benutzt um die Person zu unterstützen.
@@ -174,7 +174,7 @@ class NSW {
    ### 59, Πρόσωπο με Αναπηρία που δικαιούται να συνοδεύεται από την Βοήθεια Ζώων
    ### 60, Βοήθεια για ζώα που δεν πρέπει να απαγορευθεί η είσοδος
    ### 61, Παράνομο να επιβληθεί χρέωση για την είσοδο της βοήθειας Animal
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html] (https://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/ index.html)
+   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
    
    (1) Ένα άτομο με αναπηρία δικαιούται να συνοδεύεται από ζώο βοήθειας το οποίο χρησιμοποιείται από το άτομο για να βοηθήσει το άτομο, σε ή επάνω σε οποιοδήποτε κτίριο ή χώρο που είναι ανοικτός ή χρησιμοποιείται από το κοινό ή σε οποιαδήποτε δημόσια συγκοινωνία.
    (2) Το πρόσωπο δεν είναι ένοχο αδικήματος απλώς και μόνο διότι το άτομο μεταφέρει το ζώο σε ή επάνω ή επιτρέπει στο ζώο να εισέλθει ή να βρίσκεται μέσα ή επ 'αυτού ή σε οποιοδήποτε τέτοιο κτίριο ή τόπο ή σε οποιαδήποτε δημόσια συγκοινωνία, ενώ το άτομο χρησιμοποιεί το καλόπιστο ζώο για να βοηθήσει το άτομο.
@@ -202,7 +202,7 @@ class NSW {
    ### 59, सहायता पशु के साथ विकलांग होने के हकदार एक विकलांग व्यक्ति
    ### 60, असिस्टेंस एनिमल नॉट इज डिनीड एंट्री
    ### 61, सहायता पशु के प्रवेश के लिए आरोप का आरोपण करने के लिए अवैध
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/ index.html)
+   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
    
    (१) विकलांगता से ग्रसित व्यक्ति को सहायता के लिए पशु के साथ किसी व्यक्ति द्वारा किसी भवन या स्थान पर या सार्वजनिक या किसी सार्वजनिक परिवहन पर उपयोग में लाए जाने वाले व्यक्ति की सहायता करने के लिए उसके द्वारा सहायता की जा रही है।
    (२) व्यक्ति केवल अपराध के लिए दोषी नहीं है क्योंकि वह व्यक्ति जानवर को अंदर ले जाता है या उस जानवर को किसी ऐसी इमारत या जगह पर या किसी सार्वजनिक परिवहन में प्रवेश करने या अंदर जाने की अनुमति देता है, जबकि व्यक्ति पशु का उपयोग कर रहा है व्यक्ति की सहायता के लिए।
@@ -230,7 +230,7 @@ class NSW {
    ### 59, Persona con disabilità autorizzata ad essere accompagnata dall'animale di assistenza
    ### 60, Animali di assistenza da non negare
    ### 61, illegale imporre una tassa per l'ingresso di animali di assistenza
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/ index.html)
+   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
    
    (1) Una persona con disabilità ha il diritto di essere accompagnata da un animale di assistenza che viene utilizzato in buona fede dalla persona per assistere la persona, in o su qualsiasi edificio o luogo aperto o utilizzato dal pubblico o su qualsiasi trasporto pubblico.
    (2) La persona non è colpevole di un reato semplicemente perché la persona porta l'animale dentro o sopra o consente all'animale di entrare o trovarsi in o in tale edificio o luogo o trasporto pubblico mentre la persona sta usando l'animale in buona fede assistere la persona.
@@ -258,7 +258,7 @@ class NSW {
    ### 59, 보조 동물과 동행 할 자격이있는 장애인
    ### 60, 지원 동물 거부 거부
    ### 61, 지원 동물 입국에 대한 책임을 부과하는 불법
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/ index.html)
+   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
    
    (1) 장애가있는 사람은 대중이나 대중 교통 수단에 의해 개방되거나 사용되는 건물이나 장소로 또는 사람을 돕기 위해 선의로 사용되는 보조 동물을 동반 할 권리가 있습니다.
    (2) 그 사람은 동물이 선의의 동물을 사용하는 동안 그 동물이 그 건물이나 장소 또는 대중 교통 수단에 들어가거나 들어 오도록 허용하기 때문에 범죄에 대해 유죄가 아니다. 사람을 돕기 위해.
@@ -286,7 +286,7 @@ class NSW {
    ### 59,, एक अशक्तता भएको व्यक्ति सहयोगी पशुसँग मिल्ने हकदार छ
    ### 60०, एनिष्टरी जनावरलाई अस्वीकार गर्नु हुँदैन
    ### 61१, सहायता जनावरको प्रवेशका लागि शुल्क लगाउन गैरकानूनी
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html पाए(http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/ index.html)
+   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
    
    (१) एक अशक्तता भएको व्यक्तिलाई सहयोगी जनावरको साथ व्यक्तिको सहयोगको लागि व्यक्तिले व्यक्तिको बेवास्ता गर्न, व्यक्ति वा कुनै भवन वा सार्वजनिक रूपमा खुला ठाउँमा वा सार्वजनिक रूपमा वा कुनै सार्वजनिक यातायातमा प्रयोग गर्न सहयोग पुर्‍याउन पाउने हकदार छ।
    (२) व्यक्ति कुनै अपराधको लागि मात्र दोषी हुँदैन किनकि व्यक्तिले जनावरलाई भित्र लैजान्छ वा भित्र जान वा त्यसमाथि कुनै भवन वा स्थान वा कुनै सार्वजनिक यातायातमा जान अनुमति दिईरहेको छ, जबकि व्यक्तिले जनावर बोना प्रयोग गर्दैछ। व्यक्तिलाई सहयोग गर्न।
@@ -314,7 +314,7 @@ class NSW {
    ### 59 ، فرد دارای معلولیت حق همراهی با حیوانات کمکی را دارد
    ### 60 ، کمک حیوانات برای ورود به آن منع نمی شوند
    ### 61 ، غیرقانونی برای تحمیل هزینه ورود حیوانات مساعدت
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html((http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/ index.html)
+   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
    
    (1) شخصی که دارای معلولیت است حق دارد با کمک یک حیوان کمکی که شخصاً برای کمک به شخص مورد استفاده قرار می گیرد ، به آن ساختمان یا مکان دیگری که در دسترس عموم یا در وسایل حمل و نقل عمومی باشد ، یا به آن ساختمان یا در آن یا از آن استفاده شود ، همراهی کند.
    (2) شخص مقصر عمل جرم نیست زیرا شخص حیوان را به داخل سوار می کند یا به آن سوق می دهد و یا اجازه می دهد حیوان را وارد کند یا در آن ساختمان یا مکان یا هر وسیله حمل و نقل عمومی قرار بگیرد ، در حالی که شخص در حال استفاده از حیوان مناسب است. برای کمک به شخص
@@ -342,7 +342,7 @@ class NSW {
    ### 59, ਇੱਕ ਅਪਾਹਜਤਾ ਵਾਲਾ ਵਿਅਕਤੀ ਸਹਾਇਤਾ ਪਸ਼ੂ ਦੇ ਨਾਲ ਹੋਣ ਦਾ ਹੱਕਦਾਰ ਹੈ
    ### 60, ਸਹਾਇਤਾ ਪਸ਼ੂਆਂ ਦੀ ਐਂਟਰੀ ਤੋਂ ਇਨਕਾਰ ਨਹੀਂ ਕੀਤਾ ਜਾਵੇਗਾ
    ### 61, ਸਹਾਇਤਾ ਪਸ਼ੂਆਂ ਦੀ ਐਂਟਰੀ ਲਈ ਚਾਰਜ ਲਗਾਉਣਾ ਗੈਰਕਾਨੂੰਨੀ ਹੈ
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html ਪਾਉਟਹੱਟਸ http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/ index.html)
+  [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
    
    (1) ਅਪਾਹਜਤਾ ਵਾਲਾ ਵਿਅਕਤੀ ਕਿਸੇ ਸਹਾਇਤਾ ਪਸ਼ੂ ਦੇ ਨਾਲ ਉਸ ਵਿਅਕਤੀ ਦੁਆਰਾ ਸਹਾਇਤਾ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਵਿਅਕਤੀ ਦੁਆਰਾ ਕਿਸੇ ਵੀ ਇਮਾਰਤ ਜਾਂ ਜਗ੍ਹਾ ਜਾਂ ਜਨਤਾ ਦੁਆਰਾ ਖੁੱਲ੍ਹੀ ਜਾਂ ਜਨਤਕ ਟ੍ਰਾਂਸਪੋਰਟ 'ਤੇ ਖੁਲ੍ਹੀ ਕਿਸੇ ਇਮਾਰਤ ਜਾਂ ਜਗ੍ਹਾ' ਤੇ ਸਹਾਇਤਾ ਕਰਨ ਲਈ ਹੱਕਦਾਰ ਹੈ.
    (2) ਵਿਅਕਤੀ ਕਿਸੇ ਅਪਰਾਧ ਲਈ ਸਿਰਫ ਦੋਸ਼ੀ ਨਹੀਂ ਹੈ ਕਿਉਂਕਿ ਵਿਅਕਤੀ ਜਾਨਵਰ ਨੂੰ ਅੰਦਰ ਜਾਂ ਅੰਦਰ ਜਾਣ ਜਾਂ ਕਿਸੇ ਅਜਿਹੀ ਇਮਾਰਤ ਜਾਂ ਜਗ੍ਹਾ ਜਾਂ ਕਿਸੇ ਜਨਤਕ ਟ੍ਰਾਂਸਪੋਰਟ ਵਿੱਚ ਜਾਂ ਅੰਦਰ ਜਾਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ ਜਦੋਂ ਕਿ ਉਹ ਵਿਅਕਤੀ ਜਾਨਵਰ ਦੀ ਘਾਤਕ ਵਰਤੋਂ ਕਰ ਰਿਹਾ ਹੈ ਵਿਅਕਤੀ ਦੀ ਸਹਾਇਤਾ ਕਰਨ ਲਈ.
@@ -370,7 +370,7 @@ class NSW {
    ### 59, Persona con discapacidad con derecho a ser acompañado por un animal de asistencia
    ### 60, Animal de asistencia no se le negará la entrada
    ### 61, ilegal imponer un cargo por la entrada de animales de asistencia
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.htmlfont>(http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/ index.html)
+   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
    
    (1) Una persona con discapacidad tiene derecho a ser acompañada por un animal de asistencia que la persona use de buena fe para ayudar a la persona, a entrar o entrar en cualquier edificio o lugar abierto o utilizado por el público o en cualquier transporte público.
    (2) La persona no es culpable de un delito simplemente porque la persona lleva al animal hacia adentro o le permite entrar o estar en un edificio o lugar o transporte público mientras la persona está usando el animal de buena fe para ayudar a la persona.
@@ -398,7 +398,7 @@ class NSW {
    ### 59, Người khuyết tật có quyền được đi kèm với Động vật hỗ trợ
    ### 60, Động vật hỗ trợ Không bị từ chối nhập cảnh
    ### 61, Không hợp pháp để buộc tội nhập cảnh động vật hỗ trợ
-   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html[(http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/ chỉ mục.html)
+   [http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html](http://www.austlii.edu.au/au/legis/nsw/consol_act/caa1998174/index.html)
    
    (1) Một người khuyết tật có quyền đi cùng với một động vật hỗ trợ được người đó sử dụng để giúp đỡ người đó, vào hoặc lên bất kỳ tòa nhà nào hoặc nơi công cộng hoặc sử dụng trên bất kỳ phương tiện giao thông công cộng nào.
    (2) Người này không phạm tội chỉ vì người đó đưa động vật vào hoặc lên hoặc cho phép động vật vào hoặc ở trong bất kỳ tòa nhà hoặc địa điểm nào hoặc bất kỳ phương tiện giao thông công cộng nào trong khi người đó đang sử dụng động vật để hỗ trợ người.

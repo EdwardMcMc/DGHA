@@ -118,7 +118,7 @@ Auszug aus § 104:
 
 Höchststrafe für Verstöße:
 10 Strafeinheiten
-Wert einer Strafeinheit ab 2012: 110,00 USD
+Wert einer Strafeinheit ab 2012: \$ 110,00 
 
 Ausnahmen für den Zugang nach dem Gesetz:
 Es ist nicht rechtswidrig, einer Person mit einem Hundeführer eine Gebühr aufzuerlegen, wenn die dritte Person aufgrund der Anwesenheit des Hundeführers zumutbare Kosten trägt.

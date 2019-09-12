@@ -150,7 +150,7 @@ Auszug aus Abschnitt 8:
 
 Höchststrafe für Verstöße:
 2 Strafeinheiten
-Wert einer Strafeinheit ab 2012: 100,00 USD
+Wert einer Strafeinheit ab 2012: \$ 100,00
 
 Ausnahmen für den Zugang nach dem Gesetz:
 - eine stationäre Abteilung

@@ -26,7 +26,7 @@ Dog Control Act 2000
 """# قانون الكلاب والسمع الكلاب لعام 1967
 ## القسم / ثانية قابلة للتطبيق:
 ### القسم 3 ، حقوق دليل مستخدمي الكلاب والمدربين فيما يتعلق بالأماكن العامة والنقل
-[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx؟s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis. com.au/Read-Legislation.aspx؟s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 مقتطف من القسم 3:
 (1) شخص مصاب بالعمى أو ضعاف البصر أو أصم أو ضعيف السمع أو مدرب؟
@@ -50,7 +50,7 @@ Dog Control Act 2000
 """＃1967年导盲犬和听力犬法案
 ##部分适用：
 ###第3节，导盲犬用户和培训师在公共场所和交通方面的权利
-[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis。 com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967）
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 摘自第3节：
 （1）失明或视力受损，聋或听力受损的人或教练？
@@ -74,7 +74,7 @@ Dog Control Act 2000
 """＃1967年導盲犬和聽力犬法案
 ##部分適用：
 ###第3節，導盲犬用戶和培訓師在公共場所和交通方面的權利
-[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis。 com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967）
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 摘自第3節：
 （1）失明或視力受損，聾或聽力受損的人或教練？
@@ -98,7 +98,7 @@ Dog Control Act 2000
 """# Mga Patnubay sa Mga Aso at Pagdinig ng Mga Aso 1967
 # # Seksyon / s Naaangkop:
 ### Seksyon 3, Mga Karapatan ng Gabay sa Mga Gumagamit at Mga Trainer sa Paggalang sa Publikong Lugar at Transportasyon
-[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967ifornia(http://lexisweb.lexisnexis. com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 Sipi mula sa Seksyon 3:
 (1) Isang taong bulag o may kapansanan sa paningin, bingi o pandinig o pandinig o tagapagsanay?
@@ -122,7 +122,7 @@ Batas sa Pamamahala ng Aso 2000
 """# Blindenhunde und hörende Hunde Gesetz von 1967
 ## Section / s Anwendbar:
 ### Abschnitt 3, Rechte von Blindenhundenutzern und Ausbildern in Bezug auf öffentliche Plätze und Transportmittel
-[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967[http://lexisweb.lexisnexis. com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 Auszug aus Abschnitt 3:
 (1) Eine Person, die blind oder sehbehindert, taub oder hörbehindert ist, oder ein Trainer?
@@ -135,7 +135,7 @@ c) einer Person, die von einem Blindenhund begleitet wird, die Unterbringung ode
 
 Höchststrafe für Verstöße:
 20 Strafeinheiten
-Wert einer Strafeinheit ab 2012: 130,00 USD
+Wert einer Strafeinheit ab 2012: \$ 130,00 
 
 Ausnahmen für den Zugang nach dem Gesetz:
 Es ist nicht rechtswidrig, wenn eine Person mit einem Hilfstier aufgefordert wird, den Nachweis zu erbringen, dass es sich bei ihrem Hund um ein Hilfstier handelt.
@@ -146,7 +146,7 @@ Hundekontrollgesetz 2000
 """# Οδηγός σκύλων και ακουστικών σκύλων νόμου του 1967
 ## Τμήμα / s Εφαρμοστέο:
 ### Τμήμα 3, Δικαιώματα οδηγών και εκπαιδευτών σκυλιών σε σχέση με τους δημόσιους χώρους και τις μεταφορές
-[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis. com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 Απόσπασμα από το τμήμα 3:
 (1) Πρόσωπο που είναι τυφλός ή με όραση, κουφός ή ακοή ή εκπαιδευτής;
@@ -170,7 +170,7 @@ Dog Act 2000
 """# गाइड डॉग्स एंड हियरिंग डॉग्स एक्ट 1967
 ## धारा / एस लागू:
 ### धारा 3, सार्वजनिक स्थानों और परिवहन के संबंध में गाइड डॉग उपयोगकर्ताओं और प्रशिक्षकों के अधिकार
-[Http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis। com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 धारा 3 से अंश:
 (१) वह व्यक्ति जो दृष्टिहीन या दृष्टिबाधित है, बहरा है या सुनने वाला बिगड़ा हुआ है या ट्रेनर है?
@@ -194,7 +194,7 @@ Dog Act 2000
 """# Guide Dogs and Hearing Dogs Act 1967
 ## Sezione / i applicabile:
 Sezione 3, Diritti degli utenti e addestratori di cani guida in relazione a luoghi e trasporti pubblici
-[Http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis. com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 Estratto dalla sezione 3:
 (1) Una persona non vedente o ipovedente, non udente o con problemi di udito o istruttore?
@@ -218,7 +218,7 @@ Dog Control Act 2000
 """# 안내견과 청각 견법 1967
 적용 가능한 섹션 :
 ### 섹션 3, 공공 장소 및 운송에 관한 안내견 사용자 및 트레이너의 권리
-[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis. com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t= 안내견 및 청각 견 -act-1967)
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 섹션 3에서 발췌 :
 (1) 시각 장애인, 청각 장애인 또는 청각 장애인 또는 트레이너입니까?
@@ -242,7 +242,7 @@ Dog Control Act 2000
 """# गाईड कुकुरहरू र सुन्ने कुकुर ऐन १ 67 6767
 ## सेक्सन / हरू लागू:
 ### धारा 3, गाईड कुकुर अधिकारकर्मी र सार्वजनिक स्थान र यातायातको सन्दर्भमा प्रशिक्षकहरूको अधिकार
-[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967 "( https://lexisweb.lexisnexis। com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-heering-dogs-act-1967)
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 सेक्शन from बाट उद्धरण:
 (१) अन्धा वा दृष्टिविहीन, बहिरा वा सुन्न नसक्ने वा प्रशिक्षक भएको व्यक्ति?
@@ -266,7 +266,7 @@ Dog Control Act 2000
 """# راهنمای سگها و سگهای شنوایی 1967
 ## بخش / ها قابل اجرا:
 ### بخش 3 ، حقوق کاربران و مربیان سگ راهنما در رابطه با اماکن عمومی و حمل و نقل
-[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx؟s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967((ttp://lexisweb.lexisnexis. com.au/Read-Legislation.aspx؟s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 گزیده ای از بخش 3:
 (1) شخصی که نابینا یا بینایی دارد ، ناشنوا یا کم شنوایی است یا مربی؟
@@ -290,7 +290,7 @@ Dog Control Act 2000
 """# ਗਾਈਡ ਡੌਗਜ਼ ਐਂਡ ਹੀਅਰਿੰਗ ਡੌਗਜ਼ ਐਕਟ 1967
 ## ਭਾਗ / ਸ ਲਾਗੂ
 ### ਸੈਕਸ਼ਨ 3, ਗਾਈਡ ਕੁੱਤੇ ਦੇ ਉਪਭੋਗਤਾਵਾਂ ਅਤੇ ਜਨਤਕ ਸਥਾਨਾਂ ਅਤੇ ਟ੍ਰਾਂਸਪੋਰਟ ਦੇ ਸੰਬੰਧ ਵਿੱਚ ਟ੍ਰੇਨਰਾਂ ਦੇ ਅਧਿਕਾਰ
-[http://lexisweb.lexisnexis.com. com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-heering-dogs-act-1967)
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 ਸੈਕਸ਼ਨ from ਤੋਂ ਅੰਸ਼:
 (1) ਉਹ ਵਿਅਕਤੀ ਜੋ ਅੰਨ੍ਹਾ ਹੈ ਜਾਂ ਦਰਸ਼ਣ ਤੋਂ ਕਮਜ਼ੋਰ ਹੈ, ਬੋਲ਼ਾ ਹੈ ਜਾਂ ਸੁਣਨ ਤੋਂ ਵਾਂਝਾ ਹੈ ਜਾਂ ਕੋਈ ਟ੍ਰੇਨਰ ਹੈ?
@@ -314,7 +314,7 @@ Dog Control Act 2000
 """# Ley de perros guía y perros de audición de 1967
 ## Sección / s aplicable:
 ### Sección 3, Derechos de los usuarios y entrenadores de perros guía con respecto a los lugares públicos y el transporte
-[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967font>(http://lexisweb.lexisnexis. com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 Extracto de la Sección 3:
 (1) ¿Una persona ciega o con problemas de visión, sordos o con problemas de audición o un entrenador?
@@ -338,7 +338,7 @@ Ley de control de perros 2000
 """# Hướng dẫn Chó và Chó nghe Đạo luật 1967
 ## Phần / s Áp dụng:
 ### Phần 3, Quyền của Hướng dẫn Người sử dụng và Huấn luyện viên Chó đối với Địa điểm Công cộng và Giao thông
-[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-v- com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-geting-dogs-act-1967)
+[http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967](http://lexisweb.lexisnexis.com.au/Read-Legislation.aspx?s=tas&f=TAS_ACT_1967-42&t=guide-dogs-and-hearing-dogs-act-1967)
 
 Trích từ Phần 3:
 (1) Một người mù hoặc khiếm thị, khiếm thính hoặc khiếm thính hoặc huấn luyện viên?
