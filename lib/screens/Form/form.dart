@@ -215,7 +215,7 @@ SingleChildScrollView(
                     focusNode: _titleFocus,
                     validator: (value) {
                       if (value.isEmpty) {
-                        return 'Please enter some text';
+                        return 'Please enter a title';
                         }
                       else if(value.length>10) {
                         return 'Please enter no more than 10 characters';
@@ -239,7 +239,7 @@ SingleChildScrollView(
                       if(value==response.fname)
                       {return null;}
                       if (value.isEmpty) {
-                        return 'Please enter some text';
+                        return 'Please enter your first name';
                       }
                       else if(value.length>40)
                       {
@@ -265,7 +265,7 @@ SingleChildScrollView(
                         return null;
                         }
                       if (value.isEmpty) {
-                        return 'Please enter some text';
+                        return 'Please enter your last name';
                         }
                       else if(value.length>40) {
                         return 'Please enter no more than 40 characters';
@@ -358,7 +358,7 @@ SingleChildScrollView(
                     focusNode: _addressFocus,
                     validator: (value) {
                       if (value.isEmpty) {
-                        return 'Please enter some text';
+                        return 'Please enter an address';
                         }
                       else if (value.length>70) {
                         return 'Please enter no more than 70 characters';
@@ -379,7 +379,7 @@ SingleChildScrollView(
                         focusNode: _suburbFocus,
                       validator: (value) {
                          if (value.isEmpty) {
-                        return 'Please enter some text';
+                        return 'Please enter your suburb';
                         }
                       else if (value.length>70) {
                         return 'Please enter no more than 70 characters';
@@ -473,7 +473,7 @@ SingleChildScrollView(
                       inputFormatters: [WhitelistingTextInputFormatter.digitsOnly],
                       validator: (value){
                         if(value.isEmpty) {
-                          return 'Please enter some text';
+                          return 'Please enter your postcode';
                           }
                         else if(value.length<4||value.length>4) {
                           return 'Please Enter a 4 digit postcode';
