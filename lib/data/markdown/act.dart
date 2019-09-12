@@ -26,7 +26,7 @@ Discrimination Act (NT)
 ### القسم 104 ، حقوق الأشخاص برفقة حيوانات المساعدة
 ### القسم 105 ، استبعاد مساعدة الحيوان من الأماكن العامة
 ### القسم 106 ، فرض الرسوم الزائدة على مساعدة الحيوان
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000- 86 / الحالي / قوات الدفاع الشعبي / 2000-86.pdf)
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 مقتطف من القسم 104:
 (1) على الرغم من أي قانون إقليمي آخر (بخلاف قانون التمييز لعام 1991) ، فإن أي شخص لديه إعاقة مصحوبة بحيوان مساعد له نفس الحق في الوصول إلى نفس المكان وفي نفس الحق في استخدام مكان عام كشخص الذي لا يرافقه حيوان المساعدة.
@@ -47,7 +47,7 @@ Discrimination Act (NT)
 ###第104节，援助动物陪同人员的权利
 ###第105节，将援助动物排除在公共场所之外
 ###第106节，对援助动物征收超额费用
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000- 86 /电流/ PDF / 2000-86.pdf）
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 摘自第104节：
 （1）尽管有任何其他领土法（1991年“歧视法”除外），残疾人陪同助理动物与公共场所享有相同的使用权和相同的使用权。谁没有辅助动物陪伴。
@@ -68,7 +68,7 @@ Discrimination Act (NT)
 ###第104節，援助動物陪同人員的權利
 ###第105節，將援助動物排除在公共場所之外
 ###第106節，對援助動物徵收超額費用
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000- 86 /電流/ PDF / 2000-86.pdf）
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 摘自第104節：
 （1）儘管有任何其他領土法（1991年“歧視法”除外），殘疾人陪同助理動物與公共場所享有相同的使用權和相同的使用權。誰沒有輔助動物陪伴。
@@ -89,7 +89,7 @@ Discrimination Act (NT)
 ### Seksyon 104, Karapatan ng Mga Tao na Sinamahan ng Mga Hayop ng Pagtulong
 ### Seksyon 105, Pagsasama ng Mga Hayop ng Tulong mula sa Pampublikong Lugar
 ### Seksyon 106, Imposisyon ng Sobrang singil para sa Mga Hayop ng Tulong
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdfetau(http://www.legislation.act.gov.au/a/2000- 86 / kasalukuyang / pdf / 2000-86.pdf)
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 Sipi mula sa Seksyon 104:
 (1) Sa kabila ng anumang iba pang batas sa teritoryo (maliban sa Discrimination Act 1991), ang isang taong may kapansanan na sinamahan ng isang hayop ng tulong ay may parehong karapatang ma-access, at ang parehong karapatan sa paggamit ng, isang pampublikong lugar bilang isang tao na hindi sinamahan ng isang hayop ng tulong.
@@ -110,7 +110,7 @@ Diskriminasyon Act (NT)
 ### § 104, Rechte von Personen, die von Hilfstieren begleitet werden
 ### § 105 Ausschluss von Hilfstieren vom öffentlichen Platz
 ### § 106 Auferlegung von Übergebühren für Hilfstiere
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf[http://www.legislation.act.gov.au/a/2000- 86 / current / pdf / 2000-86.pdf)
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 Auszug aus § 104:
 (1) Trotz aller anderen Hoheitsgebietsgesetze (mit Ausnahme des Diskriminierungsgesetzes von 1991) hat eine Person mit einer Behinderung, die von einem Hilfstier begleitet wird, das gleiche Recht auf Zugang zu einem öffentlichen Ort und das gleiche Recht auf dessen Nutzung als Person wer wird nicht von einem Hilfstier begleitet.
@@ -131,7 +131,7 @@ Diskriminierungsgesetz (NT)
 ### Τμήμα 104, Δικαιώματα προσώπων συνοδευόμενα από ζώα βοήθειας
 ### Άρθρο 105, Αποκλεισμός βοήθειας ζώων από δημόσιους χώρους
 ### Τμήμα 106, Επιβολή υπερβολικών χρεώσεων για τη βοήθεια των ζώων
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000- 86 / τρέχουσα / pdf / 2000-86.pdf)
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 Απόσπασμα από την Ενότητα 104:
 (1) Παρά ένα άλλο νόμο περί εδάφους (εκτός του Νόμου περί Διακρίσεων του 1991), ένα άτομο με αναπηρία που συνοδεύεται από ζώο βοήθειας έχει το ίδιο δικαίωμα πρόσβασης και το ίδιο δικαίωμα στη χρήση ενός δημόσιου χώρου ως ατόμου που δεν συνοδεύεται από ζώο βοήθειας.
@@ -152,7 +152,7 @@ Diskriminierungsgesetz (NT)
 ### धारा 104, सहायता जानवरों द्वारा आरोपित व्यक्तियों के अधिकार
 ### धारा 105, सार्वजनिक स्थान से सहायता पशु का बहिष्कार
 ### धारा 106, सहायता पशु के लिए अतिरिक्त शुल्क का प्रभाव
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000- 86 / वर्तमान / पीडीएफ / 2000-86.pdf)
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 धारा 104 से अंश:
 (१) किसी भी अन्य क्षेत्र के कानून (भेदभाव अधिनियम १ ९९ १ के अलावा) के बावजूद, एक विकलांग व्यक्ति जिसकी सहायता पशु के पास है, उस तक पहुँचने का समान अधिकार है, और एक व्यक्ति के रूप में उपयोग करने का समान अधिकार, सार्वजनिक स्थान जो एक सहायता जानवर के साथ नहीं है।
@@ -173,7 +173,7 @@ Diskriminierungsgesetz (NT)
 Sezione 104, Diritti delle persone accompagnate da animali di assistenza
 Sezione 105, Esclusione di animali di assistenza da luoghi pubblici
 Sezione 106, Imposizione di oneri in eccesso per l'animale di assistenza
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000- 86 / corrente / pdf / 2000-86.pdf)
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 Estratto dalla sezione 104:
 (1) Nonostante qualsiasi altra legge sul territorio (diversa dalla Discrimination Act 1991), una persona con disabilità accompagnata da un animale di assistenza ha lo stesso diritto di accesso e lo stesso diritto all'uso di un luogo pubblico come persona che non è accompagnato da un animale di assistenza.
@@ -194,7 +194,7 @@ Discrimination Act (NT)
 ### 보조 동물이 동행하는 사람의 권리 104 조
 ### 섹션 105, 공공 장소에서 보조 동물 제외
 ### 106 조 동물 지원에 대한 초과 요금 부과
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000- 86 / 현재 /pdf/2000-86.pdf)
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 섹션 104에서 발췌 :
 (1) 다른 영토 법 (1991 년 차별 법 제외)에도 불구하고 보조 동물과 함께 장애가있는 사람은 개인으로서 공공 장소에 대한 동일한 접근 권한과 동일한 사용 권한을 갖습니다. 보조 동물을 동반하지 않는 사람.
@@ -215,7 +215,7 @@ Discrimination Act (NT)
 ### धारा १०4, सहयोगी जनावरहरूको साथ व्यक्तिको अधिकार
 ### धारा १० 105, सार्वजनिक स्थानबाट सहायता पशुको अपवाद
 ### धारा १०6, सहायता जनावरहरूको लागि अतिरिक्त शुल्कको लागू
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf छ(http://www.legislation.act.gov.au/a/2000- / 86 / वर्तमान / pdf / 2000-86.pdf)
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 सेक्सन १०4 बाट उद्धरण:
 (१) कुनै पनि अन्य क्षेत्र कानूनको बावजूद (भेदभाव ऐन १ 199 199 १ बाहेक) अपाability्गता भएका व्यक्तिसँग सहायता पशुको साथ पहुँचको समान अधिकार छ, र व्यक्तिको रूपमा सार्वजनिक स्थानको प्रयोग गर्ने अधिकार पनि। जो एक सहायता जनावर संग छैन।
@@ -236,7 +236,7 @@ Discrimination Act (NT)
 ### بخش 104 ، حقوق افرادی که با حیوانات کمکی همراه هستند
 ### بخش 105 ، محرومیت از حیوانات کمکی از مکانهای عمومی
 ### بخش 106 ، تحمیل هزینه های اضافی برای حیوانات کمکی
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf((http://www.legislation.act.gov.au/a/2000- 86 / فعلی / pdf / 2000-86.pdf)
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 گزیده ای از بخش 104:
 (1) با وجود هر قانون قلمرو دیگری (به غیر از قانون تبعیض 1991) ، شخص دارای معلولیت همراه با حیوان کمک کننده ، حق دسترسی یکسان و همان حق استفاده از مکان عمومی به عنوان شخص را دارد. که با حیوان کمکی همراه نیست
@@ -257,7 +257,7 @@ Discrimination Act (NT)
 ### ਧਾਰਾ 104, ਸਹਾਇਤਾ ਪਸ਼ੂਆਂ ਦੇ ਨਾਲ ਵਿਅਕਤੀਆਂ ਦੇ ਅਧਿਕਾਰ
 ### ਧਾਰਾ 105, ਸਹਾਇਤਾ ਪਸ਼ੂਆਂ ਨੂੰ ਜਨਤਕ ਸਥਾਨ ਤੋਂ ਬਾਹਰ ਕੱlusionਣਾ
 ### ਧਾਰਾ 106, ਸਹਾਇਤਾ ਪਸ਼ੂਆਂ ਲਈ ਵਾਧੂ ਖਰਚਾ ਲਗਾਉਣਾ
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf ਕਾਠhhhp://www.legislation.act.gov.au/a/2000- 86 / ਮੌਜੂਦਾ / ਪੀਡੀਐਫ / 2000-86.pdf)
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 ਸੈਕਸ਼ਨ 104 ਤੋਂ ਅੰਸ਼:
 (1) ਕਿਸੇ ਹੋਰ ਪ੍ਰਦੇਸ਼ ਕਾਨੂੰਨ (ਵਿਤਕਰਾ ਐਕਟ 1991 ਤੋਂ ਇਲਾਵਾ) ਦੇ ਬਾਵਜੂਦ, ਕਿਸੇ ਸਹਾਇਤਾ ਪਸ਼ੂ ਦੇ ਨਾਲ ਅਪਾਹਜਤਾ ਵਾਲੇ ਵਿਅਕਤੀ ਦਾ ਪਹੁੰਚਣ ਦਾ ਉਹੀ ਅਧਿਕਾਰ ਹੈ, ਅਤੇ ਇਕ ਵਿਅਕਤੀ ਵਜੋਂ ਇਕ ਜਨਤਕ ਸਥਾਨ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦਾ ਉਹੀ ਅਧਿਕਾਰ ਹੈ ਜਿਸ ਦੇ ਨਾਲ ਕੋਈ ਸਹਾਇਤਾ ਜਾਨਵਰ ਨਹੀਂ ਹੈ.
@@ -278,7 +278,7 @@ Discrimination Act (NT)
 ### Sección 104, Derechos de las personas acompañadas por animales de asistencia
 ### Sección 105, Exclusión del animal de asistencia del lugar público
 ### Sección 106, Imposición de cargos excesivos por animales de asistencia
-[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdffont>(http://www.legislation.act.gov.au/a/2000- 86 / actual / pdf / 2000-86.pdf)
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 Extracto de la Sección 104:
 (1) A pesar de cualquier otra ley de territorio (que no sea la Ley de Discriminación de 1991), una persona con discapacidad acompañada de un animal de asistencia tiene el mismo derecho de acceso y el mismo uso de un lugar público que una persona quien no está acompañado por un animal de asistencia.
@@ -299,7 +299,7 @@ Ley de discriminación (NT)
 ### Mục 104, Quyền của người đi kèm với động vật hỗ trợ
 ### Mục 105, Loại trừ động vật hỗ trợ khỏi nơi công cộng
 ### Mục 106, Áp dụng phí vượt mức cho động vật hỗ trợ
-[http://www.legislation.act.gov.au/a/2000-86/c Hiện / pdf / 2000-86.pdf [(http: //www.legislation.act.gov.au/a/2000- 86 / hiện tại / pdf / 2000-86.pdf)
+[http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf](http://www.legislation.act.gov.au/a/2000-86/current/pdf/2000-86.pdf)
 
 Trích từ Mục 104:
 (1) Bất chấp luật pháp lãnh thổ nào khác (ngoài Đạo luật phân biệt đối xử năm 1991), một người khuyết tật đi kèm với động vật hỗ trợ có quyền truy cập tương tự và quyền sử dụng nơi công cộng như một người người không đi cùng với một động vật hỗ trợ.
