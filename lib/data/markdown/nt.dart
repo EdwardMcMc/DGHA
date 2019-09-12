@@ -47,7 +47,7 @@ Fixed penalty of \$500
 """# Anti Discrimination Act 1992
 # # Seksyon / s Naaangkop:
 ### Seksyon 21, Diskriminasyon sa pamamagitan ng pagtanggi sa Payagan ang Gabay sa Aso.
-[http://www.adc.nt.gov.au/ihara(http://www.adc.nt.gov.au/)
+[http://www.adc.nt.gov.au/](http://www.adc.nt.gov.au/)
 
 Sipi mula sa Seksyon 21:
 (1) Para sa mga layunin ng Batas na ito, ang isang tao ay nagpapakilala sa kadahilanan ng kapansanan laban sa isang taong may kapansanan sa visual, pandinig o kadaliang mapakilos kung ang tao ay tinatrato ang taong may kapansanan na hindi gaanong kaaya-aya dahil ang tao ay may isang aso na gabay.
@@ -58,7 +58,7 @@ Nakatakdang parusa ng \$ 500
 """# Antidiskriminierungsgesetz von 1992
 ## Section / s Anwendbar:
 ### Abschnitt 21, Diskriminierung durch Verweigerung der Erlaubnis von Blindenhunden.
-[http://www.adc.nt.gov.au/)(http://www.adc.nt.gov.au/)
+[http://www.adc.nt.gov.au/](http://www.adc.nt.gov.au/)
 
 Auszug aus § 21:
 (1) Im Sinne dieses Gesetzes diskriminiert eine Person aufgrund einer Beeinträchtigung eine Person mit einer Seh-, Hör- oder Mobilitätsbeeinträchtigung, wenn die Person die Person mit der Beeinträchtigung ungünstiger behandelt, weil die Person einen Blindenhund hat.
@@ -113,7 +113,7 @@ Penalità fissa di \$ 500
 """# विरोधी भेदभाव कानून 1992
 ## सेक्सन / हरू लागू:
 ### धारा २१, गाइड कुकुरलाई अनुमति दिन अस्वीकार द्वारा भेदभाव।
-[http://www.adc.nt.gov.au/ पृथ्वhttp://www.adc.nt.gov.au/)
+[http://www.adc.nt.gov.au/](http://www.adc.nt.gov.au/)
 
 सेक्सन २१ बाट उद्धरण:
 (१) यस ऐनको उद्देश्यका लागि, एक व्यक्ति दृश्य, श्रवणशक्ति वा गतिशीलता कमजोरी भएको व्यक्तिको बिरूद्ध कमजोरीको आधारमा भेदभाव गर्दछ यदि यदि व्यक्तिले कमजोरीको साथ व्यक्तिसँग अनुकूल व्यवहार गर्दछ भने कम व्यक्तिसँग गाईड कुकुर छ।
@@ -124,7 +124,7 @@ Penalty 500 को निश्चित दण्ड
 """# قانون ضد تبعیض 1992
 ## بخش / ها قابل اجرا:
 ### بخش 21 ، تبعیض در امتناع از اجازه سگ راهنمای.
-[http://www.adc.nt.gov.au/ თარგმ(http://www.adc.nt.gov.au/)
+[http://www.adc.nt.gov.au/](http://www.adc.nt.gov.au/)
 
 گزیده ای از بخش 21:
 (1) برای اهداف این قانون ، شخص به دلیل اختلال در بینایی ، شنوایی یا تحرک در صورتی که شخص با اختلال نقص کمتر رفتار کند ، به دلیل اختلال در فرد تبعیض قائل می شود ، زیرا شخص دارای یک سگ راهنما است.
@@ -135,7 +135,7 @@ Penalty 500 को निश्चित दण्ड
 """# ਵਿਤਕਰੇ ਵਿਰੋਧੀ ਐਕਟ 1992
 ## ਭਾਗ / ਸ ਲਾਗੂ
 ### ਧਾਰਾ 21, ਗਾਈਡ ਕੁੱਤੇ ਦੀ ਆਗਿਆ ਤੋਂ ਇਨਕਾਰ ਦੁਆਰਾ ਵਿਤਕਰਾ.
-[http://www.adc.nt.gov.au/ দਦੂ https://www.adc.nt.gov.au/)
+[http://www.adc.nt.gov.au/](http://www.adc.nt.gov.au/)
 
 ਸੈਕਸ਼ਨ 21 ਤੋਂ ਅੰਸ਼:
 (1) ਇਸ ਐਕਟ ਦੇ ਉਦੇਸ਼ਾਂ ਲਈ, ਇੱਕ ਵਿਅਕਤੀ ਵਿਜ਼ੂਅਲ, ਸੁਣਨ ਜਾਂ ਗਤੀਸ਼ੀਲਤਾ ਦੀ ਕਮਜ਼ੋਰੀ ਵਾਲੇ ਵਿਅਕਤੀ ਦੇ ਵਿਰੁੱਧ ਕਮਜ਼ੋਰੀ ਦੇ ਅਧਾਰ ਤੇ ਵਿਤਕਰਾ ਕਰਦਾ ਹੈ ਜੇ ਉਹ ਵਿਅਕਤੀ ਕਮਜ਼ੋਰ ਵਿਵਹਾਰ ਵਾਲੇ ਵਿਅਕਤੀ ਨਾਲ ਘੱਟ ਅਨੁਕੂਲ ਵਿਵਹਾਰ ਕਰਦਾ ਹੈ ਕਿਉਂਕਿ ਵਿਅਕਤੀ ਕੋਲ ਇੱਕ ਗਾਈਡ ਕੁੱਤਾ ਹੈ.
@@ -146,7 +146,7 @@ Penalty 500 को निश्चित दण्ड
 """# Ley contra la discriminación de 1992
 ## Sección / s aplicable:
 ### Sección 21, Discriminación por negarse a permitir perro guía.
-[http://www.adc.nt.gov.au/font>(http://www.adc.nt.gov.au/)
+[http://www.adc.nt.gov.au/](http://www.adc.nt.gov.au/)
 
 Extracto de la Sección 21:
 (1) A los efectos de esta Ley, una persona discrimina por motivos de discapacidad contra una persona con discapacidad visual, auditiva o de movilidad si trata a la persona con discapacidad de manera menos favorable porque tiene un perro guía.
@@ -157,7 +157,7 @@ Penalidad fija de \$ 500
 """# Đạo luật chống phân biệt đối xử năm 1992
 ## Phần / s Áp dụng:
 ### Phần 21, Phân biệt đối xử bằng cách từ chối cho phép Chó dẫn đường.
-[http://www.adc.nt.gov.au/[(http://www.adc.nt.gov.au/)
+[http://www.adc.nt.gov.au/](http://www.adc.nt.gov.au/)
 
 Trích từ Phần 21:
 .
