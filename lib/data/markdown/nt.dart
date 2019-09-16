@@ -154,16 +154,15 @@ Extracto de la Sección 21:
 Multa máxima por incumplimiento de la ley:
 Penalidad fija de \$ 500
 """,
-"""# Đạo luật chống phân biệt đối xử năm 1992
+  """# Đạo luật chống phân biệt đối xử năm 1992
 ## Phần / s Áp dụng:
 ### Phần 21, Phân biệt đối xử bằng cách từ chối cho phép Chó dẫn đường.
 [Xem pháp luật đầy đủ](http://www.adc.nt.gov.au/)
 
 Trích từ Phần 21:
-.
+(1) Vì mục đích của Đạo luật này, một người phân biệt đối xử dựa trên suy yếu đối với người bị suy giảm thị giác, thính giác hoặc khả năng vận động nếu người đó đối xử với người bị suy giảm ít thuận lợi hơn vì người đó có chó dẫn đường.
 
 Mức phạt tối đa cho Vi phạm Đạo luật:
-Sửa lỗi phạt \$ 500
-""",
+Đã sửa lỗi phạt \$ 500""",
   ];
 }
