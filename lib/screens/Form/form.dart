@@ -15,6 +15,42 @@ class MyCustomForm extends StatefulWidget {
   }
 }
 
+class DropdownFormField<T> extends FormField<T> {
+  DropdownFormField({
+    Key key,
+    InputDecoration decoration,
+    T initialValue,
+    List<DropdownMenuItem<T>> items,
+    bool autovalidate = false,
+    FormFieldSetter<T> onSaved,
+    FormFieldValidator<T> validator,
+  }) : super(
+          key: key,
+          onSaved: onSaved,
+          validator: validator,
+          autovalidate: autovalidate,
+          initialValue: items.contains(initialValue) ? initialValue : null,
+          builder: (FormFieldState<T> field) {
+            final InputDecoration effectiveDecoration = (decoration ?? const InputDecoration())
+                .applyDefaults(Theme.of(field.context).inputDecorationTheme);
+
+            return InputDecorator(
+              decoration:
+                  effectiveDecoration.copyWith(errorText: field.hasError ? field.errorText : null),
+              isEmpty: field.value == '' || field.value == null,
+              child: DropdownButtonHideUnderline(
+                child: DropdownButton<T>(
+                  value: field.value,
+                  isDense: true,
+                  onChanged: field.didChange,
+                  items: items.toList(),
+                ),
+              ),
+            );
+          },
+        );
+}
+
 class MyCustomFormState extends State<MyCustomForm> {
 
 final databaseReference = FirebaseDatabase.instance.reference();
@@ -168,13 +204,11 @@ SingleChildScrollView(
                       },
                     ),
                   )),  
-
-          
-                  
-                Padding(                 
+                  Padding(                 
                   padding:const EdgeInsets.all(10.0),
-                  child:                 
-                    RaisedButton(
+                  child:
+                    Builder(
+                      builder: (context) => RaisedButton(
                       onPressed: () {                            
                       // Validate returns true if the form is valid, otherwise false.
                         if (membertypevalid) {
@@ -185,13 +219,14 @@ SingleChildScrollView(
                           }
                         },
                       child: Text('Next'),
-                      )
+                      ),
+                    ), 
                   ),
-                                    Padding(
+                  Padding(
                     padding: const EdgeInsets.all(10.0),
                     child:RaisedButton(
-                  onPressed: () {
-                    Navigator.pop(context); },
+                    onPressed: () {
+                      Navigator.pop(context); },
                   child: Text('Back'),
                 ),
                   )
@@ -391,20 +426,129 @@ SingleChildScrollView(
                       _fieldFocusChange(context, _suburbFocus, _stateFocus);
                     },
                     ),
-                    Row(children: <Widget>[
-                      Padding(padding: const EdgeInsets.fromLTRB(2.0,2,10,2),
-                      child:Icon(Icons.map,color: iconcolor,)),
-                      DropdownButton<String>(
-                        hint: Text('State or Territory'),
-                        //isExpanded: true, 
-                        //icon: Icon(Icons.map),
-                        value: response.state,
-                        onChanged: (String newValue) {
-                          setState(() {
-                            response.state = newValue;
-                            });
-                          },
-                        items: [
+          //           Row(children: <Widget>[
+          //             Padding(padding: const EdgeInsets.fromLTRB(2.0,2,10,2),
+          //             child:Icon(Icons.map,color: iconcolor,)),
+          //             DropdownButton<String>(
+          //               hint: Text('State or Territory'),
+          //               //isExpanded: true, 
+          //               //icon: Icon(Icons.map),
+          //               value: response.state,
+          //               onChanged: (String newValue) {
+          //                 setState(() {
+          //                   response.state = newValue;
+          //                   });
+          //                 },
+          //               items: [
+          //                 DropdownMenuItem(
+          //                   child: Text("Australian Capital Territory"),
+          //                   value: "ACT",
+          //                   ),
+          //                   DropdownMenuItem(
+          //                   child: Text("New South Wales"),
+          //                   value: "NSW",
+          //                   ),
+          //                   DropdownMenuItem(
+          //                   child: Text("Northern Territory"),
+          //                   value: "NT",
+          //                   ),
+          //                   DropdownMenuItem(
+          //                   child: Text("Queensland"),
+          //                   value: "QLD",
+          //                   ),
+          //                   DropdownMenuItem(
+          //                   child: Text("South Australia"),
+          //                   value: "SA",
+          //                   ),
+          //                   DropdownMenuItem(
+          //                   child: Text("Tasmania"),
+          //                   value: "Tas",
+          //                   ),
+          //                   DropdownMenuItem(
+          //                   child: Text("Victoria"),
+          //                   value: "Vic",
+          //                   ),
+          //                   DropdownMenuItem(
+          //                   child: Text("Western Australia"),
+          //                   value: "WA",
+          //                   ),
+          //                 ]
+          // )],),
+                  // FormField(
+                  //   builder: (FormFieldState state) {
+                  //     return InputDecorator(
+                  //       decoration: InputDecoration(
+                  //         icon: const Icon(Icons.map),
+                  //         labelText: 'State or T',
+                  //       ),
+                  //       isEmpty: response.state == '',
+                  //       child: new DropdownButtonHideUnderline(
+                  //         child: new DropdownButton(
+                  //           value: response.state,
+                  //           isDense: true,
+                  //           onChanged: (String newValue) {
+                  //             setState(() {
+                  //               response.state = newValue;
+                                
+                  //               state.didChange(newValue);
+                  //             });
+                  //           },
+                  //           items: [
+                  //         DropdownMenuItem(
+                  //           child: Text("Australian Capital Territory"),
+                  //           value: "ACT",
+                  //           ),
+                  //           DropdownMenuItem(
+                  //           child: Text("New South Wales"),
+                  //           value: "NSW",
+                  //           ),
+                  //           DropdownMenuItem(
+                  //           child: Text("Northern Territory"),
+                  //           value: "NT",
+                  //           ),
+                  //           DropdownMenuItem(
+                  //           child: Text("Queensland"),
+                  //           value: "QLD",
+                  //           ),
+                  //           DropdownMenuItem(
+                  //           child: Text("South Australia"),
+                  //           value: "SA",
+                  //           ),
+                  //           DropdownMenuItem(
+                  //           child: Text("Tasmania"),
+                  //           value: "Tas",
+                  //           ),
+                  //           DropdownMenuItem(
+                  //           child: Text("Victoria"),
+                  //           value: "Vic",
+                  //           ),
+                  //           DropdownMenuItem(
+                  //           child: Text("Western Australia"),
+                  //           value: "WA",
+                  //           ),
+                  //         ]
+                  //         ),
+                  //       ),
+                  //     );
+                  //   },
+                  // ),
+
+                    DropdownFormField<String>(
+              
+            validator: (value) {
+              if (value == null) {
+                return 'Please select your state';
+              }
+            },
+            onSaved: (value) {
+              response.state=value;
+            },
+            decoration: InputDecoration(
+                          icon: const Icon(Icons.map),
+                          labelText: 'State',
+                        ),
+            initialValue: null,
+            items: [
                           DropdownMenuItem(
                             child: Text("Australian Capital Territory"),
                             value: "ACT",
@@ -437,31 +581,9 @@ SingleChildScrollView(
                             child: Text("Western Australia"),
                             value: "WA",
                             ),
-                          ]
-          )],),
+                          ],
+          ),
 
-                    
-                    // TextFormField(
-                    //   decoration: const InputDecoration(
-                    //     labelText: 'State or Territory',
-                    //     icon: Icon(Icons.map)
-                    //     ),
-                    //     controller: _statecontroller,
-                    //     focusNode: _stateFocus,
-                    //   validator: (value) {
-                    //     if (value.isEmpty) {
-                    //       return 'Please enter some text';
-                    //       }
-                    //       else if (value.length>40) {
-                    //         return 'Please enter no more than 40 characters';
-                    //         }
-                    //     response.state=value;
-                    //     return null;
-                    //     },
-                    //   onFieldSubmitted: (value) {
-                    //     _fieldFocusChange(context, _stateFocus, _postcodeFocus);
-                    //     },
-                    //   ),
                     TextFormField(
                       decoration: const InputDecoration(
                         labelText: 'Postcode',
@@ -597,7 +719,7 @@ SingleChildScrollView(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
-                Text("Your dog is trained for:"),
+                Text("Your dog is trained for:",style:Theme.of(context).textTheme.title),
                 GestureDetector(
                   onTap:(){setState(() {
                    response.dogTrainedFor="Dog Guide used for mobility" ;
@@ -659,19 +781,21 @@ SingleChildScrollView(
                 ),     
                 Padding(                 
                   padding:const EdgeInsets.all(10.0),
-                  child:                 
-                    RaisedButton(
+                  child:
+                  Builder(
+                    builder:(context) => RaisedButton(
                       onPressed: () {                            
                       // Validate returns true if the form is valid, otherwise false.
                         if (dogtrainedforvalid) {
                           controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
                           }
                         else {
-                          Scaffold.of(context).showSnackBar(SnackBar(content: Text('Please Select Membership Type'), duration: Duration(seconds: 3),));
+                          Scaffold.of(context).showSnackBar(SnackBar(content: Text('Please select what your dog is trained for'), duration: Duration(seconds: 3),));
                           }
                         },
                       child: Text('Next'),
-                      )
+                      ),)                 
+                    
                   ),
                                     Padding(
                     padding: const EdgeInsets.all(10.0),
@@ -968,7 +1092,10 @@ SingleChildScrollView(
           ),  
         Padding(
                     padding: const EdgeInsets.all(10.0),
-                    child: RaisedButton(
+                    child: 
+                    Builder(
+                      builder: (context) =>
+                    RaisedButton(
                       onPressed: () {
                          if(_form6Key.currentState.validate()) {
                            try{
@@ -995,11 +1122,11 @@ SingleChildScrollView(
                               });
                               controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
                               }
-                            catch(e){Scaffold.of(context).showSnackBar(SnackBar(content: Text('Yay! A SnackBar!')));} 
+                            catch(e){Scaffold.of(context).showSnackBar(SnackBar(content: Text(e)));} 
                             }
                         },
                       child: Text("Submit"),
-                      ),  
+                      )),  
                     ),
                   Padding(padding:const EdgeInsets.all(10.0),
                     child: RaisedButton(
@@ -1036,12 +1163,12 @@ Column(
                       child: Text("Done"),
                       ),  
                     ),
-                    RaisedButton(
-                      onPressed: (){
-                        controller.previousPage(duration: kTabScrollDuration,curve: Curves.ease);
-                        },
-                      child: Text("Back (remove button after development)"),
-                      )
+                    // RaisedButton(
+                    //   onPressed: (){
+                    //     controller.previousPage(duration: kTabScrollDuration,curve: Curves.ease);
+                    //     },
+                    //   child: Text("Back (remove button after development)"),
+                    //   )
 
       ],
     ),)
