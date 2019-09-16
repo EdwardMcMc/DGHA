@@ -142,10 +142,13 @@ class _Legislation extends State<Legislation> {
 
     return Scaffold(
         appBar: AppBar(
-          title: DropdownButton<String>(
+          title:
+        Semantics(
+          child: DropdownButton<String>(
             hint: Text(
               _state,
               style: TextStyle(color: Colors.white),
+              
             ),
             iconEnabledColor: Colors.white,
             iconDisabledColor: Colors.white,
@@ -162,6 +165,10 @@ class _Legislation extends State<Legislation> {
               );
             }).toList(),
           ),
+          label: "Switch state",
+        )
+          
+          
         ),
         body: SingleChildScrollView(
           child: Container(
@@ -172,6 +179,7 @@ class _Legislation extends State<Legislation> {
         ),
         floatingActionButton: FloatingActionButton(
           child: Icon(FontAwesomeIcons.language),
+          tooltip: "Translate legislation",
           onPressed: () {
             showDialog(
                 context: context,
