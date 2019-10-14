@@ -1,8 +1,9 @@
+import 'package:dgha/services/authentication.dart';
 import 'package:flutter/material.dart';
 
 import 'screens/Home/home.dart';
 import 'screens/info/info.dart';
-import 'screens/review/review.dart';
+import 'screens/review/review_root.dart';
 
 class Landing extends StatefulWidget {
   @override
@@ -16,7 +17,7 @@ class _LandingState extends State<Landing> {
 
   final List<Widget> _children = [
     Home(),
-    Review(),
+    new ReviewRoot(auth: new Auth()),
     Info(),
   ];
 
