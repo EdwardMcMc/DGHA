@@ -1,10 +1,11 @@
+import 'package:dgha/components/locationInfo.dart';
 import 'package:dgha/services/authentication.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class LoginSignup extends StatefulWidget {
-  LoginSignup({this.auth,this.loginCallback});
-  
+  LoginSignup({this.auth, this.loginCallback});
+
   final BaseAuth auth;
   final VoidCallback loginCallback;
   @override
@@ -13,19 +14,17 @@ class LoginSignup extends StatefulWidget {
   }
 }
 
-
-
 class LoginSignupState extends State<LoginSignup> {
 //Variables
-final _formKey = new GlobalKey<FormState>();
-bool _isLoading=true;
-String _email=" ";
-String _password=" ";
-bool _isLoginForm=true;
-String _errorMessage=" ";
+  final _formKey = new GlobalKey<FormState>();
+  bool _isLoading = true;
+  String _email = " ";
+  String _password = " ";
+  bool _isLoginForm = true;
+  String _errorMessage = " ";
 
 //Widgets
-Widget showCircularProgress() {
+  Widget showCircularProgress() {
     if (_isLoading) {
       return Center(child: CircularProgressIndicator());
     }
@@ -34,7 +33,8 @@ Widget showCircularProgress() {
       width: 0.0,
     );
   }
-Widget showLogo() {
+
+  Widget showLogo() {
     return new Hero(
       tag: 'hero',
       child: Padding(
@@ -47,7 +47,8 @@ Widget showLogo() {
       ),
     );
   }
-Widget showEmailInput() {
+
+  Widget showEmailInput() {
     return Padding(
       padding: const EdgeInsets.fromLTRB(0.0, 100.0, 0.0, 0.0),
       child: new TextFormField(
@@ -65,6 +66,7 @@ Widget showEmailInput() {
       ),
     );
   }
+
   Widget showPasswordInput() {
     return Padding(
       padding: const EdgeInsets.fromLTRB(0.0, 15.0, 0.0, 0.0),
@@ -83,7 +85,8 @@ Widget showEmailInput() {
       ),
     );
   }
-Widget showPrimaryButton() {
+
+  Widget showPrimaryButton() {
     return new Padding(
         padding: EdgeInsets.fromLTRB(0.0, 45.0, 0.0, 0.0),
         child: SizedBox(
@@ -99,7 +102,8 @@ Widget showPrimaryButton() {
           ),
         ));
   }
-Widget showSecondaryButton() {
+
+  Widget showSecondaryButton() {
     return new FlatButton(
         child: new Text(
             _isLoginForm ? 'Create an account' : 'Have an account? Sign in',
@@ -107,7 +111,7 @@ Widget showSecondaryButton() {
         onPressed: toggleFormMode);
   }
 
-Widget showErrorMessage() {
+  Widget showErrorMessage() {
     if (_errorMessage.length > 0 && _errorMessage != null) {
       return new Text(
         _errorMessage,
@@ -123,7 +127,8 @@ Widget showErrorMessage() {
       );
     }
   }
-Widget _showForm() {
+
+  Widget _showForm() {
     return new Container(
         padding: EdgeInsets.all(16.0),
         child: new Form(
@@ -152,7 +157,7 @@ Widget _showForm() {
     return false;
   }
 
-void validateAndSubmit() async {
+  void validateAndSubmit() async {
     setState(() {
       _errorMessage = "";
       _isLoading = true;
@@ -169,7 +174,10 @@ void validateAndSubmit() async {
           //widget.auth.sendEmailVerification();
           //_showVerifyEmailSentDialog();
           print('Signed up user: $userId');
-          Scaffold.of(context).showSnackBar(SnackBar(content: Text("Successfully Signed Up!",)));
+          Scaffold.of(context).showSnackBar(SnackBar(
+              content: Text(
+            "Successfully Signed Up!",
+          )));
         }
         setState(() {
           _isLoading = false;
@@ -188,27 +196,42 @@ void validateAndSubmit() async {
       }
     }
   }
+
   void resetForm() {
     _formKey.currentState.reset();
     _errorMessage = "";
   }
-void toggleFormMode() {
+
+  void toggleFormMode() {
     resetForm();
     setState(() {
       _isLoginForm = !_isLoginForm;
     });
   }
 
- @override
- Widget build(BuildContext context) {
-   return Scaffold(
-     appBar: AppBar(title: Text('Review')),
-     body: Stack(
-          children: <Widget>[
-            _showForm(),
-            showCircularProgress(),
-          ],
-        )
-   );
- }
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text('Review')),
+      body: Stack(
+        children: <Widget>[
+          _showForm(),
+          showCircularProgress(),
+          MaterialButton(
+            height: 40.0,
+            minWidth: 200.0,
+            color: Theme.of(context).primaryColor,
+            textColor: Colors.white,
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute<void>(builder: (context) => Locationinfo()),
+              );
+            },
+            child: Text('test button for location info'),
+          ),
+        ],
+      ),
+    );
+  }
 }
