@@ -33,7 +33,7 @@ class ReviewState extends State<Review>{
           RaisedButton(
                 child: new Text('Logout',
                     style: new TextStyle(fontSize: 17.0, color: Colors.white)),
-                onPressed: signOut)
+                onPressed: signOut),
         ],)
       ),
     );
