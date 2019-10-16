@@ -12,39 +12,141 @@ class Locationinfo extends StatelessWidget {
           child: Row(
         children: <Widget>[
           ratings(),
-          ratings(),
-          ratings(),
-          ratings(),
         ],
       )),
     );
   }
 
   Widget ratings() {
-    return Container(
-      child: Column(children: <Widget>[
-        Row(
-          children: <Widget>[
-            Icon(
-              Icons.star,
-              color: Colors.yellow,
-              size: 65.0,
-            ),
-            Text("4.5",
-                style: new TextStyle(
-                  fontSize: 20.0,
-                )),
-          ],
+    return Row(
+      children: <Widget>[
+        Container(
+          child: Column(
+            children: <Widget>[
+              Row(
+                children: <Widget>[
+                  Text("4.5",
+                      style: new TextStyle(
+                        fontSize: 18.0,
+                      )),
+                  Icon(
+                    Icons.star,
+                    color: Colors.yellow,
+                    size: 50.0,
+                  ),
+                ],
+              ),
+              Row(
+                children: <Widget>[
+                  Text(
+                    "Overall",
+                    style: new TextStyle(
+                      fontSize: 16.0,
+                    ),
+                  )
+                ],
+              ),
+            ],
+          ),
         ),
-        Row(
-          children: <Widget>[
-            Text("Overall",
-                style: new TextStyle(
-                  fontSize: 20.0,
-                ))
-          ],
-        )
-      ]),
+        Container(
+          child: Column(
+            children: <Widget>[
+              Row(
+                children: <Widget>[
+                  Text("4.5",
+                      style: new TextStyle(
+                        fontSize: 18.0,
+                      )),
+                  Icon(
+                    Icons.star,
+                    color: Colors.yellow,
+                    size: 50.0,
+                  ),
+                ],
+              ),
+              Row(
+                children: <Widget>[
+                  Text(
+                    "Location",
+                    style: new TextStyle(
+                      fontSize: 16.0,
+                    ),
+                  )
+                ],
+              ),
+            ],
+          ),
+        ),
+        Container(
+          child: Column(
+            children: <Widget>[
+              Row(
+                children: <Widget>[
+                  Text("4.5",
+                      style: new TextStyle(
+                        fontSize: 18.0,
+                      )),
+                  Icon(
+                    Icons.star,
+                    color: Colors.yellow,
+                    size: 50.0,
+                  ),
+                ],
+              ),
+              Row(
+                children: <Widget>[
+                  Text(
+                    "Customer",
+                    style: new TextStyle(
+                      fontSize: 16.0,
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                children: <Widget>[
+                  Text(
+                    "Service",
+                    style: new TextStyle(
+                      fontSize: 16.0,
+                    ),
+                  ),
+                ],
+              )
+            ],
+          ),
+        ),
+        Container(
+          child: Column(
+            children: <Widget>[
+              Row(
+                children: <Widget>[
+                  Text("4.5",
+                      style: new TextStyle(
+                        fontSize: 18.0,
+                      )),
+                  Icon(
+                    Icons.star,
+                    color: Colors.yellow,
+                    size: 50.0,
+                  ),
+                ],
+              ),
+              Row(
+                children: <Widget>[
+                  Text(
+                    "Amenities",
+                    style: new TextStyle(
+                      fontSize: 16.0,
+                    ),
+                  )
+                ],
+              ),
+            ],
+          ),
+        ),
+      ],
     );
   }
 }
