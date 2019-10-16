@@ -142,31 +142,31 @@ class _Legislation extends State<Legislation> {
 
     return Scaffold(
         appBar: AppBar(
-          title:
-        Semantics(
-          child: DropdownButton<String>(
-            hint: Text(
-              _state,
-              style: TextStyle(color: Colors.white),
-              
-            ),
-            iconEnabledColor: Colors.white,
-            iconDisabledColor: Colors.white,
-            //value: _state,
-            onChanged: (String newValue) {
-              setState(() {
-                _state = newValue;
-              });
-            },
-            items: _states.map((value) {
-              return DropdownMenuItem(
-                child: Text(value),
-                value: value,
-              );
-            }).toList(),
-          ),
-          label: "Switch state",
-        )
+          title: 
+            Semantics(
+              child: DropdownButton<String>(
+                hint: Text(
+                  _state,
+                  style: TextStyle(color: Colors.white),
+                  
+                ),
+                iconEnabledColor: Colors.white,
+                iconDisabledColor: Colors.white,
+                //value: _state,
+                onChanged: (String newValue) {
+                  setState(() {
+                    _state = newValue;
+                  });
+                },
+                items: _states.map((value) {
+                  return DropdownMenuItem(
+                    child: Text(value),
+                    value: value,
+                  );
+                }).toList(),
+              ),
+              label: "Switch state",
+            )
           
           
         ),
