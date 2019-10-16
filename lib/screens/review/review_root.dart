@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:dgha/screens/review/review_login.dart';
 import 'package:dgha/services/authentication.dart';
-import 'package:dgha/screens/review/review.dart';
+import 'package:dgha/screens/review/review_logged_in.dart';
 
 enum AuthStatus {
   NOT_DETERMINED,
@@ -76,7 +76,7 @@ class _ReviewRootState extends State<ReviewRoot> {
         break;
       case AuthStatus.LOGGED_IN:
         if (_userId.length > 0 && _userId != null) {
-          return new Review(
+          return new ReviewLogggedIn(
             userID: _userId,
             auth: widget.auth,
             logoutCallback: logoutCallback,

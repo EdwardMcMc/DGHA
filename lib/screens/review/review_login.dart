@@ -1,7 +1,8 @@
 import 'package:dgha/components/locationInfo.dart';
 import 'package:dgha/services/authentication.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+
 
 class LoginSignup extends StatefulWidget {
   LoginSignup({this.auth, this.loginCallback});
@@ -17,11 +18,14 @@ class LoginSignup extends StatefulWidget {
 class LoginSignupState extends State<LoginSignup> {
 //Variables
   final _formKey = new GlobalKey<FormState>();
-  bool _isLoading = true;
+  bool _isLoading = false;
   String _email = " ";
+  String _fName=" ";
+  String _lName=" ";
   String _password = " ";
-  bool _isLoginForm = true;
+  bool _isLoginForm = false;
   String _errorMessage = " ";
+  
 
 //Widgets
   Widget showCircularProgress() {
@@ -65,6 +69,48 @@ class LoginSignupState extends State<LoginSignup> {
         onSaved: (value) => _email = value.trim(),
       ),
     );
+  }
+  
+  Widget showfirstnameInput(){
+    if(!_isLoginForm){
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(0,15.0,0,0),
+      child: new TextFormField(
+        maxLines: 1,
+        keyboardType: TextInputType.text,
+        autofocus: false,
+        decoration: new InputDecoration(
+          hintText: 'First Name',
+          icon: new Icon(Icons.supervised_user_circle,color: Colors.grey,)
+        ),
+        validator: (value) => value.isEmpty ? 'First Name can\'t be empty' : value.length>20 ? 'First Name can\'t be longer than 20 characters': null,
+        onSaved: (value) => _fName=value.trim(),
+      ),
+    );
+    }
+    else
+    {return Container(height: 0.0,);}
+  }
+
+    Widget showlastnameInput(){
+    if(!_isLoginForm){
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(0,15.0,0,0),
+      child: new TextFormField(
+        maxLines: 1,
+        keyboardType: TextInputType.text,
+        autofocus: false,
+        decoration: new InputDecoration(
+          hintText: 'Last Name',
+          icon: new Icon(Icons.supervised_user_circle,color: Colors.grey,)
+        ),
+        validator: (value) => value.isEmpty ? 'Last Name can\'t be empty' : value.length>20 ? 'Last Name can\'t be longer than 20 characters': null,
+        onSaved: (value) => _lName=value.trim(),
+      ),
+    );
+    }
+    else
+    {return Container(height: 0.0,);}
   }
 
   Widget showPasswordInput() {
@@ -138,6 +184,8 @@ class LoginSignupState extends State<LoginSignup> {
             children: <Widget>[
               showLogo(),
               showEmailInput(),
+              showfirstnameInput(),
+              showlastnameInput(),
               showPasswordInput(),
               showPrimaryButton(),
               showSecondaryButton(),
@@ -154,6 +202,9 @@ class LoginSignupState extends State<LoginSignup> {
       form.save();
       return true;
     }
+        setState(() {
+      _isLoading = false;
+    });
     return false;
   }
 
@@ -170,7 +221,7 @@ class LoginSignupState extends State<LoginSignup> {
           print('Signed in: $userId');
         } else {
           print('trying to sign up$_email');
-          userId = await widget.auth.signUp(_email, _password);
+          userId = await widget.auth.signUp(_email, _password,_fName,_lName);
           //widget.auth.sendEmailVerification();
           //_showVerifyEmailSentDialog();
           print('Signed up user: $userId');
@@ -230,6 +281,28 @@ class LoginSignupState extends State<LoginSignup> {
             },
             child: Text('test button for location info'),
           ),
+          // MaterialButton(
+          //   height: 40.0,
+          //   minWidth: 200.0,
+          //   color: Theme.of(context).primaryColor,
+          //   textColor: Colors.white,
+          //   onPressed: ()
+          //   {
+          //     final databaseReference = FirebaseDatabase.instance.reference();
+          //     try{
+          //       databaseReference.child('1').set(
+          //       {
+          //         'fname':'_fName',
+          //         'lname':'_lName',
+          //       }
+          //       );
+          //       print('A\N/N');}
+          //       catch (e){
+          //         print(e.toString());
+          //         }
+          //   },
+          //   child: Text('TEST FIREBASE USERNAME'),
+          // )
         ],
       ),
     );
