@@ -1,26 +1,26 @@
+import 'package:dgha/screens/review/UserInfoPage.dart';
 import 'package:dgha/services/authentication.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 
 class ReviewLogggedIn extends StatefulWidget {
-  ReviewLogggedIn({Key key,this.auth,this.userID,this.logoutCallback})
+  ReviewLogggedIn({Key key,this.auth,this.userID,this.userEmail,this.logoutCallback})
   : super(key:key);
 
 final BaseAuth auth;
 final VoidCallback logoutCallback;
 final String userID;
+final String userEmail;
 
   @override
-  State<StatefulWidget> createState() => new ReviewLoggedInState(userID);
+  State<StatefulWidget> createState() => new ReviewLoggedInState(userID,userEmail);
 }
 
 class ReviewLoggedInState extends State<ReviewLogggedIn>{
-  ReviewLoggedInState(String userID){userID=userID;}
+  ReviewLoggedInState(this.userID, this.userEmail);
   String userID;
-
-  openUserInfo(String id){
-    print("about to try open user info");
-    //return new UserInfo(userID);
-  }  
+  String userEmail;
+ 
 
     signOut() async {
     try {
@@ -30,27 +30,46 @@ class ReviewLoggedInState extends State<ReviewLogggedIn>{
       print(e);
     }
   }
-  // Widget userInfoPage(){
-  //   return new Scaffold(
-  //     appBar: AppBar(title: Text("User Info"),),
-  //     body:new Container(
-  //       child: Row(children: <Widget>[
-  //         Text(widget.auth.getCurrentUser().toString()),
-  //       ],)
-  //     ));
-  // }
+bool isenabled=true;
+
+void initState(){}
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Row(children:[Text("Reviews"),IconButton(icon: Icon(Icons.supervised_user_circle,color: Colors.white,),onPressed:(){openUserInfo(userID);} ,),],mainAxisAlignment: MainAxisAlignment.spaceBetween,)
+        title: new Row(
+          children:[
+            Text("Reviews"),
+            IconButton(
+              
+              icon: Icon(Icons.supervised_user_circle,color: Colors.white,),
+              onPressed:(){
+                if(isenabled){
+                  isenabled=false;
+                String firstName;
+                String lastName;
+                final databaseReference = FirebaseDatabase.instance.reference();
+                databaseReference.child("/users/"+userID).child("lname").once().then((DataSnapshot snapshot){
+                  lastName=snapshot.value;
+                 databaseReference.child("/users/"+userID).child("fname").once().then((DataSnapshot snapshot) async {
+                   firstName=snapshot.value;
+                   print(userID);
+                   isenabled=true;
+                   final result = await Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => UserInfoPage(userID,firstName,lastName,userEmail)),
+              );
+              if(result=="logout")
+              {signOut();}
+                 });
+                 
+                
+                }); 
+  }} ,),],
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,)
       ),
       body: new Container(
         child: new Row(children: <Widget>[
-          Text("logged in reviw page"),
-          RaisedButton(
-                child: new Text('Logout',
-                    style: new TextStyle(fontSize: 17.0, color: Colors.white)),
-                onPressed: signOut),
+          Text("logged in review page"),
         ],)
       ),
     );
