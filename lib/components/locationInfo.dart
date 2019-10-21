@@ -8,144 +8,154 @@ class Locationinfo extends StatelessWidget {
       appBar: AppBar(
         title: Text("Location Info"),
       ),
-      body: Container(
-          child: Row(
-        children: <Widget>[
-          ratings(),
-        ],
-      )),
+      body: ratings(),
     );
   }
 
   Widget ratings() {
-    return Row(
+    return Column(
       children: <Widget>[
-        Container(
-          child: Column(
-            children: <Widget>[
-              Row(
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              child: Column( 
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,               
                 children: <Widget>[
-                  Text("4.5",
-                      style: new TextStyle(
-                        fontSize: 18.0,
-                      )),
-                  Icon(
-                    Icons.star,
-                    color: Colors.yellow,
-                    size: 50.0,
+                  Row(
+                    children: <Widget>[
+                      Text("4.5",
+                          style: new TextStyle(
+                            fontSize: 18.0,
+                          )),
+                      Icon(
+                        Icons.star,
+                        color: Colors.yellow,
+                        size: 50.0,
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                      Text(
+                        "Overall",
+                        style: new TextStyle(
+                          fontSize: 16.0,
+                        ),
+                      )
+                    ],
                   ),
                 ],
               ),
-              Row(
+            ),
+            Container(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
-                  Text(
-                    "Overall",
-                    style: new TextStyle(
-                      fontSize: 16.0,
-                    ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Text("4.5",
+                          style: new TextStyle(
+                            fontSize: 18.0,
+                          )),
+                      Icon(
+                        Icons.star,
+                        color: Colors.yellow,
+                        size: 50.0,
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                      Text(
+                        "Customer",
+                        style: new TextStyle(
+                          fontSize: 16.0,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                      Text(
+                        "Service",
+                        style: new TextStyle(
+                          fontSize: 16.0,
+                        ),
+                      ),
+                    ],
                   )
                 ],
               ),
-            ],
-          ),
+            ),
+          ],
         ),
-        Container(
-          child: Column(
-            children: <Widget>[
-              Row(
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Container(
+              child: Column(
                 children: <Widget>[
-                  Text("4.5",
-                      style: new TextStyle(
-                        fontSize: 18.0,
-                      )),
-                  Icon(
-                    Icons.star,
-                    color: Colors.yellow,
-                    size: 50.0,
+                  Row(                                       
+                    children: <Widget>[
+                      Text("4.5",
+                          style: new TextStyle(
+                            fontSize: 18.0,
+                          )),
+                      Icon(
+                        Icons.star,
+                        color: Colors.yellow,
+                        size: 50.0,
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                      Text(
+                        "Location",
+                        style: new TextStyle(
+                          fontSize: 16.0,
+                        ),
+                      )
+                    ],
                   ),
                 ],
               ),
-              Row(
+            ),
+            Container(
+              child: Column(
                 children: <Widget>[
-                  Text(
-                    "Location",
-                    style: new TextStyle(
-                      fontSize: 16.0,
-                    ),
-                  )
-                ],
-              ),
-            ],
-          ),
-        ),
-        Container(
-          child: Column(
-            children: <Widget>[
-              Row(
-                children: <Widget>[
-                  Text("4.5",
-                      style: new TextStyle(
-                        fontSize: 18.0,
-                      )),
-                  Icon(
-                    Icons.star,
-                    color: Colors.yellow,
-                    size: 50.0,
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Text("4.5",
+                          style: new TextStyle(
+                            fontSize: 18.0,
+                          )),
+                      Icon(
+                        Icons.star,
+                        color: Colors.yellow,
+                        size: 50.0,
+                      ),
+                    ],
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Text(
+                        "Amenities",
+                        style: new TextStyle(
+                          fontSize: 16.0,
+                        ),
+                      )
+                    ],
                   ),
                 ],
               ),
-              Row(
-                children: <Widget>[
-                  Text(
-                    "Customer",
-                    style: new TextStyle(
-                      fontSize: 16.0,
-                    ),
-                  ),
-                ],
-              ),
-              Row(
-                children: <Widget>[
-                  Text(
-                    "Service",
-                    style: new TextStyle(
-                      fontSize: 16.0,
-                    ),
-                  ),
-                ],
-              )
-            ],
-          ),
-        ),
-        Container(
-          child: Column(
-            children: <Widget>[
-              Row(
-                children: <Widget>[
-                  Text("4.5",
-                      style: new TextStyle(
-                        fontSize: 18.0,
-                      )),
-                  Icon(
-                    Icons.star,
-                    color: Colors.yellow,
-                    size: 50.0,
-                  ),
-                ],
-              ),
-              Row(
-                children: <Widget>[
-                  Text(
-                    "Amenities",
-                    style: new TextStyle(
-                      fontSize: 16.0,
-                    ),
-                  )
-                ],
-              ),
-            ],
-          ),
-        ),
+            ),
+          ],
+        )
       ],
     );
   }
