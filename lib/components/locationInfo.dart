@@ -1,3 +1,5 @@
+import 'package:dgha/components/mapbox.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:dgha/style.dart';
 
@@ -8,7 +10,31 @@ class Locationinfo extends StatelessWidget {
       appBar: AppBar(
         title: Text("Location Info"),
       ),
-      body: ratings(),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+        MapBox(LatLng(-37.8, 145.0)),
+        title(),
+        address(),
+        ratings(),
+      ],)
+    );
+  }
+
+    Widget title() {
+    return Container(
+      child: Text("Location Heading",
+      style: new TextStyle(
+        fontSize: 26.0,
+      ),),
+    );
+  }
+  Widget address() {
+    return Container(
+      child: Text("Address",
+      style: new TextStyle(
+        fontSize: 20.0,
+      ),),
     );
   }
 
@@ -20,6 +46,7 @@ class Locationinfo extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
+              padding: EdgeInsets.all(8.0),
               child: Column( 
                 children: <Widget>[
                   Row(
@@ -93,6 +120,7 @@ class Locationinfo extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
+              padding: EdgeInsets.all(8.0),
               child: Column(
                 children: <Widget>[
                   Row(                                       
