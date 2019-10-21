@@ -7,34 +7,47 @@ class Locationinfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Location Info"),
+        appBar: AppBar(
+          title: Text("Location Info"),
+        ),
+        body: SingleChildScrollView(
+            child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            new Image.asset(
+              'assets/images/maps.png',
+              width: 600.0,
+              height: 220.0,
+              fit: BoxFit.cover,
+            ),
+            //MapBox(LatLng(-37.8, 145.0)),
+            title(),
+            address(),
+            ratings(),
+          ],
+        )));
+  }
+
+  Widget title() {
+    return Container(
+      padding: EdgeInsets.fromLTRB(0, 8.0, 0 ,0),
+      child: Text(
+        "Location Heading",
+        style: new TextStyle(
+          fontSize: 26.0,
+        ),
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-        MapBox(LatLng(-37.8, 145.0)),
-        title(),
-        address(),
-        ratings(),
-      ],)
     );
   }
 
-    Widget title() {
-    return Container(
-      child: Text("Location Heading",
-      style: new TextStyle(
-        fontSize: 26.0,
-      ),),
-    );
-  }
   Widget address() {
     return Container(
-      child: Text("Address",
-      style: new TextStyle(
-        fontSize: 20.0,
-      ),),
+      child: Text(
+        "Address",
+        style: new TextStyle(
+          fontSize: 20.0,
+        ),
+      ),
     );
   }
 
@@ -47,7 +60,7 @@ class Locationinfo extends StatelessWidget {
           children: [
             Container(
               padding: EdgeInsets.all(8.0),
-              child: Column( 
+              child: Column(
                 children: <Widget>[
                   Row(
                     children: <Widget>[
@@ -123,7 +136,7 @@ class Locationinfo extends StatelessWidget {
               padding: EdgeInsets.all(8.0),
               child: Column(
                 children: <Widget>[
-                  Row(                                       
+                  Row(
                     children: <Widget>[
                       Text("4.5",
                           style: new TextStyle(
