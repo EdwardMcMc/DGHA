@@ -31,11 +31,10 @@ class Auth implements BaseAuth {
         email: email, password: password);
     FirebaseUser user = result.user;
     final databaseReference = FirebaseDatabase.instance.reference();
-    try{databaseReference.child("users/"+user.uid).set(
+    try{databaseReference.child("/users/"+user.uid).set(
       {
         'fname':_fName,
         'lname':_lName,
-        
       }
     );}
     catch(e) {

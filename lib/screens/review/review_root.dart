@@ -21,6 +21,7 @@ class ReviewRoot extends StatefulWidget {
 class _ReviewRootState extends State<ReviewRoot> {
   AuthStatus authStatus = AuthStatus.NOT_DETERMINED;
   String _userId = "";
+  String _userEmail="";
 
   @override
   void initState() {
@@ -29,6 +30,8 @@ class _ReviewRootState extends State<ReviewRoot> {
       setState(() {
         if (user != null) {
           _userId = user?.uid;
+          _userEmail=user?.email;
+          //print("EMAIL: $_userEmail");
         }
         authStatus =
             user?.uid == null ? AuthStatus.NOT_LOGGED_IN : AuthStatus.LOGGED_IN;
@@ -40,6 +43,7 @@ class _ReviewRootState extends State<ReviewRoot> {
     widget.auth.getCurrentUser().then((user) {
       setState(() {
         _userId = user.uid.toString();
+        _userEmail=user.email.toString();
       });
     });
     setState(() {
@@ -51,6 +55,7 @@ class _ReviewRootState extends State<ReviewRoot> {
     setState(() {
       authStatus = AuthStatus.NOT_LOGGED_IN;
       _userId = "";
+      _userEmail="";
     });
   }
 
@@ -76,10 +81,15 @@ class _ReviewRootState extends State<ReviewRoot> {
         break;
       case AuthStatus.LOGGED_IN:
         if (_userId.length > 0 && _userId != null) {
+          //print("userID= $_userId");
+          //print("XXXXXXXXXXuserEmail: $_userEmail");
+
           return new ReviewLogggedIn(
             userID: _userId,
+            userEmail:_userEmail,
             auth: widget.auth,
             logoutCallback: logoutCallback,
+
           );
         } else
           return buildWaitingScreen();
