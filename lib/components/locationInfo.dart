@@ -17,10 +17,10 @@ class Locationinfo extends StatelessWidget {
       children: <Widget>[
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
               child: Column( 
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,               
                 children: <Widget>[
                   Row(
                     children: <Widget>[
@@ -50,10 +50,8 @@ class Locationinfo extends StatelessWidget {
             ),
             Container(
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       Text("4.5",
                           style: new TextStyle(
@@ -127,7 +125,6 @@ class Locationinfo extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       Text("4.5",
                           style: new TextStyle(
@@ -141,7 +138,6 @@ class Locationinfo extends StatelessWidget {
                     ],
                   ),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       Text(
                         "Amenities",
