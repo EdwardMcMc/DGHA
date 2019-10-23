@@ -1,4 +1,6 @@
 import 'package:dgha/components/mapbox.dart';
+import 'package:dgha/screens/review/review_form.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:dgha/style.dart';
@@ -20,10 +22,12 @@ String photoReference;
           title: Text("Location Info"),
         ),
         body: SingleChildScrollView(
+          
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             showImage(),
+            
                         // Image.asset(
                         //   'assets/images/maps.png',
                         //   width: 600.0,
@@ -34,8 +38,18 @@ String photoReference;
                         showName(),
                         showAddress(),
                         showRatings(),
+                        RaisedButton(
+                          child: Text("Review"),
+                          onPressed:(){Navigator.push(
+                              context,
+                                MaterialPageRoute(builder: (context) => ReviewForm(placeID)),
+                  );} ,
+                        )
                       ],
-                    )));
+                    ))
+            
+                    );
+              
               }
             
               Widget showName() {
@@ -223,4 +237,5 @@ String photoReference;
                         
               ;
               }
+
 }

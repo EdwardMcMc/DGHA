@@ -285,7 +285,7 @@ class LoginSignupState extends State<LoginSignup> {
             },
             child: Text('location info'),
           ),
-          Align(child: MaterialButton(
+          /*Align(child: MaterialButton(
             height: 40.0,
             minWidth: 100.0,
             color: Theme.of(context).primaryColor,
@@ -299,7 +299,7 @@ class LoginSignupState extends State<LoginSignup> {
             child: Text('review form'),
           ),
           alignment: Alignment.topRight,
-          ),
+          ),*/
           // MaterialButton(
           //   height: 40.0,
           //   minWidth: 200.0,

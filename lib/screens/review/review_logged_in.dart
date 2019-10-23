@@ -167,7 +167,7 @@ void initState(){}
                             return new Expanded(child:ListView(children: list.map((f) =>GestureDetector(child: ReviewTile(f['name'],f['formatted_address']) ,onTap:(){
                               Navigator.push(
                               context,
-                                MaterialPageRoute(builder: (context) => Locationinfo(f['name'],f['formatted_address'],f['placeid'],f['photos'][0]['photo_reference'])),
+                                MaterialPageRoute(builder: (context) => Locationinfo(f['name'],f['formatted_address'],f['place_id'],f['photos'][0]['photo_reference'])),
                   );
                             } ,)
                            ).toList()));

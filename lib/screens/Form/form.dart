@@ -539,6 +539,7 @@ SingleChildScrollView(
               if (value == null) {
                 return 'Please select your state';
               }
+              return null;
             },
             onSaved: (value) {
               response.state=value;

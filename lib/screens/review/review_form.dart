@@ -1,22 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
+import 'package:uuid/uuid.dart';
 
 class ReviewForm extends StatefulWidget {
-
+  String placeID ="";
+  ReviewForm(this.placeID);
   @override
-  _ReviewForm createState() => _ReviewForm();
+  _ReviewForm createState() => _ReviewForm(placeID);
 }
 
 class _ReviewForm extends State<ReviewForm> {
+String placeID;
+_ReviewForm(this.placeID);
 int locRating = 0;
 int amenRating = 0;
 int custRating = 0;
 bool didTrySubmit = false;
-String locationId = "ChIJDw6lzDNC1moRa7NrwruFrLU";
+String reviewText = "";
 final _formKey = GlobalKey<FormState>();
 final databaseReference = FirebaseDatabase.instance.reference();
-
-  TextEditingController _reviewTextController=TextEditingController();
+var uuid = new Uuid();
 
 @override
 Widget build(BuildContext context) {
@@ -123,15 +126,15 @@ Widget build(BuildContext context) {
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)
           ),
           TextFormField(
-            controller: _reviewTextController,
             validator: (value){
               if (value.isEmpty){
                 return 'Please enter some text';
               }
+              reviewText = value;
               return null;
             },
             decoration: InputDecoration(
-              hintText: "dart is good"
+              hintText: "Other thoughts"
             ),
           ),
           RaisedButton(
@@ -141,18 +144,23 @@ Widget build(BuildContext context) {
               });
 
             if (_formKey.currentState.validate()&& locRating != 0 && amenRating != 0 && custRating !=0){
-              Scaffold
+              /*Scaffold
                 .of(context)
-                .showSnackBar (SnackBar(content: Text('Processing Data'),));
+                .showSnackBar (SnackBar(content: Text('Processing Data'),));*/
                 try{
-                  databaseReference.child("reviews/"+locationId).set({
+                  print(locRating);
+                  print(amenRating);
+                  print(custRating);
+                  print(reviewText);
+                  databaseReference.child("reviews/"+placeID+"/"+uuid.v4()).set({
                     'locRating': locRating,
                     'amenRating' : amenRating,
-                    'custRating' :custRating
+                    'custRating' :custRating, 
+                    'reviewText' : reviewText
                   });
                   
                 }
-                catch(e){Scaffold.of(context).showSnackBar(SnackBar(content: Text(e)));} 
+                catch(e){} 
               }
             },
             child: Text('Submit'),
