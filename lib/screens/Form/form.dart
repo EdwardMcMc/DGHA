@@ -1152,7 +1152,7 @@ Column(
       ListTile(
         leading: Text("2."),
         title: Text('Pay online using your PayPal account, or using your credit card, with secure PayPal, click on the Donate button below.')),
-      RaisedButton(child: Text('Paypal button coming soon'),),
+      RaisedButton(child: Text('Paypal button coming soon'),onPressed: (){},),
 
       
       Padding(

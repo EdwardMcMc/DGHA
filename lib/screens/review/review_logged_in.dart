@@ -8,37 +8,6 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-class Candidate{
-final String formatted_address;
-final String name;
-final String place_id;
-
-
-  Candidate({this.formatted_address,this.name,this.place_id});
-
-  // factory Candidate.fromJson(Map<String, dynamic> json){
-  //   return Candidate(
-  //     formatted_address: json['formatted_address'],
-  //     name: json['name'],
-  //     place_id: json['place_id']
-  //     );
-  // }
-}
-class Candidates{
-  List<Candidate> candidates;
-
-  Candidates(List candidateslist){
-    candidates=candidateslist;
-  }
-
-  
-  // factory Candidates.fromJson(Map<String, dynamic> json){
-  //   var list=json["candidates"] as List;
-  //   List<Candidate> itemsList=list.map(((i)=>Candidate.fromJson(i)));
-  //   return new Candidates(itemsList);
-  // }
-}
-
 class ReviewLogggedIn extends StatefulWidget {
   ReviewLogggedIn({Key key,this.auth,this.userID,this.userEmail,this.logoutCallback})
   : super(key:key);
@@ -173,7 +142,7 @@ void initState(){}
                             return new Expanded(child:ListView(children: list.map((f) =>GestureDetector(child: ReviewTile(f['name'],f['formatted_address']) ,onTap:(){
                               Navigator.push(
                               context,
-                                MaterialPageRoute(builder: (context) => Locationinfo(f['name'],f['formatted_address'],f['placeid'],f['photos'][0]['photo_reference'])),
+                                MaterialPageRoute(builder: (context) => LocationInfo(f['name'],f['formatted_address'],f['place_id'],f['photos'][0]['photo_reference'])),
                   );
                             } ,)
                            ).toList()));
