@@ -61,7 +61,8 @@ var jsonobj;
                         showRatings(),
                         RaisedButton(
                           child: Text("Review"),
-                          onPressed:(){Navigator.push(
+                          onPressed:(){
+                            Navigator.push(
                               context,
                                 MaterialPageRoute(builder: (context) => ReviewForm(placeID)),
                           );},
@@ -256,6 +257,10 @@ var jsonobj;
     print(placeID);               
     if(apiResponse!=null&&apiResponse.value!=null&&map!=null)
     {
+      databaseReference.child("/reviews/"+placeID).once().then((DataSnapshot snapshot) {
+      map = snapshot.value;
+      setState(() {apiResponse=snapshot;});
+      });
       print(apiResponse.value.toString());
       return Column(children: map.values.toList().map((item)=>Card(child:Row(children: <Widget>[Text(item['reviewText'].toString())],))).toList());
     }                                  
