@@ -139,10 +139,18 @@ void initState(){}
                             if(searched){
                                var list=jsonData["candidates"] as List;
                                print("drawlistview");
+                               String getPhoto(var f){
+                                 if(f['photos']!=null&&f['photos'][0]!=null&&f['photos'][0]['photo_reference']!=null)
+                                 {print(f['photos'][0]['photo_reference']);
+                                   return f['photos'][0]['photo_reference'];}
+                                 else{
+                                   return'1234';
+                                 }
+                               }
                             return new Expanded(child:ListView(children: list.map((f) =>GestureDetector(child: ReviewTile(f['name'],f['formatted_address']) ,onTap:(){
                               Navigator.push(
                               context,
-                                MaterialPageRoute(builder: (context) => LocationInfo(f['name'],f['formatted_address'],f['place_id'],f['photos'][0]['photo_reference'])),
+                                MaterialPageRoute(builder: (context) => LocationInfo(f['name'],f['formatted_address'],f['place_id'],getPhoto(f))),
                   );
                             } ,)
                            ).toList()));

@@ -255,19 +255,13 @@ var jsonobj;
                                       showImage()  {
                                         //var client=new http.Client();
                                         //final response= await client.post("https://maps.googleapis.com/maps/api/place/photo?parameters&key=AIzaSyAqYPLmIWI9DVaJiAYGUrTESCiiRvrTDFA&photoreference="+photoReference+"&maxheight=1000");
-                                                        return 
-                                        Stack(children: <Widget>[Padding(padding:EdgeInsets.fromLTRB(0, 100, 0 ,0),child:Center(child: CircularProgressIndicator())),Image.network("https://maps.googleapis.com/maps/api/place/photo?parameters&key=AIzaSyAqYPLmIWI9DVaJiAYGUrTESCiiRvrTDFA&photoreference=$photoReference&maxwidth=1600", width: 600.0,
-                                                  height: 220.0,
-                                                  fit: BoxFit.cover,)]);
-                                        Image.asset(
-                                                  'assets/images/maps.png',
-                                                  width: 600.0,
-                                                  height: 220.0,
-                                                  fit: BoxFit.cover,
-                                                )
-                                                
-                                      ;
-                                      }
+                                                  if(photoReference=='1234'){
+                                                    return Stack(children: <Widget>[Padding(padding:EdgeInsets.fromLTRB(0, 100, 0 ,0),child:Center(child: CircularProgressIndicator())),Image.asset('assets/images/noImage.jpg', width: 600.0,height: 220.0, fit: BoxFit.cover,)]);
+                                                  }  
+                                                  else{
+                                                    return Stack(children: <Widget>[Padding(padding:EdgeInsets.fromLTRB(0, 100, 0 ,0),child:Center(child: CircularProgressIndicator())),Image.network("https://maps.googleapis.com/maps/api/place/photo?parameters&key=AIzaSyAqYPLmIWI9DVaJiAYGUrTESCiiRvrTDFA&photoreference=$photoReference&maxwidth=1600", width: 600.0,height: 220.0, fit: BoxFit.cover,)]);
+                                                  }    
+                                                }
                         
                           showReviews() {
                               print(placeID);               
