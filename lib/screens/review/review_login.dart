@@ -1,4 +1,5 @@
 import 'package:dgha/components/locationInfo.dart';
+import 'package:dgha/screens/review/review_form.dart';
 import 'package:dgha/services/authentication.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
@@ -269,9 +270,11 @@ class LoginSignupState extends State<LoginSignup> {
         children: <Widget>[
           _showForm(),
           showCircularProgress(),
+          
+          
           MaterialButton(
             height: 40.0,
-            minWidth: 200.0,
+            minWidth: 100.0,
             color: Theme.of(context).primaryColor,
             textColor: Colors.white,
             onPressed: () {
@@ -280,7 +283,22 @@ class LoginSignupState extends State<LoginSignup> {
                 MaterialPageRoute<void>(builder: (context) => Locationinfo()),
               );
             },
-            child: Text('test button for location info'),
+            child: Text('location info'),
+          ),
+          Align(child: MaterialButton(
+            height: 40.0,
+            minWidth: 100.0,
+            color: Theme.of(context).primaryColor,
+            textColor: Colors.white,
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute<void>(builder: (context) => ReviewForm()),
+              );
+            },
+            child: Text('review form'),
+          ),
+          alignment: Alignment.topRight,
           ),
           // MaterialButton(
           //   height: 40.0,

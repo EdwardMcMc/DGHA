@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_database/firebase_database.dart';
 
 class ReviewForm extends StatefulWidget {
 
@@ -11,7 +12,11 @@ int locRating = 0;
 int amenRating = 0;
 int custRating = 0;
 bool didTrySubmit = false;
+String locationId = "ChIJDw6lzDNC1moRa7NrwruFrLU";
 final _formKey = GlobalKey<FormState>();
+final databaseReference = FirebaseDatabase.instance.reference();
+
+  TextEditingController _reviewTextController=TextEditingController();
 
 @override
 Widget build(BuildContext context) {
@@ -118,6 +123,7 @@ Widget build(BuildContext context) {
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)
           ),
           TextFormField(
+            controller: _reviewTextController,
             validator: (value){
               if (value.isEmpty){
                 return 'Please enter some text';
@@ -138,6 +144,15 @@ Widget build(BuildContext context) {
               Scaffold
                 .of(context)
                 .showSnackBar (SnackBar(content: Text('Processing Data'),));
+                try{
+                  databaseReference.child("reviews/"+locationId).set({
+                    'locRating': locRating,
+                    'amenRating' : amenRating,
+                    'custRating' :custRating
+                  });
+                  
+                }
+                catch(e){Scaffold.of(context).showSnackBar(SnackBar(content: Text(e)));} 
               }
             },
             child: Text('Submit'),
