@@ -64,20 +64,6 @@ void initState(){}
                     if(result=='logout')
                     {signOut();}
                     });
-                  //   databaseReference.child("/users/"+userID).child("lname").once().then((DataSnapshot snapshot){
-                  //     lastName=snapshot.value;
-                  //    databaseReference.child("/users/"+userID).child("fname").once().then((DataSnapshot snapshot) async {
-                  //      firstName=snapshot.value;
-                  //      print(userID);
-                  //      isenabled=true;
-                  //      final result = await Navigator.push(
-                  //     context,
-                  //     MaterialPageRoute(builder: (context) => UserInfoPage(userID,firstName,lastName,userEmail)),
-                  // );
-                  // if(result=="logout")
-                  // {signOut();}
-                  //    });
-                  //   }); 
       }} ,),],
               mainAxisAlignment: MainAxisAlignment.spaceBetween,)
           ),
@@ -92,8 +78,6 @@ void initState(){}
                             labelText: 'Location Search',
                             icon: Icon(Icons.search)
                             ),
-                        //controller: _titlecontroller,
-                        //focusNode: _titleFocus,
                         validator: (value) {
                           if (value.isEmpty) {
                             return 'Please enter a Search Term';
@@ -101,7 +85,6 @@ void initState(){}
                           else if(value.length>100) {
                             return 'Please enter no more than 100 characters';
                             }
-                          //response.title=value;
                           return null;
                           },
                         onFieldSubmitted: (value) async {
@@ -109,7 +92,6 @@ void initState(){}
                           try{
                             print("VALUE="+value);
                              final response=await client.post('https://maps.googleapis.com/maps/api/place/findplacefromtext/json?parameters&key=AIzaSyAqYPLmIWI9DVaJiAYGUrTESCiiRvrTDFA&input='+value+'&inputtype=textquery&fields=formatted_address,name,place_id,photos');
-                              //Candidates placesResponse=Candidates.fromJson(json.decode(response.body));
                               var jsonobject=json.decode(response.body);
                               
                               setState(() {
@@ -117,14 +99,9 @@ void initState(){}
                               searched=true;
                               });
                               print(jsonobject);
-                              //print(response.body);
-
                           }
                           catch(e)
-                          {print("ERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERROR");}
-                              //print("APIRESPONSE+"+apiResponse);
-                          
-                          
+                          {print("an Error has occured:+${e.toString()}");}              
                           }, 
                         ) 
               ,)
@@ -154,7 +131,6 @@ void initState(){}
                   );
                             } ,)
                            ).toList()));
-                            //return Text("text");
                             }
                             else{
                               return Text("Enter A Search Term");
