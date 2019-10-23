@@ -277,7 +277,7 @@ class LoginSignupState extends State<LoginSignup> {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute<void>(builder: (context) => Locationinfo()),
+                MaterialPageRoute<void>(builder: (context) => Locationinfo('TestName','testaddress','testid','AIzaSyAqYPLmIWI9DVaJiAYGUrTESCiiRvrTDFA')),
               );
             },
             child: Text('test button for location info'),
