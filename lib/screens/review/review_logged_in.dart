@@ -83,26 +83,32 @@ void initState(){}
                   icon: Icon(Icons.supervised_user_circle,color: Colors.white,),
                   onPressed:(){
                     if(isenabled){
-                      isenabled=false;
+                    isenabled=false;
                     String firstName;
                     String lastName;
                     final databaseReference = FirebaseDatabase.instance.reference();
-                    databaseReference.child("/users/"+userID).child("lname").once().then((DataSnapshot snapshot){
-                      lastName=snapshot.value;
-                     databaseReference.child("/users/"+userID).child("fname").once().then((DataSnapshot snapshot) async {
-                       firstName=snapshot.value;
-                       print(userID);
-                       isenabled=true;
-                       final result = await Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => UserInfoPage(userID,firstName,lastName,userEmail)),
-                  );
-                  if(result=="logout")
-                  {signOut();}
-                     });
-                     
-                    
-                    }); 
+                    databaseReference.child("/users/"+userID).once().then((DataSnapshot snapshot) async {
+                    firstName=snapshot.value['fname'];
+                    lastName=snapshot.value['lname'];
+                    isenabled=true;
+                    final result = await Navigator.push(context,MaterialPageRoute(builder: (context) => UserInfoPage(userID,firstName,lastName,userEmail)));
+                    if(result=='logout')
+                    {signOut();}
+                    });
+                  //   databaseReference.child("/users/"+userID).child("lname").once().then((DataSnapshot snapshot){
+                  //     lastName=snapshot.value;
+                  //    databaseReference.child("/users/"+userID).child("fname").once().then((DataSnapshot snapshot) async {
+                  //      firstName=snapshot.value;
+                  //      print(userID);
+                  //      isenabled=true;
+                  //      final result = await Navigator.push(
+                  //     context,
+                  //     MaterialPageRoute(builder: (context) => UserInfoPage(userID,firstName,lastName,userEmail)),
+                  // );
+                  // if(result=="logout")
+                  // {signOut();}
+                  //    });
+                  //   }); 
       }} ,),],
               mainAxisAlignment: MainAxisAlignment.spaceBetween,)
           ),
@@ -167,7 +173,7 @@ void initState(){}
                             return new Expanded(child:ListView(children: list.map((f) =>GestureDetector(child: ReviewTile(f['name'],f['formatted_address']) ,onTap:(){
                               Navigator.push(
                               context,
-                                MaterialPageRoute(builder: (context) => Locationinfo(f['name'],f['formatted_address'],f['place_id'],f['photos'][0]['photo_reference'])),
+                                MaterialPageRoute(builder: (context) => Locationinfo(f['name'],f['formatted_address'],f['placeid'],f['photos'][0]['photo_reference'])),
                   );
                             } ,)
                            ).toList()));
