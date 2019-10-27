@@ -17,6 +17,7 @@ int amenRating = 0;
 int custRating = 0;
 bool didTrySubmit = false;
 String reviewText = "";
+String reviewId = "";
 final _formKey = GlobalKey<FormState>();
 final databaseReference = FirebaseDatabase.instance.reference();
 var uuid = new Uuid();
@@ -152,7 +153,8 @@ Widget build(BuildContext context) {
                   print(amenRating);
                   print(custRating);
                   print(reviewText);
-                  databaseReference.child("reviews/"+placeID+"/"+uuid.v4()).set({
+                  reviewId = uuid.v4();
+                  databaseReference.child("reviews/"+placeID+"/"+reviewId).set({
                     'locRating': locRating,
                     'amenRating' : amenRating,
                     'custRating' :custRating, 
