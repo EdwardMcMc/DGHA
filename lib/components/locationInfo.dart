@@ -312,17 +312,33 @@ Widget reviewCard(String reviewText,String loc,String amen, String cust)
     children:<Widget>[
     Column(children: <Widget>[
       Text("Location"),
-      Row(children: <Widget>[Text(loc),Icon(Icons.star, color: Colors.yellow, size: 20.0,)],),   
+      Row(children: showstars(loc),),   
     ],),
     Column(children: <Widget>[
       Text("Amenities"),
-      Row(children: <Widget>[Text(amen),Icon(Icons.star, color: Colors.yellow, size: 20.0,)],),   
+      Row(children: showstars(amen),),   
     ],),
     Column(children: <Widget>[
       Text("Customer Service"),
-      Row(children: <Widget>[Text(cust),Icon(Icons.star, color: Colors.yellow, size: 20.0,)],),   
+      Row(children: showstars(cust),),   
     ],)
   ])
 
     ],));
+}
+
+showstars(String n) {
+  try{
+    int num=int.parse(n);
+    var list=new List<Widget>();
+    //list.add(Text(n));
+    for(int i=0;i<num;i++)
+    {
+      list.add(Icon(Icons.star, color: Colors.yellow, size: 20.0,));
+    }
+    return(list);
+  }
+  catch(e){
+    return Text(n);
+  }
 }
