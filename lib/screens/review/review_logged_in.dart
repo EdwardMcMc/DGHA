@@ -125,6 +125,7 @@ void initState(){}
                                  }
                                }
                             return new Expanded(child:ListView(children: list.map((f) =>GestureDetector(child: ReviewTile(f['name'],f['formatted_address']) ,onTap:(){
+                              
                               Navigator.push(
                               context,
                                 MaterialPageRoute(builder: (context) => LocationInfo(f['name'],f['formatted_address'],f['place_id'],getPhoto(f))),

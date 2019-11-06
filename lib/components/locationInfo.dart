@@ -11,6 +11,7 @@ class LocationInfo extends StatefulWidget {
   String name;
   String photoReference;
   String placeID;
+  
 
   LocationInfo(this.name,this.address,this.placeID,this.photoReference);
 
@@ -25,6 +26,7 @@ class _LocationInfo extends State<LocationInfo> {
 
 _LocationInfo(this.name,this.address,this.placeID,this.photoReference);
 
+bool loading=true;
 String name;
 String address;
 String placeID; 
@@ -39,7 +41,9 @@ var jsonobj;
     super.initState();
     databaseReference.child("/reviews/"+placeID).once().then((DataSnapshot snapshot) {
       map = snapshot.value;
-      setState(() {apiResponse=snapshot;});
+      
+      setState(() {apiResponse=snapshot;
+      loading=false;});
       });
     }
 
@@ -279,8 +283,10 @@ var jsonobj;
                         
   showReviews() 
   {
-    print(placeID);               
-    if(apiResponse!=null&&apiResponse.value!=null&&map!=null)
+    print(placeID);
+    if(loading)
+    {return Center(child: CircularProgressIndicator());}              
+    else if(apiResponse!=null&&apiResponse.value!=null&&map!=null)
     {
       databaseReference.child("/reviews/"+placeID).once().then((DataSnapshot snapshot) {
       map = snapshot.value;
