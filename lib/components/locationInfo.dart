@@ -94,8 +94,32 @@ var jsonobj;
     );
   }
                                     
-  Widget showRatings() {
-    return Column(
+  showRatings() {
+      double amenRating=0;
+      double custRating=0;
+      double locRating=0;
+      double overall=0;
+      if(apiResponse!=null&&apiResponse.value!=null&&map!=null)
+      {
+        for(int i=0;i<map.values.toList().length;i++)
+        {
+          amenRating+=map.values.toList()[i]['amenRating'];
+          custRating+=map.values.toList()[i]['custRating'];
+          locRating+=map.values.toList()[i]['locRating'];
+        }
+        amenRating=amenRating/map.values.toList().length;
+        custRating=custRating/map.values.toList().length;
+        locRating=locRating/map.values.toList().length;
+        overall=(amenRating+custRating+locRating)/3;
+        return ratings(amenRating.toStringAsFixed(1), custRating.toStringAsFixed(1), locRating.toStringAsFixed(1), overall.toStringAsFixed(1));
+      }
+      else{
+        return ratings("N/A","N/A","N/A","N/A");
+      }
+  }
+
+  Widget ratings(String amen,String cust,String loc,String over) {
+      return Column(
       children: <Widget>[
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -107,7 +131,7 @@ var jsonobj;
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      Text("4.5",
+                      Text(over,
                           style: new TextStyle(
                             fontSize: 18.0,
                           )),
@@ -136,7 +160,7 @@ var jsonobj;
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      Text("4.5",
+                      Text(cust,
                           style: new TextStyle(
                             fontSize: 18.0,
                           )),
@@ -181,7 +205,7 @@ var jsonobj;
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      Text("4.5",
+                      Text(loc,
                           style: new TextStyle(
                             fontSize: 18.0,
                           )),
@@ -210,7 +234,7 @@ var jsonobj;
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      Text("4.5",
+                      Text(amen,
                           style: new TextStyle(
                             fontSize: 18.0,
                           )),
@@ -239,6 +263,7 @@ var jsonobj;
       ],
     );
   }
+
                                     
   showImage() 
   {
@@ -259,14 +284,36 @@ var jsonobj;
     {
       databaseReference.child("/reviews/"+placeID).once().then((DataSnapshot snapshot) {
       map = snapshot.value;
-      setState(() {apiResponse=snapshot;});
+      //setState(() {apiResponse=snapshot;});
       });
       print(apiResponse.value.toString());
-      return Column(children: map.values.toList().map((item)=>Card(child:Row(children: <Widget>[Text(item['reviewText'].toString())],))).toList());
+      return Column(children: map.values.toList().map((item)=>reviewCard(item['reviewText'].toString(),item['locRating'].toString(),item['amenRating'].toString(),item['custRating'].toString())).toList());
     }                                  
     else
     {
-      return Text("No Reviews Yet!");
+      return Padding(padding:EdgeInsets.fromLTRB(0, 60, 0 ,0), child:Text("No Reviews Yet, Be The First to Post One!"));
     }
   }
+}
+
+Widget reviewCard(String reviewText,String loc,String amen, String cust)
+{
+  return Card(child:Column(children: <Widget>[Padding(padding:EdgeInsets.fromLTRB(0, 0, 0 ,8),child:Text('"'+reviewText+'"')),
+  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    children:<Widget>[
+    Column(children: <Widget>[
+      Text("Location"),
+      Row(children: <Widget>[Text(loc),Icon(Icons.star, color: Colors.yellow, size: 20.0,)],),   
+    ],),
+    Column(children: <Widget>[
+      Text("Amenities"),
+      Row(children: <Widget>[Text(amen),Icon(Icons.star, color: Colors.yellow, size: 20.0,)],),   
+    ],),
+    Column(children: <Widget>[
+      Text("Customer Service"),
+      Row(children: <Widget>[Text(cust),Icon(Icons.star, color: Colors.yellow, size: 20.0,)],),   
+    ],)
+  ])
+
+    ],));
 }
