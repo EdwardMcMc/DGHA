@@ -65,11 +65,14 @@ var jsonobj;
                         showRatings(),
                         RaisedButton(
                           child: Text("Review"),
-                          onPressed:(){
-                            Navigator.push(
+                          onPressed:() async {
+                            final result= await Navigator.push(
                               context,
                                 MaterialPageRoute(builder: (context) => ReviewForm(placeID)),
-                          );},
+                          );
+                          if (result=="posted")
+                          {Navigator.pop(context,'posted');}
+                          },
                           ),
                         showReviews()
                         ],)));

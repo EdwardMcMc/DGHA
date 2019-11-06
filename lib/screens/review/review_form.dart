@@ -159,7 +159,7 @@ Widget build(BuildContext context) {
                     'amenRating' : amenRating,
                     'custRating' :custRating, 
                     'reviewText' : reviewText
-                  }).then((onValue){Navigator.pop(context);});
+                  }).then((onValue){Navigator.pop(context,'posted');});
                   
                 }
                 catch(e){} 

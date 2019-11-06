@@ -124,12 +124,17 @@ void initState(){}
                                    return'1234';
                                  }
                                }
-                            return new Expanded(child:ListView(children: list.map((f) =>GestureDetector(child: ReviewTile(f['name'],f['formatted_address']) ,onTap:(){
-                              
-                              Navigator.push(
+                            return new Expanded(child:ListView(children: list.map((f) =>GestureDetector(child: ReviewTile(f['name'],f['formatted_address']) ,onTap:() async {
+                              reopen(var f) async {
+  final result=await Navigator.push(
                               context,
-                                MaterialPageRoute(builder: (context) => LocationInfo(f['name'],f['formatted_address'],f['place_id'],getPhoto(f))),
-                  );
+                              MaterialPageRoute(builder: (context) => LocationInfo(f['name'],f['formatted_address'],f['place_id'],getPhoto(f))),
+                              );
+                              if (result=="posted")
+                              {reopen(f);}
+}
+                              
+                              reopen(f);
                             } ,)
                            ).toList()));
                             }
@@ -137,5 +142,6 @@ void initState(){}
                               return Text("Enter A Search Term");
                             }
                            
-                          }
+                          }                         
 }
+
