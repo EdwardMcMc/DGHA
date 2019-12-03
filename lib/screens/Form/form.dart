@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
-import '../../models/formresponse.dart';
+import 'package:dgha/models/formresponse.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:uuid/uuid.dart';
@@ -914,7 +914,7 @@ SingleChildScrollView(
                   title: const Text('No'),
                   leading: Radio(
                     value: false,
-                    groupValue: dogtrainedforother,
+                    groupValue: dogtrainedforother, onChanged: (bool value) {},
                     ),
                   ),
                   ),
@@ -930,7 +930,7 @@ SingleChildScrollView(
                   title: const Text('Yes'),
                   leading: Radio(
                     value: true,
-                    groupValue: dogtrainedforother,
+                    groupValue: dogtrainedforother, onChanged: (bool value) {},
                     ),
                   ),
                   ),
@@ -1005,7 +1005,7 @@ SingleChildScrollView(
               title: const Text('No'),
               leading: Radio(
                 value: false,
-                groupValue: workfororg,
+                groupValue: workfororg, onChanged: (bool value) {},
                 ),
               ),
           ),
@@ -1022,7 +1022,7 @@ SingleChildScrollView(
               title: const Text('Yes'),
               leading: Radio(
                 value: true,
-                groupValue: workfororg,
+                groupValue: workfororg, onChanged: (bool value) {},
                 ),
               ),
           ),
@@ -1120,8 +1120,7 @@ SingleChildScrollView(
                               'workForOrg':response.workForOrg.toString(),
                               'workForOrgName':response.workForOrgName,
                               'workForOrgPosition':response.workForOrgPosition,
-                              });
-                              controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);
+                              }).then((value){controller.nextPage(duration: kTabScrollDuration,curve: Curves.ease);});
                               }
                             catch(e){Scaffold.of(context).showSnackBar(SnackBar(content: Text(e)));} 
                             }

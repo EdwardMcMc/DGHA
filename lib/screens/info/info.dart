@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'legislation/legislation.dart';
+import 'package:dgha/screens/info/legislation/legislation.dart';
 import 'package:dgha/utils/geolocator.dart';
 import 'package:dgha/style.dart';
 import 'package:dgha/data/markdown/access.dart';

@@ -1,4 +1,4 @@
-import 'membership/membership.dart';
+import 'package:dgha/screens/Home/membership/membership.dart';
 import 'package:dgha/components/image_banner.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';

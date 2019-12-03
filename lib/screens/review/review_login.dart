@@ -52,8 +52,17 @@ class LoginSignupState extends State<LoginSignup> {
   }
 
   Widget showEmailInput() {
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(0.0, 100.0, 0.0, 0.0),
+    if(_isLoading)
+    {
+      return Container(
+      height: 0.0,
+      width: 0.0,
+    );
+    }
+    else
+    {
+      return Padding(
+      padding: const EdgeInsets.fromLTRB(0.0, 70.0, 0.0, 0.0),
       child: new TextFormField(
         maxLines: 1,
         keyboardType: TextInputType.emailAddress,
@@ -68,9 +77,20 @@ class LoginSignupState extends State<LoginSignup> {
         onSaved: (value) => _email = value.trim(),
       ),
     );
+    }
+    
   }
   
   Widget showfirstnameInput(){
+     if(_isLoading)
+    {
+      return Container(
+      height: 0.0,
+      width: 0.0,
+    );
+    }
+    else
+    {
     if(!_isLoginForm){
     return Padding(
       padding: const EdgeInsets.fromLTRB(0,15.0,0,0),
@@ -89,9 +109,19 @@ class LoginSignupState extends State<LoginSignup> {
     }
     else
     {return Container(height: 0.0,);}
+    }
   }
 
     Widget showlastnameInput(){
+     if(_isLoading)
+    {
+      return Container(
+      height: 0.0,
+      width: 0.0,
+    );
+    }
+    else
+    {
     if(!_isLoginForm){
     return Padding(
       padding: const EdgeInsets.fromLTRB(0,15.0,0,0),
@@ -109,10 +139,19 @@ class LoginSignupState extends State<LoginSignup> {
     );
     }
     else
-    {return Container(height: 0.0,);}
+    {return Container(height: 0.0,);}}
   }
 
   Widget showPasswordInput() {
+     if(_isLoading)
+    {
+      return Container(
+      height: 0.0,
+      width: 0.0,
+    );
+    }
+    else
+    {
     return Padding(
       padding: const EdgeInsets.fromLTRB(0.0, 15.0, 0.0, 0.0),
       child: new TextFormField(
@@ -130,8 +169,18 @@ class LoginSignupState extends State<LoginSignup> {
       ),
     );
   }
+  }
 
   Widget showPrimaryButton() {
+     if(_isLoading)
+    {
+      return Container(
+      height: 0.0,
+      width: 0.0,
+    );
+    }
+    else
+    {
     return new Padding(
         padding: EdgeInsets.fromLTRB(0.0, 45.0, 0.0, 0.0),
         child: SizedBox(
@@ -146,15 +195,24 @@ class LoginSignupState extends State<LoginSignup> {
             onPressed: validateAndSubmit,
           ),
         ));
-  }
+  }}
 
   Widget showSecondaryButton() {
+     if(_isLoading)
+    {
+      return Container(
+      height: 0.0,
+      width: 0.0,
+    );
+    }
+    else
+    {
     return new FlatButton(
         child: new Text(
             _isLoginForm ? 'Create an account' : 'Have an account? Sign in',
             style: new TextStyle(fontSize: 18.0, fontWeight: FontWeight.w300)),
         onPressed: toggleFormMode);
-  }
+  }}
 
   Widget showErrorMessage() {
     if (_errorMessage.length > 0 && _errorMessage != null) {
@@ -270,19 +328,19 @@ class LoginSignupState extends State<LoginSignup> {
           showCircularProgress(),
           
           
-          MaterialButton(
-            height: 40.0,
-            minWidth: 100.0,
-            color: Theme.of(context).primaryColor,
-            textColor: Colors.white,
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute<void>(builder: (context) => LocationInfo('TestName','testaddress','testid','AIzaSyAqYPLmIWI9DVaJiAYGUrTESCiiRvrTDFA')),
-              );
-            },
-            child: Text('location info'),
-          ),
+          // MaterialButton(
+          //   height: 40.0,
+          //   minWidth: 100.0,
+          //   color: Theme.of(context).primaryColor,
+          //   textColor: Colors.white,
+          //   onPressed: () {
+          //     Navigator.push(
+          //       context,
+          //       MaterialPageRoute<void>(builder: (context) => LocationInfo('TestName','testaddress','testid','AIzaSyAqYPLmIWI9DVaJiAYGUrTESCiiRvrTDFA')),
+          //     );
+          //   },
+          //   child: Text('location info'),
+          // ),
           // MaterialButton(
           //   height: 40.0,
           //   minWidth: 200.0,

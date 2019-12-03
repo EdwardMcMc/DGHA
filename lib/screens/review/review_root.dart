@@ -10,9 +10,9 @@ enum AuthStatus {
 }
 
 class ReviewRoot extends StatefulWidget {
-  ReviewRoot({this.auth});
+  
 
-  final BaseAuth auth;
+  final BaseAuth auth= Auth();
 
   @override
   State<StatefulWidget> createState() => new _ReviewRootState();

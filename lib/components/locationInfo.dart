@@ -1,10 +1,6 @@
-import 'package:dgha/components/mapbox.dart';
 import 'package:dgha/screens/review/review_form.dart';
 import 'package:firebase_database/firebase_database.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:flutter/material.dart';
-import 'package:dgha/style.dart';
 
 class LocationInfo extends StatefulWidget {
   String address;

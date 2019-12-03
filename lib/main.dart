@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'landing.dart';
+import 'package:dgha/landing.dart';
 
 void main() => runApp(App());
 

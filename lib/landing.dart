@@ -1,9 +1,10 @@
-import 'package:dgha/services/authentication.dart';
+import 'dart:io';
 import 'package:flutter/material.dart';
-
-import 'screens/Home/home.dart';
-import 'screens/info/info.dart';
-import 'screens/review/review_root.dart';
+import 'package:dgha/screens/Home/home.dart';
+import 'package:dgha/screens/info/info.dart';
+import 'package:dgha/screens/review/review_root.dart';
+import 'components/image_banner.dart';
+import 'components/text_section.dart';
 
 class Landing extends StatefulWidget {
   @override
@@ -14,12 +15,23 @@ class Landing extends StatefulWidget {
 
 class _LandingState extends State<Landing> {
   int _currentIndex = 0;
-
-  final List<Widget> _children = [
+  List<Widget> _children=[
     Home(),
-    new ReviewRoot(auth: new Auth()),
-    Info(),
+    Platform.isIOS||Platform.isAndroid ?ReviewRoot():Scaffold(
+        appBar: AppBar(title: Text('Review Page Coming Soon')),
+        body: SingleChildScrollView(
+          child: Container(
+            child: Column(children: [
+              ImageBanner(),
+              TextSection("Review Page Coming Soon",
+                  ''),
+              ])))),
+              Info()
   ];
+  
+    
+  
+  
 
   @override
   Widget build(BuildContext context) {
@@ -43,6 +55,7 @@ class _LandingState extends State<Landing> {
       ),
     );
   }
+
 
   void onTabTapped(int index) {
     setState(() {

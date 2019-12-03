@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:dgha/style.dart';
-import '../../form/form.dart';
+import 'package:dgha/screens/Form/form.dart';
 
 class Membership extends StatelessWidget {
   @override
